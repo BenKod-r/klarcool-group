@@ -1,7 +1,344 @@
 {% extends 'base.html.twig' %}
 
 {% block body %}
-<h1 class="text-white text-center mt-5">Bonsoir !!!</h1>
-<h1 class="text-white text-center mt-5">Bonsoir tout le monde ???!!!</h1>
+    <main>
+        <!-- slider Area Start-->
+        <div class="slider-area position-relative">
+            <div class="slider-active dot-style">
+                <!-- Single Slider -->
+                <div class="single-slider hero-overly slider-height slider-bg1 d-flex align-items-center">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-xl-8 col-lg-8 col-md-8 col-sm-10">
+                                <div class="hero__caption">
+                                    <h1 data-animation="fadeInUp" data-delay=".2s">KLARCOOL</h1>
+                                    <P data-animation="fadeInUp" data-delay=".4s">La performance ecolo' <br> Soyons tous responsable!</P>
+                                    <!-- Hero-btn -->
+                                    <div class="hero__btn">
+                                        <a href="" class="hero-btn mb-10"  data-animation="fadeInUp" data-delay=".8s">Qui sommes-nous ?</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Single Slider -->
+                <div class="single-slider hero-overly slider-height slider-bg1 d-flex align-items-center">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-xl-8 col-lg-8 col-md-8 col-sm-10">
+                                <div class="hero__caption">
+                                    <h1 data-animation="fadeInUp" data-delay=".2s">Environnement</h1>
+                                    <P data-animation="fadeInUp" data-delay=".4s">Offrons-nous une vie verte et saine <br> Protegeons notre planète</P>
+                                    <!-- Hero-btn -->
+                                    <div class="hero__btn">
+                                        <a href="" class="hero-btn mb-10"  data-animation="fadeInUp" data-delay=".8s">Qui sommes-nous ?</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Single Slider -->
+                <div class="single-slider hero-overly slider-height slider-bg1 d-flex align-items-center">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-xl-8 col-lg-8 col-md-8 col-sm-10">
+                                <div class="hero__caption">
+                                    <h1 data-animation="fadeInUp" data-delay=".2s">Energie</h1>
+                                    <P data-animation="fadeInUp" data-delay=".4s">L'energie au service de l'environnement <br> Libre et propre </P>
+                                    <!-- Hero-btn -->
+                                    <div class="hero__btn">
+                                        <a href="" class="hero-btn mb-10"  data-animation="fadeInUp" data-delay=".8s">Qui sommes-nous ?</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--? video_start -->
+            <div class="video-area d-flex align-items-center justify-content-center">
+                <div class="video-wrap position-relative">
+                    <div class="video-icon" >
+                        <a class="popup-video btn-icon" href="https://www.youtube.com/watch?v=oku14ZJxCFM"><i class="fas fa-play"></i></a>
+                    </div>
+                </div>
+            </div>
+            <!-- video_end -->
+        </div>
+        <!-- slider Area End-->
+        <!--? Visit Our Tailor Start -->
+        <div class="visit-tailor-area fix">
+            <!--Right Contents  -->
+            <div class="tailor-offers"></div>
+            <!-- left Contents -->
+            <div class="tailor-details">
+                <span>NOTRE MISSION</span>
+                <h2>Notre objectif principal est de protéger la planète sans contrainte</h2>
+                <p>
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                    when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                    It has survived not only five centuries, but also the leap into electronic typesetting,
+                    remaining essentially unchanged.
+                    It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
+                    and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                </p>
+                <p class="pera-bottom">It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
+                    and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                <div class="footer-tittles">
+                    <p>Conseil du PDG</p>
+                    <h2>Hafid Kouachi</h2>
+                </div>
+            </div>
+        </div>
+        <!-- Visit Our Tailor End -->
+        <!--? About Area Start -->
+        <section class="support-company-area fix pt-10">
+            <div class="support-wrapper align-items-center">
+                <div class="left-content">
+                    <!-- section tittle -->
+                    <div class="section-tittle section-tittle2 mb-30">
+                        <span>Pourquoi choisir Klarcool</span>
+                        <h2>What is Lorem Ipsum?</h2>
+                    </div>
+                    <div class="support-caption">
+                        <p class="pera-top">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                            when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                        <a href="{{ path('contact') }}" class="border-btn">Contactez-nous</a>
+                    </div>
+                </div>
+                <div class="right-content">
+                    <!-- img -->
+                    <div class="right-img">
+                        <img src="{{ asset('assets/img/gallery/safe_in2.png') }}" alt="">
+                    </div>
+                    <div class="support-img-cap text-center d-flex">
+                        <div class="single-one">
+                            <span>0%</span>
+                            <p>Pollution</p>
+                        </div>
+                        <div class="single-two">
+                            <span>100%</span>
+                            <p>Energie, efficacité</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- About Area End -->
+        <!--? Services Area Start -->
+        <div class="service-area section-padding30">
+            <div class="container">
+                <div class="section-tittle section-tittle2 mb-30">
+                    <span>Une équipe à l'écoute</span>
+                    <h2>À votre service!</h2>
+                    <p>Interdum nulla, ut commodo diam libero vitae
+                        erat. Aenean faucibus nibh et justo cursus
+                        rutrum.</p>
+                </div>
+                <div class="row d-flex justify-content-center">
+                    <div class="col-lg-4 col-md-6 col-sm-11">
+                        <div class="single-cat text-center mb-30">
+                            <div class="cat-icon">
+                                <img src="{{ asset('assets/img/gallery/service.png') }}" alt="Hafid Kouachi">
+                            </div>
+                            <div class="cat-cap">
+                                <h5><a class="text-decoration-none" href="#">Hafid Kouachi <br> PDG</a></h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-11">
+                        <div class="single-cat active text-center mb-30">
+                            <div class="cat-icon">
+                                <img src="{{ asset('assets/img/gallery/service.png') }}" alt="">
+                            </div>
+                            <div class="cat-cap">
+                                <h5><a class="text-decoration-none" href="#">Hafid Kouachi <br> PDG</a></h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-11">
+                        <div class="single-cat text-center mb-30">
+                            <div class="cat-icon">
+                                <img src="{{ asset('assets/img/gallery/service.png') }}" alt="">
+                            </div>
+                            <div class="cat-cap">
+                                <h5><a class="text-decoration-none" href="#">Hafid Kouachi <br> PDG</a></h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-11">
+                        <div class="single-cat active text-center mb-30">
+                            <div class="cat-icon">
+                                <img src="{{ asset('assets/img/gallery/service.png') }}" alt="">
+                            </div>
+                            <div class="cat-cap">
+                                <h5><a class="text-decoration-none" href="#">Hafid Kouachi <br> PDG</a></h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-11">
+                        <div class="single-cat active text-center mb-30">
+                            <div class="cat-icon">
+                                <img src="{{ asset('assets/img/gallery/service.png') }}" alt="">
+                            </div>
+                            <div class="cat-cap">
+                                <h5><a class="text-decoration-none" href="#">Hafid Kouachi <br> PDG</a></h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Services Area End -->
+        <!--? Our Cases Start -->
+        <div class="our-cases-area">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-xl-10 col-lg-10 ">
+                        <!-- Section Tittle -->
+                        <div class="section-tittle mb-80">
+                            <h2 class="text-center">Nos solutions</h2>
+                            <p class="pl-20 pr-20">
+                                Interdum nulla, ut commodo diam libero vitae
+                                erat. Aenean faucibus nibh et justo cursus
+                                rutrum.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4 col-md-6 col-sm-6">
+                        <div class="single-cases mb-40">
+                            <div class="cases-img">
+                                <img src="{{ asset('assets/img/gallery/case.png') }}" alt="">
+                            </div>
+                            <div class="cases-caption">
+                                <h3><a href="#">Duracool</a></h3>
+                                <p>Interdum nulla, ut commodo diam libero vitae
+                                    erat. Aenean faucibus nibh et justo cursus
+                                    rutrum.</p>
+                                <!-- Progress Bar -->
+                                <div class="single-skill mb-15">
+                                    <div class="bar-progress">
+                                        <div id="bar1" class="barfiller">
+                                            <div class="tipWrap">
+                                                <span class="tip"></span>
+                                            </div>
+                                            <span class="fill" data-percentage="90"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- / progress -->
+                                <div class="prices">
+                                    <p><span>90% de pollution en moins</span></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-6">
+                        <div class="single-cases mb-40">
+                            <div class="cases-img">
+                                <img src="{{ asset('assets/img/gallery/case.png') }}" alt="">
+                            </div>
+                            <div class="cases-caption">
+                                <h3><a href="#">Our Green Projects</a></h3>
+                                <p>Interdum nulla, ut commodo diam libero vitae
+                                    erat. Aenean faucibus nibh et justo cursus
+                                    rutrum.</p>
+                                <!-- Progress Bar -->
+                                <div class="single-skill mb-15">
+                                    <div class="bar-progress">
+                                        <div id="bar2" class="barfiller">
+                                            <div class="tipWrap">
+                                                <span class="tip"></span>
+                                            </div>
+                                            <span class="fill" data-percentage="90"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="prices">
+                                    <p><span>90% de pollution en moins</span></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-6">
+                        <div class="single-cases">
+                            <div class="cases-img">
+                                <img src="{{ asset('assets/img/gallery/case.png') }}" alt="">
+                            </div>
+                            <div class="cases-caption">
+                                <h3><a href="#">Wildlife in Danger</a></h3>
+                                <p>Interdum nulla, ut commodo diam libero vitae
+                                    erat. Aenean faucibus nibh et justo cursus
+                                    rutrum.</p>
+                                <!-- Progress Bar -->
+                                <div class="single-skill mb-15">
+                                    <div class="bar-progress">
+                                        <div id="bar3" class="barfiller">
+                                            <div class="tipWrap">
+                                                <span class="tip"></span>
+                                            </div>
+                                            <span class="fill" data-percentage="50"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="prices">
+                                    <p><span>90% de pollution en moins</span></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Our Cases End -->
+        <!--? Blog Area Start --> <!-- Section Tittle --><!---
+        <section class="home-blog-area pb-padding">
+            <div class="container">
 
+                <div class="row justify-content-center">
+                    <div class="col-xl-8 col-lg-9 col-md-11">
+                        <div class="section-tittle text-center mb-90">
+                            <h2>Latest news</h2>
+                            <p>Interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo  cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xl-6 col-lg-6 col-md-6">
+                        <div class="home-blog-single mb-30">
+                            <div class="blog-img-cap">
+                                <div class="blog-img">
+                                    <img src="{{ asset('assets/img/gallery/home-blog1.png') }}" alt="">
+                                </div>
+                                <div class="blog-cap">
+                                    <h3><a href="{{ path('blog_details') }}">Leverage agile frameworks to provide a robust synopsis</a></h3>
+                                    <p>The automated process starts as soon as  your clothes go into the machine. Duis cursus, mi quis viverra ornare.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-6 col-lg-6 col-md-6">
+                        <div class="home-blog-single mb-30">
+                            <div class="blog-img-cap">
+                                <div class="blog-img">
+                                    <img src="{{ asset('assets/img/gallery/home-blog2.png') }}" alt="">
+                                </div>
+                                <div class="blog-cap">
+                                    <h3><a href="{{ path('blog_details') }}">Leverage agile frameworks to provide a robust synopsis</a></h3>
+                                    <p>The automated process starts as soon as  your clothes go into the machine. Duis cursus, mi quis viverra ornare.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        --->
+        <!-- Blog Area End -->
+    </main>
 {% endblock %}

@@ -13,7 +13,7 @@ services:
   webserver:
     image: khaleddwm/k-group:v1.0
     ports:
-      - "30500:80"
+      - "81:80"
     volumes:
       - web_1:/var/www/k-group
 
