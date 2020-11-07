@@ -38,14 +38,19 @@
                                                     <li><a href="{{ path('activities_durapac') }}">Durapac</a></li>
                                                 </ul>
                                             </li>
-                                            <li><a href="{{ path('actualites') }}">Actualités</a>
+                                            <li><a href="{{ path('actuality_index') }}">Actualités</a>
                                             <li><a href="{{ path('contact') }}">Contact</a></li>
                                         </ul>
                                     </nav>
                                 </div>
                                 <!-- Header-btn -->
                                 <div class="header-right-btn d-none d-lg-block ml-20">
-                                    <a href="{{ path('contact') }}" class="btn header-btn">Espace Pro</a>
+                                    {% if app.user %}
+                                        <a href="{{ path('app_logout') }}" class="genric-btn danger circle arrow">Se déconnecter</a>
+                                    {%  else %}
+                                        <a href="{{ path('contact') }}" class="btn header-btn">Espace Pro</a>
+                                    {% endif %}
+
                                 </div>
                             </div>
                         </div>
