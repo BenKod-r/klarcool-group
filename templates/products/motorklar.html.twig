@@ -1,0 +1,277 @@
+{% extends 'base.html.twig' %}
+	{% block body %}
+        <main>
+            <!--? Hero Start -->
+            <div class="slider-area2">
+                <div class="slider-height2 d-flex align-items-center">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-xl-12">
+                                <div class="hero-cap hero-cap2 pt-70">
+                                    <h2>Motorklar</h2>
+                                    <nav aria-label="breadcrumb">
+                                        <ol class="breadcrumb">
+                                            <li class="breadcrumb-item"><a href="{{ path('home_index') }}">Accueil</a></li>
+                                            <li class="breadcrumb-item"><a href="">Motorklar</a></li>
+                                        </ol>
+                                    </nav>
+                                    <a href="{{ path('contact') }}" class="btn btn-success circle mt-40">Contactez-nous</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Hero End -->
+            <!--? Start Sample Area -->
+            <section class="sample-text-area">
+                <div class="container box_1170">
+                    <h3 class="text-heading">MOTORKLAR c'est quoi ?</h3>
+                    <p class="sample-text">
+                        <b>STATION MOTORKLAR  100% NATUREL.</b><br>
+                        La station MOTORKLAR® permet de dépolluer tous les modèles de véhicules légers à combustion , sans exception.
+                        Elle est équipée de sa propre production de HHO, de ses indicateurs de niveau, de tension, et de tous les accessoires nécessaires au bon fonctionnement.<br>
+                        <u>INNOVATION :</u><br>
+                        <u>Double alimentation :</u><br>
+                        230v secteur<br>
+                        Utilise le fluide Motorklar®.<br>
+                        <u>Nombre de dépollutions optimisées :</u><br>
+                        5 litres de produit équivalent à 100 prestations.<br>
+                        <strong><img src="{{ asset('assets/img/gallery/france.png') }}" alt="france" style="width: 50px"> Fabrication 100% française</strong><br>
+                    </p>
+                    <ul>
+                        <li><a class="text-success fa-2x" href="{{ asset('assets/pdf/201001-book-presentation-v.06 fmi.pdf') }}" download><i class="far fa-arrow-alt-circle-right"></i><i class="far fa-file-pdf"></i> Documentation</a></li>
+                    </ul>
+                </div>
+
+            </section>
+            <!-- End Sample Area -->
+
+            <!--? Start Align Area -->
+            <div class="whole-wrap">
+                <div class="container box_1170">
+                    <div class="section-top-border">
+                        <h3 class="mb-30">La station MOTORKLAR</h3>
+                        <div class="row">
+                            <div class="col-md-3">
+                                <img src="{{ asset('assets/img/gallery/machine-hydrogene.jpg') }}" alt="depollution" class="img-fluid">
+                            </div>
+                            <div class="col-md-9 mt-sm-20">
+                                <p><strong>Gain de temps - Simplicité - Sécurité et Résultat assuré.</strong><br>
+                                    Appareil  utilisant un fluide 100% écologique.<br>
+                                    La station Motorklar® est unique, elle est équipée d’un système permettant de faire en toute sécurité une dépollution
+                                    moteur ainsi qu’une régénération, permettant de retrouver les performances d’origine du moteur <i>(couple).</i>
+                                    Son débit d’hydrogène permet également un traitement curatif <i>(Diffuseurs injecteurs, chambre de combustion, têtes de soupapes, vanne EGR, géométrie variable du turbo, FAP)</i> sous réserve d’un encrassement trop avancé.
+                                    Son système de déshumidification du gaz produit élimine la vapeur d’eau non recommandée lors de la prestation.
+                                </p>
+
+                                <h1 class="text-danger"><strong>Nouveau</strong></h1>
+                                <ul class="text-danger ml-4">
+                                    <li style="list-style-type: circle;"><strong>Alimentation 230V + T + N</strong></li>
+                                    <li style="list-style-type: circle;"><strong>Alimentation 12 Volt</strong></li>
+                                </ul>
+                                <br>
+
+                                <a class="text-success fa-2x" href="{{ asset('assets/pdf/201001-book-presentation-v.06 fmi.pdf') }}" download><i class="far fa-arrow-alt-circle-right"></i>DOCUMENTATION À TELECHARGER</a><br><br>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="section-top-border">
+                        <h3 class="mb-30">Tableau de comparaison</h3>
+                        <div class="progress-table-wrap">
+                            <div class="progress-table">
+                                <div class="table-head">
+                                    <div class="serial"></div>
+                                    <div class="country text-success">MOTORKLAR</div>
+                                    <div class="country">Nettoyage manuel</div>
+                                    <div class="country">Produits de traitement</div>
+                                </div>
+                                <div class="table-row">
+                                    <div class="serial">Utilisation</div>
+                                    <div class="country text-success">
+                                        <i class="far fa-smile fa-2x pr-3"></i>
+                                        Simple
+                                    </div>
+                                    <div class="country" style="color: darkorange">
+                                        <i class="far fa-meh fa-2x pr-3"></i>
+                                        Notions de mécanique<br>nécessaires
+                                    </div>
+                                    <div class="country text-success">
+                                        <i class="far fa-smile fa-2x pr-3"></i>
+                                        Simple
+                                    </div>
+                                </div>
+                                <div class="table-row">
+                                    <div class="serial">Coût d'exploitation</div>
+                                    <div class="country text-success">
+                                        <i class="far fa-smile fa-2x pr-3"></i>
+                                        Négligeable
+                                    </div>
+                                    <div class="country text-danger">
+                                        <i class="far fa-frown fa-2x pr-3"></i>
+                                        Cher à très cher
+                                    </div>
+                                    <div class="country" style="color: darkorange">
+                                        <i class="far fa-meh fa-2x pr-3"></i>
+                                        Coût variable
+                                    </div>
+                                </div>
+                                <div class="table-row">
+                                    <div class="serial">Traitement global antipollution</div>
+                                    <div class="country text-success">
+                                        <i class="far fa-smile fa-2x pr-3"></i>
+                                        Assuré
+                                    </div>
+                                    <div class="country" style="color: darkorange">
+                                        <i class="far fa-meh fa-2x pr-3"></i>
+                                        Possible
+                                    </div>
+                                    <div class="country text-danger">
+                                        <i class="far fa-frown fa-2x pr-3"></i>
+                                        Impossible
+                                    </div>
+                                </div>
+                                <div class="table-row">
+                                    <div class="serial">Démontage des pièces à traiter</div>
+                                    <div class="country text-success">
+                                        <i class="far fa-smile fa-2x pr-3"></i>
+                                        Pas nécessaire
+                                    </div>
+                                    <div class="country text-danger">
+                                        <i class="far fa-frown fa-2x pr-3"></i>
+                                        Obligatoire
+                                    </div>
+                                    <div class="country" style="color: darkorange">
+                                        <i class="far fa-meh fa-2x pr-3"></i>
+                                        Recommandé
+                                    </div>
+                                </div>
+                                <div class="table-row">
+                                    <div class="serial">Durée de la prestation</div>
+                                    <div class="country text-success">
+                                        <i class="far fa-smile fa-2x pr-3"></i>
+                                        60 à 90 minutes*
+                                    </div>
+                                    <div class="country text-danger">
+                                        <i class="far fa-frown fa-2x pr-3"></i>
+                                        Longue à très longue
+                                    </div>
+                                    <div class="country text-success">
+                                        <i class="far fa-smile fa-2x pr-3"></i>
+                                        Courte
+                                    </div>
+                                </div>
+                                <div class="table-row">
+                                    <div class="serial">Intervention autonome</div>
+                                    <div class="country text-success">
+                                        <i class="far fa-smile fa-2x pr-3"></i>
+                                        Assuré
+                                    </div>
+                                    <div class="country text-danger">
+                                        <i class="far fa-frown fa-2x pr-3"></i>
+                                        Impossible
+                                    </div>
+                                    <div class="country" style="color: darkorange">
+                                        <i class="far fa-meh fa-2x pr-3"></i>
+                                        Possible
+                                    </div>
+                                </div>
+                                <div class="table-row">
+                                    <div class="serial">Type de véhicule rechargeable</div>
+                                    <div class="country text-success">
+                                        <i class="far fa-smile fa-2x pr-3"></i>
+                                        Tout type
+                                    </div>
+                                    <div class="country text-success">
+                                        <i class="far fa-smile fa-2x pr-3"></i>
+                                        Tout type
+                                    </div>
+                                    <div class="country" style="color: darkorange">
+                                        <i class="far fa-meh fa-2x pr-3"></i>
+                                        Dédiée
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <p>* 60 minutes en préventif - 90 minutes en curatif.</p>
+                    </div>
+
+                    <div class="section-top-border">
+                        <h3>Galerie d'images</h3>
+                        <div class="row gallery-item">
+                            <div class="col-md-4">
+                                <a href="{{ asset('assets/img/gallery/machine-hydrogene.jpg') }}" class="img-pop-up">
+                                    <div class="single-gallery-image" style="background: url({{ asset('assets/img/gallery/machine-hydrogene.jpg') }});"></div>
+                                </a>
+                            </div>
+                            <div class="col-md-4">
+                                <a href="{{ asset('assets/img/gallery/motorklar1.jpg') }}" class="img-pop-up">
+                                    <div class="single-gallery-image" style="background: url({{ asset('assets/img/gallery/motorklar1.jpg') }});"></div>
+                                </a>
+                            </div>
+                            <div class="col-md-4">
+                                <a href="{{ asset('assets/img/gallery/img4.jpg') }}" class="img-pop-up">
+                                    <div class="single-gallery-image" style="background: url({{ asset('assets/img/gallery/img4.jpg') }});"></div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!--
+                    <div class="section-top-border">
+                        <h3 class="mb-30">Avantages</h3>
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div class="single-definition">
+                                    <h4 class="mb-20">Avantage 01</h4>
+                                    <p>Recently, the US Federal government banned online casinos from operating in America by
+                                        making it illegal to
+                                        transfer money to them through any US bank or payment system. As a result of this law,
+                                        most of the popular
+                                        online casino networks</p>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="single-definition">
+                                    <h4 class="mb-20">Avantage 02</h4>
+                                    <p>Recently, the US Federal government banned online casinos from operating in America by
+                                        making it illegal to
+                                        transfer money to them through any US bank or payment system. As a result of this law,
+                                        most of the popular
+                                        online casino networks</p>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="single-definition">
+                                    <h4 class="mb-20">Avantage 03</h4>
+                                    <p>Recently, the US Federal government banned online casinos from operating in America by
+                                        making it illegal to
+                                        transfer money to them through any US bank or payment system. As a result of this law,
+                                        most of the popular
+                                        online casino networks</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    -->
+                    <div class="section-top-border">
+                        <h3 class="mb-30">Conseils et objectifs</h3>
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <blockquote class="generic-blockquote">
+                                    “Nous traversons tous une période très difficile, sur le plan Climatique et Economique.
+                                    Pour y faire face, Klarcool-Group vous propose des solutions Simples,
+                                    Innovantes par la combinaison AUDACIEUSE entre l’Esprit Ecologique et des Activités
+                                    Rentables afin de favoriser une véritable symbiose entre le professionnel et le
+                                    Consommateur. Notre culture de l’entreprise nous permet une vision pragmatique de vos
+                                    besoins. La qualité de nos produits MADE IN FRANCE et notre concept Eco- activités,
+                                    constitue pour nous et pour vous une valeur sure pour vous accompagner au cœur d’une
+                                    transition écologique réussie.”
+                                </blockquote>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    {% endblock %}

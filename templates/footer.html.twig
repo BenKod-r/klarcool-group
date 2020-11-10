@@ -9,18 +9,19 @@
                             <div class="single-footer-caption mb-30">
                                 <!-- logo -->
                                 <div class="footer-logo mb-35">
-                                    <a href="index.html"><img src="{{ asset('assets/img/logo/logo.png') }}" alt=""></a>
+                                    <a href="{{ path('home_index') }}"><img src="{{ asset('assets/img/logo/logo-klarcool.png') }}" alt="logo-klarcool" style="width: 200px"></a>
                                 </div>
                                 <div class="footer-tittle">
                                     <div class="footer-pera">
-                                        <p>The automated process starts as soon as your clothes go into the machine.</p>
+                                        <p>Klarcool Groupe, le fabricant qui s’engage pour vous et avec vous.</p>
                                     </div>
                                 </div>
                                 <!-- social -->
                                 <div class="footer-social">
                                     <a href="#"><i class="fab fa-twitter"></i></a>
                                     <a href="#"><i class="fab fa-facebook-f"></i></a>
-                                    <a href="#"><i class="fab fa-pinterest-p"></i></a>
+                                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                                    <a href="#"><i class="fab fa-instagram"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -28,13 +29,12 @@
                     <div class="col-xl-2 col-lg-3 col-md-4 col-sm-4">
                         <div class="single-footer-caption mb-50">
                             <div class="footer-tittle">
-                                <h4>Our solutions</h4>
+                                <h4>Nos produits</h4>
                                 <ul>
-                                    <li><a href="#">Design & creatives</a></li>
-                                    <li><a href="#">Telecommunication</a></li>
-                                    <li><a href="#">Restaurant</a></li>
-                                    <li><a href="#">Programing</a></li>
-                                    <li><a href="#">Architecture</a></li>
+                                    <li><a href="{{ path('product_duraclim') }}">Duraclim</a></li>
+                                    <li><a href="{{ path('product_motorklar') }}">Motorklar</a></li>
+                                    <li><a href="{{ path('product_durapac') }}">Durapac</a></li>
+                                    <li><a href="{{ path('about') }}">L'éco-activité</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -42,12 +42,13 @@
                     <div class="col-xl-2 col-lg-2 col-md-4 col-sm-4">
                         <div class="single-footer-caption mb-50">
                             <div class="footer-tittle">
-                                <h4>Company</h4>
+                                <h4>Klarcool</h4>
                                 <ul>
-                                    <li><a href="#">About</a></li>
-                                    <li><a href="#">Review</a></li>
-                                    <li><a href="#">Insights</a></li>
-                                    <li><a href="#">Carrier</a></li>
+                                    <li><a href="{{ path('actuality_index') }}">Emploi</a></li>
+                                    <li><a href="{{ path('actuality_index') }}">Actualités</a></li>
+                                    <li><a href="{{ asset('assets/pdf/201001-book-presentation-v.06 fmi.pdf') }}"><u class="text-white">Docs</u><br>Duraclim/Motorklar</a></li>
+                                    <li><a href="{{ asset('assets/pdf/200928_KCG_CATALOGUE_DURAPAC_V.07.pdf') }}"><u class="text-white">Docs</u><br>Durapac</a></li>
+
                                 </ul>
                             </div>
                         </div>
@@ -55,12 +56,13 @@
                     <div class="col-xl-3 col-lg-4 col-md-6 col-sm-4">
                         <div class="single-footer-caption mb-50">
                             <div class="footer-tittle">
-                                <h4>Contact us</h4>
+                                <h4>Contact</h4>
                                 <ul>
-                                    <li><a href="#">hafid.k@klarcool-group.com</a></li>
-                                    <li><a href="#">76/A, Green road, NYC</a></li>
-                                    <li><a href="#">Privacy Policy</a></li>
-                                    <li class="number"><a href="#">(80) 783 367-3904</a></li>
+                                    <li><a href="mailto:contact@klarcool-groupe.com" target="_blank">contact@klarcool-groupe.com</a></li>
+                                    <li><a href="https://goo.gl/maps/o4AUk4yFXfLLJGKu7" target="_blank">68, rue de la Varenne<br>
+                                            37150 Bléré</a></li>
+                                    <li><a href="https://www.iubenda.com/privacy-policy/39282990" target="_blank">Politique de confidentialité</a></li>
+                                    <li class="number"><a href="tel:+33983370894">+33(0) 983 370 894</a></li>
                                 </ul>
                             </div>
                         </div>

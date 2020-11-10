@@ -27,9 +27,11 @@
         <!-- Hero End -->
         <!--? Blog Area Start -->
         <section class="container blog_area single-post-area section-padding">
+            {% if app.user %}
             <div class="d-flex justify-content-end mb-5">
                 <a class="btn genric-btn" href="{{ path('actuality_new') }}">Créer un article</a>
             </div>
+            {% endif %}
             {% for actuality in actualities %}
             <div class="navigation-top">
                 <div class="posts-list">

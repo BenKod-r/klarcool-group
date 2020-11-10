@@ -2,17 +2,17 @@
     {% block body %}
         <main>
             <!--? Hero Start -->
-            <div class="slider-area2">
+            <div class="slider-area2 mb-10">
                 <div class="slider-height2 d-flex align-items-center">
                     <div class="container">
                         <div class="row">
                             <div class="col-xl-12">
                                 <div class="hero-cap hero-cap2 pt-70">
-                                    <h2>About us</h2>
+                                    <h2>L'éco-activité</h2>
                                     <nav aria-label="breadcrumb">
                                         <ol class="breadcrumb">
-                                            <li class="breadcrumb-item"><a href="index.html">Home</a></li>
-                                            <li class="breadcrumb-item"><a href="#">About</a></li>
+                                            <li class="breadcrumb-item"><a href="{{ path('home_index') }}">Accueil</a></li>
+                                            <li class="breadcrumb-item"><a href="{{ path('about') }}">L'éco-activité</a></li>
                                         </ol>
                                     </nav>
                                 </div>
@@ -22,102 +22,100 @@
                 </div>
             </div>
             <!-- Hero End -->
-            <!--? Visit Our Tailor Start -->
-            <div class="visit-tailor-area fix">
-                <!--Right Contents  -->
-                <div class="tailor-offers"></div>
-                <!-- left Contents -->
-                <div class="tailor-details">
-                    <span>Our Mission</span>
-                    <h2>Our main goal is to protect animals</h2>
-                    <p>The automated process starts as soon as
-                        your clothes go into the machine. Duis cursus, mi quis
-                        viverra ornare, eros dolor interdum nulla, ut commodo
-                        diam libero vitae erat. Aenean faucibus nibh et justo
-                        cursus id rutrum lorem imperdiet. Nunc ut sem vitae
-                    risus tristique posuere.</p>
-                    <p class="pera-bottom">Interdum nulla, ut commodo diam libero vitae erat.
-                        Aenean faucibus nibh et justo cursus id rutrum lorem
-                    imperdiet. Nunc ut sem vitae risus tristique posuere.</p>
+
+            <!--? Start Sample Area -->
+            <section class="sample-text-area container">
+                <div class="container box_1170">
+                    <h3 class="text-heading">L’éco-activité c’est quoi ?</h3>
+                    <p class="sample-text">
+                        Aujourd’hui, le chiffre d’affaire réalisé par les professionnels de l’automobile garagistes est essentiellement
+                        constitué du dépannage et du remplacement de pièces <i>(hors vidange et révision).</i>
+                        Le parc automobile est vieillissant et s’il n’est pas entretenu,
+                        l’obsolescence de ses véhicules se rapproche à grand pas enlevant ainsi la raison même de
+                        l’activité actuelle. Il est temps de réagir avec des solutions créatrices de nouvelles activités
+                        éco-responsables qui garantira la dépollution du parc actuel.
+                        Nous avons créé des outils par le biais de nos produits <i>(climatisation écologique,
+                            régénération moteur...)</i> qui dépolluent les véhicules, les rendent à même de pouvoir continuer à circuler
+                        sans que cela impacte pour autant le porte-monnaie de l’utilisateur… c’est une éco-activité équitable.
+                        Notre fer de lance est de vous aider à mettre un système rentable et écologique pour assurer votre avenir.
+                    </p>
                     <div class="footer-tittles">
-                        <p>CEO, Consulto</p>
-                        <h2>Capcilena Hanry</h2>
+                        <p><strong>Le Concepteur</strong></p>
                     </div>
                 </div>
-            </div>
-            <!-- Visit Our Tailor End -->
-            <!--? Services Area Start -->
-            <div class="service-area section-padding30">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-4 col-md-6 col-sm-11">
-                            <div class="single-cat text-center mb-30">
-                                <div class="cat-icon">
-                                    <img src="assets/img/gallery/services1.png" alt="">
-                                </div>
-                                <div class="cat-cap">
-                                    <h5><a href="#">Clean Water</a></h5>
-                                </div>
-                            </div>
+
+                <div class="section-top-border">
+                    <h3 class="text-heading ml-3">L'éco-activité</h3>
+                    <div class="d-md-flex">
+                        <div class="col-md-12 mb-5">
+                            <img src="{{ asset('assets/img/gallery/photo-eco-activite.jpg') }}" alt="metiers klarcool" class="img-fluid">
                         </div>
-                        <div class="col-lg-4 col-md-6 col-sm-11">
-                            <div class="single-cat active text-center mb-30">
-                                <div class="cat-icon">
-                                    <img src="assets/img/gallery/services2.png" alt="">
-                                </div>
-                                <div class="cat-cap">
-                                    <h5><a href="#">Renewable energy</a></h5>
-                                </div>
-                            </div>
+
+                    </div>
+                    <div class="footer-tittles ml-4">
+                        <p><strong>La communication</strong></p>
+                        <p><strong>Créer de toute pièce l'activité d'entretien écologique chez nos partenaires</strong></p><br>
+                    </div>
+                </div>
+
+                <div class="section-top-border">
+                    <h3 class="text-heading ml-3">Nos atouts</h3>
+                    <div class="d-md-flex">
+                        <div class="col-md-8 mt-sm-20 mb-5">
+                            <p>
+                                Fabrication 100% Française.<br>
+                                Notre bureau d’étude est doté d’une équipe d’ingénieurs déterminés à créer des solutions
+                                « éco technologiques » performantes.
+                                Nous maîtrisons la conception, le développement, l’industrialisation de tous nos produits.
+                                Des techniciens conseils sont à votre écoute.
+                                Nos modules de financements sont adaptés à vos besoins et vos capacités
+                                (possibilités pour les entreprises de moins d’un an).<br>
+                                L’accompagnement de nos partenaires est notre principal engagement pour la réussite de
+                                l’éco-activité au sein de votre entreprise par une formation markéting et commerciale adaptée.
+                            </p>
                         </div>
-                        <div class="col-lg-4 col-md-6 col-sm-11">
-                            <div class="single-cat text-center mb-30">
-                                <div class="cat-icon">
-                                    <img src="assets/img/gallery/services3.png" alt="">
-                                </div>
-                                <div class="cat-cap">
-                                    <h5><a href="#">Protect animals</a></h5>
-                                </div>
-                            </div>
+                        <div class="col-md-4">
+                            <img src="{{ asset('assets/img/gallery/about-head.jpg') }}" alt="atout klarcool" class="img-fluid">
                         </div>
                     </div>
                 </div>
-            </div>
-            <!-- Services Area End -->
-            <!--? About Area Start -->
-            <section class="support-company-area fix pb-padding">
-                <div class="support-wrapper align-items-center">
-                    <div class="left-content">
-                        <!-- section tittle -->
-                        <div class="section-tittle section-tittle2 mb-30">
-                            <span>Why You Should join us</span>
-                            <h2>A lot of animals need protection</h2>
+
+                <div class="section-top-border">
+                    <h3 class="text-heading ml-3">Activités & Métiers de Klarcool</h3>
+                    <div class="d-md-flex">
+                        <div class="col-md-4 mb-5">
+                            <img src="{{ asset('assets/img/gallery/durapac.jpg') }}" alt="metiers klarcool" class="img-fluid">
                         </div>
-                        <div class="support-caption">
-                            <p class="pera-top">Interdum nulla, ut commodo diam libero vitae erat.
-                                Aenean faucibus nibh et justo cursus id rutrum lorem
-                            imperdiet. Nunc ut sem vitae risus tristique posuere.</p>
-                            <a href="#" class="border-btn">Join Us Now</a>
-                        </div>
-                    </div>
-                    <div class="right-content">
-                        <!-- img -->
-                        <div class="right-img">
-                            <img src="assets/img/gallery/safe_in.png" alt="">
-                        </div>
-                        <div class="support-img-cap text-center d-flex">
-                            <div class="single-one">
-                                <span>950</span>
-                                <p>Poaching cases</p>
-                            </div>
-                            <div class="single-two">
-                                <span>230</span>
-                                <p>Volunteers worldwide</p>
-                            </div>
+                        <div class="col-md-8 mt-sm-20">
+                            <p>
+                                La richesse naturel et la responsabilté indivudelle aux services de l'énèrgie...<br>
+                                Fabrication de machines automatisées de recharge de climatisation automobile utilisant le gaz écologique Duracool.<br>
+                                Fabrication de machines de nettoyage de moteurs par hydrogène marque Motorklar sans sous-traitance.<br>
+                                Fabrication de pompes à chaleur 12 à 3à kw 100% écologique utilisant le gaz Duracool.<br>
+                                Ingénerie bureau d'étude et développement de nouveaux systèmes écologiques liées à l'automobile et l'habitat.<br>
+                                Formation sur la technique la gamme machine de la société.
+                            </p>
                         </div>
                     </div>
                 </div>
+
+                <div class="section-top-border">
+                    <h3 class="text-heading ml-3">Les enjeux</h3>
+                    <div class="d-md-flex">
+                        <div class="col-md-8 mt-sm-20">
+                            <p>
+                                Vous reconnaitre grâce à l’engagement Klarcool.<br>
+                            </p>
+                        </div>
+                        <div class="col-md-4 mb-5">
+                            <img src="{{ asset('assets/img/gallery/img4.jpg') }}" alt="metiers klarcool" class="img-fluid">
+                        </div>
+                    </div>
+                </div>
+
             </section>
-            <!-- About Area End -->
+            <!-- End Sample Area -->
+
+
         </main>
     {% endblock %}

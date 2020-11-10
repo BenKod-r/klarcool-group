@@ -11,12 +11,12 @@
                         <div class="row">
                             <div class="col-xl-12 col-lg-12 col-md-12 col-sm-10">
                                 <div class="hero__caption">
-                                    <h1 data-animation="fadeInUp" data-delay=".2s">KLARCOOL GROUP</h1>
+                                    <h1 data-animation="fadeInUp" data-delay=".2s">KLARCOOL GROUPE</h1>
                                     <p data-animation="fadeInUp" data-delay=".4s">La performance ecolo'</p>
-                                    <p data-animation="fadeInUp" data-delay=".4s">Un fabricant qui s'engage</p>
+                                    <p data-animation="fadeInUp" data-delay=".4s">Un fabricant qui s'engage pour vous et avec vous</p>
                                     <!-- Hero-btn -->
                                     <div class="hero__btn">
-                                        <a href="{{ path('activities') }}" class="hero-btn mb-10"  data-animation="fadeInUp" data-delay=".8s">Qui sommes nous ?</a>
+                                        <a href="{{ path('about') }}" class="hero-btn mb-10"  data-animation="fadeInUp" data-delay=".8s">Qui sommes nous ?</a>
                                     </div>
                                 </div>
                             </div>
@@ -33,7 +33,7 @@
                                     <p data-animation="fadeInUp" data-delay=".4s">Un engagement responsable et eco-profitable</p>
                                     <!-- Hero-btn -->
                                     <div class="hero__btn">
-                                        <a href="" class="hero-btn mb-10"  data-animation="fadeInUp" data-delay=".8s">Nos objectifs</a>
+                                        <a href="{{ path('about') }}" class="hero-btn mb-10"  data-animation="fadeInUp" data-delay=".8s">Nos objectifs</a>
                                     </div>
                                 </div>
                             </div>
@@ -50,7 +50,7 @@
                                     <p data-animation="fadeInUp" data-delay=".4s">Créer une dynamique économique respectueuse de l’environnement</p>
                                     <!-- Hero-btn -->
                                     <div class="hero__btn">
-                                        <a href="" class="hero-btn mb-10"  data-animation="fadeInUp" data-delay=".8s">Nos atouts</a>
+                                        <a href="{{ path('about') }}" class="hero-btn mb-10"  data-animation="fadeInUp" data-delay=".8s">Nos atouts</a>
                                     </div>
                                 </div>
                             </div>
@@ -75,8 +75,8 @@
             <div class="tailor-offers"></div>
             <!-- left Contents -->
             <div class="tailor-details">
-                <span>NOTRE MISSION</span>
-                <h2>Notre objectif principal est de protéger la planète sans contrainte</h2>
+                <span>KLARCOOL GROUPE</span>
+                <h2>NOTRE MISSION</h2>
                 <p>
                     Animé par de VRAIES VALEURS D’ENGAGEMENTS, une équipe de femmes et
                     d’hommes composée d’ingénieurs, de Techniciens, et de Consultants, qui consacrent
@@ -86,23 +86,23 @@
                     Créatrice de nouvelles Richesses dans les domaines de Compétences suivant :<br>
                     DE L’AUTOMOBILE, DE L’HABITAT et de L’INDUSTRIE.
                 </p>
+                <h3 class="text-success">
+                    <strong>La parole du président:</strong>
+                </h3>
                 <p class="pera-bottom">
-                    “Nous traversons tous une période très difficile, sur le plan Climatique et
-                    Economique.
-                    Klarcool-Group vous propose des solutions Simples, Innovantes par la
-                    combinaison AUDACIEUSE entre l’Esprit Ecologique et des Activités Rentables afin
-                    de favoriser une véritable symbiose entre le professionnel et le Consommateur.
-                    Notre culture de l’entreprise nous permet une vision pragmatique de vos
-                    besoins. La qualité de nos produits MADE IN FRANCE et notre concept Eco-
-                    activités, constitue pour nous et pour vous une valeur sure pour vous accompagner
-                    au cœur d’une transition écologique réussie.”
+                    “Nous traversons tous une période très difficile, sur le plan Climatique et Economique.
+                    Pour y faire face, Klarcool-Group vous propose des solutions Simples,
+                    Innovantes par la combinaison AUDACIEUSE entre l’Esprit Ecologique et des Activités Rentables
+                    afin de favoriser une véritable symbiose entre le professionnel et le Consommateur.
+                    Notre culture de l’entreprise nous permet une vision pragmatique de vos besoins.
+                    La qualité de nos produits MADE IN FRANCE et notre concept Eco- activités,
+                    constitue pour nous et pour vous une valeur sure pour vous accompagner au cœur d’une transition écologique réussie.”
                 </p>
                 <p class="text-success">
-                    “Klarcool- Group, le fabricant qui s’engage pour vous et avec vous.”
+                    <strong>“Klarcool Groupe, le fabricant qui s’engage pour vous et avec vous.”</strong>
                 </p>
                 <div class="footer-tittles">
-                    <p>Conseil du PDG</p>
-                    <h2>Hafid Kouachi</h2>
+                    <p><strong>Hafid Kouachi</strong></p>
                 </div>
             </div>
         </div>
@@ -114,13 +114,14 @@
                     <!-- section tittle -->
                     <div class="section-tittle section-tittle2 mb-30">
                         <span>Pourquoi choisir Klarcool ?</span>
-                        <h2>What is Lorem Ipsum?</h2>
+                        <h2>Votre éco-activité clef en main</h2>
                     </div>
                     <div class="support-caption">
                         <p class="pera-top">
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                            when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                            Un fabricant Français a la volonté de s’engager à vos côtés pour vous accompagner à la transition
+                            écologique par la mise en place de solutions et d’outils simples d’utilisation.
+                            Nous désirons par ce concept « éco-activité » créer une dynamique rentable et écologique chez vous.
+                            C’est l’ouverture vers un avenir plus sûr.
                         </p>
                         <a href="{{ path('contact') }}" class="border-btn">Contactez-nous</a>
                     </div>
@@ -130,14 +131,14 @@
                     <div class="right-img">
                         <img src="{{ asset('assets/img/gallery/home-ecolo.jpg') }}" alt="ecologie">
                     </div>
-                    <div class="support-img-cap text-center d-flex">
+                    <div class="support-img-cap text-center d-flex ml-lg-200">
                         <div class="single-one">
                             <span>0%</span>
                             <p>Pollution</p>
                         </div>
                         <div class="single-two">
                             <span>100%</span>
-                            <p>Energie, efficacité</p>
+                            <p>Energie, Efficacité</p>
                         </div>
                     </div>
                 </div>
@@ -156,53 +157,53 @@
                     </p>
                 </div>
                 <div class="row d-flex justify-content-center">
-                    <div class="col-lg-4 col-md-6 col-sm-11">
+                    <div class="col-lg-6 col-md-6 col-sm-11">
                         <div class="single-cat text-center mb-30">
                             <div class="cat-icon">
-                                <img src="{{ asset('assets/img/gallery/service.png') }}" alt="Hafid Kouachi">
+                                <img src="{{ asset('assets/img/gallery/service-ap.jpg') }}" alt="service Klarcool">
                             </div>
                             <div class="cat-cap">
-                                <h5><a class="text-decoration-none" href="#">Hafid Kouachi <br> PDG</a></h5>
+                                <h5><a class="text-decoration-none" href="">Service après-vente</a></h5>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-6 col-sm-11">
-                        <div class="single-cat active text-center mb-30">
-                            <div class="cat-icon">
-                                <img src="{{ asset('assets/img/gallery/service.png') }}" alt="">
-                            </div>
-                            <div class="cat-cap">
-                                <h5><a class="text-decoration-none" href="#">Hafid Kouachi <br> PDG</a></h5>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 col-sm-11">
+                    <div class="col-lg-6 col-md-6 col-sm-11">
                         <div class="single-cat text-center mb-30">
                             <div class="cat-icon">
-                                <img src="{{ asset('assets/img/gallery/service.png') }}" alt="">
+                                <img src="{{ asset('assets/img/gallery/formation.jpg') }}" alt="formation Klarcool">
                             </div>
                             <div class="cat-cap">
-                                <h5><a class="text-decoration-none" href="#">Hafid Kouachi <br> PDG</a></h5>
+                                <h5><a class="text-decoration-none" href="">Formation marketing et commerciale adaptée</a></h5>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-6 col-sm-11">
-                        <div class="single-cat active text-center mb-30">
+                    <div class="col-lg-10 col-md-12 col-sm-11">
+                        <div class="single-cat text-center mb-30">
                             <div class="cat-icon">
-                                <img src="{{ asset('assets/img/gallery/service.png') }}" alt="">
+                                <img src="{{ asset('assets/img/gallery/hotline.jpg') }}" alt="Hotline Klarcool">
                             </div>
                             <div class="cat-cap">
-                                <h5><a class="text-decoration-none" href="#">Hafid Kouachi <br> PDG</a></h5>
+                                <h5><a class="text-decoration-none" href="tel:+33982585812">Hotline +33(0) 982 585 812</a></h5>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-6 col-sm-11">
-                        <div class="single-cat active text-center mb-30">
+                    <div class="col-lg-6 col-md-6 col-sm-11">
+                        <div class="single-cat text-center mb-30">
                             <div class="cat-icon">
-                                <img src="{{ asset('assets/img/gallery/service.png') }}" alt="">
+                                <img src="{{ asset('assets/img/gallery/calcul.jpg') }}" alt="calcul Klarcool">
                             </div>
                             <div class="cat-cap">
-                                <h5><a class="text-decoration-none" href="#">Hafid Kouachi <br> PDG</a></h5>
+                                <h5><a class="text-decoration-none" href="">Calcul de financement adapté à vos besoins et vos capacités</a></h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-11">
+                        <div class="single-cat text-center mb-30">
+                            <div class="cat-icon">
+                                <img src="{{ asset('assets/img/gallery/feet.jpg') }}" alt="engagement Klarcool">
+                            </div>
+                            <div class="cat-cap">
+                                <h5><a class="text-decoration-none" href="">Professionnels et consommateurs ensembles pour une transition écologique réussie.</a></h5>
                             </div>
                         </div>
                     </div>
@@ -231,10 +232,10 @@
                                 <img class="" src="{{ asset('assets/img/gallery/duraclim.jpg') }}" alt="duraclim" style="width: 197px">
                             </div>
                             <div class="cases-caption">
-                                <h3><a href="{{ path('activities_duraclim') }}">Duraclim</a></h3>
-                                <p>Interdum nulla, ut commodo diam libero vitae
-                                    erat. Aenean faucibus nibh et justo cursus
-                                    rutrum.</p>
+                                <h3><a href="{{ path('product_duraclim') }}">Duraclim</a></h3>
+                                <p>
+                                    La station DURACLIM® V3 permet de recharger tous les modèles de véhicules sans exception.
+                                </p>
                                 <!-- Progress Bar -->
                                 <div class="single-skill mb-15">
                                     <div class="bar-progress">
@@ -242,13 +243,13 @@
                                             <div class="tipWrap">
                                                 <span class="tip"></span>
                                             </div>
-                                            <span class="fill" data-percentage="90"></span>
+                                            <span class="fill" data-percentage="100"></span>
                                         </div>
                                     </div>
                                 </div>
                                 <!-- / progress -->
                                 <div class="prices">
-                                    <p><span>90% de pollution en moins</span></p>
+                                    <p><span>100% de pollution en moins</span></p>
                                 </div>
                             </div>
                         </div>
@@ -256,13 +257,13 @@
                     <div class="col-lg-4 col-md-6 col-sm-6">
                         <div class="single-cases mb-40">
                             <div class="cases-img  d-flex justify-content-center">
-                                <img src="{{ asset('assets/img/gallery/machine-hydrogene.jpg') }}" alt="motorklar"  style="width: 280px">
+                                <img src="{{ asset('assets/img/gallery/machine-hydrogene.jpg') }}" alt="motorklar"  style="width: 205px">
                             </div>
                             <div class="cases-caption">
-                                <h3><a href="{{ path('activities_motorklar') }}">Motorklar</a></h3>
-                                <p>Interdum nulla, ut commodo diam libero vitae
-                                    erat. Aenean faucibus nibh et justo cursus
-                                    rutrum.</p>
+                                <h3><a href="{{ path('product_motorklar') }}">Motorklar</a></h3>
+                                <p>
+                                    La station MOTORKLAR® permet de dépolluer tous les modèles de véhicules sans exception.
+                                </p>
                                 <!-- Progress Bar -->
                                 <div class="single-skill mb-15">
                                     <div class="bar-progress">
@@ -283,13 +284,14 @@
                     <div class="col-lg-4 col-md-6 col-sm-6">
                         <div class="single-cases">
                             <div class="cases-img">
-                                <img src="{{ asset('assets/img/gallery/durapac.jpg') }}" alt="durapac" style="min-width: 482px">
+                                <img src="{{ asset('assets/img/gallery/durapac-2.jpg') }}" alt="durapac" style="height: 360px">
                             </div>
                             <div class="cases-caption">
-                                <h3><a href="{{ path('activities_durapac') }}">Durapac</a></h3>
-                                <p>Interdum nulla, ut commodo diam libero vitae
-                                    erat. Aenean faucibus nibh et justo cursus
-                                    rutrum.</p>
+                                <h3><a href="{{ path('product_durapac') }}">Durapac</a></h3>
+                                <p>
+                                    NOUVEAU.<br><br>
+                                    BIENTOT SUR LE MARCHÉ...<br>
+                                </p>
                                 <!-- Progress Bar -->
                                 <div class="single-skill mb-15">
                                     <div class="bar-progress">
@@ -331,7 +333,7 @@
                                     <img src="{{ asset('assets/img/gallery/home-blog1.png') }}" alt="">
                                 </div>
                                 <div class="blog-cap">
-                                    <h3><a href="{{ path('activities') }}">Leverage agile frameworks to provide a robust synopsis</a></h3>
+                                    <h3><a href="{{ path('product') }}">Leverage agile frameworks to provide a robust synopsis</a></h3>
                                     <p>The automated process starts as soon as  your clothes go into the machine. Duis cursus, mi quis viverra ornare.</p>
                                 </div>
                             </div>
@@ -344,7 +346,7 @@
                                     <img src="{{ asset('assets/img/gallery/home-blog2.png') }}" alt="">
                                 </div>
                                 <div class="blog-cap">
-                                    <h3><a href="{{ path('activities') }}">Leverage agile frameworks to provide a robust synopsis</a></h3>
+                                    <h3><a href="{{ path('product') }}">Leverage agile frameworks to provide a robust synopsis</a></h3>
                                     <p>The automated process starts as soon as  your clothes go into the machine. Duis cursus, mi quis viverra ornare.</p>
                                 </div>
                             </div>

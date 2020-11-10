@@ -5,6 +5,7 @@ namespace App\Controller;
 use App\Entity\Actuality;
 use App\Form\ActualityType;
 use App\Repository\ActualityRepository;
+use Sensio\Bundle\FrameworkExtraBundle\Configuration\IsGranted;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
@@ -23,11 +24,12 @@ class ActualityController extends AbstractController
     public function index(ActualityRepository $actualityRepository): Response
     {
         return $this->render('actuality/index.html.twig', [
-            'actualities' => $actualityRepository->findAll(),
+            'actualities' => $actualityRepository->findBy([],['date' => 'DESC']),
         ]);
     }
 
     /**
+     * @IsGranted("ROLE_ADMIN")
      * @Route("/new", name="actuality_new", methods={"GET","POST"})
      * @param Request $request
      * @return Response
@@ -58,6 +60,7 @@ class ActualityController extends AbstractController
     }
 
     /**
+     * @IsGranted("ROLE_ADMIN")
      * @Route("/{id}/edit", name="actuality_edit", methods={"GET","POST"})
      * @param Request $request
      * @param Actuality $actuality
@@ -87,6 +90,7 @@ class ActualityController extends AbstractController
     }
 
     /**
+     * @IsGranted("ROLE_ADMIN")
      * @Route("/{id}", name="actuality_delete", methods={"DELETE"})
      * @param Request $request
      * @param Actuality $actuality
