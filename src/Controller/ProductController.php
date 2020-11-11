@@ -35,7 +35,7 @@ class ProductController extends AbstractController {
     /**
      * @Route("/motorklar", name="_motorklar")
      */
-    public function climakool() :Response
+    public function motorklar() :Response
     {
         return $this->render('products/motorklar.html.twig');
     }
