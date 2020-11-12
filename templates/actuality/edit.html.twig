@@ -1,0 +1,43 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Klarcool Modification d'Actus{% endblock %}
+
+{% block body %}
+    <div class="container mb-100 mt-75" style="font-size: initial">
+        <h1 class="mb-50"><strong>Modifier ou supprimer cet article</strong></h1>
+
+        {{ form_start(form) }}
+        <div class="ui form" style="font-size: initial">
+            <div class="field">
+                <strong>{{ form_row(form.author) }}</strong>
+            </div>
+            <div class="field">
+                <strong>{{ form_row(form.title) }}</strong>
+            </div>
+            <div class="field">
+                <strong>{{ form_row(form.content) }}</strong>
+            </div>
+            <div class="inline field">
+                <div class="ui slider checkbox" style="font-size: initial; margin-top: 20px">
+                    {{ form_widget(form.contact, {
+                        'attr': {'tabindex': '0'}
+                    }) }}
+                    <label><strong> Icone contact</strong></label>
+                </div>
+            </div>
+            <button class="ui green button" style="font-size: initial; margin-top: 50px">{{ button_label|default('Modifier') }}</button>
+        </div>
+        {{ form_end(form) }}
+
+        <form class="mt-20 mb-50" method="post" action="{{ path('actuality_delete', {'id': actuality.id}) }}" onsubmit="return confirm('Êtes-vous sûr de bien vouloir supprimer cet élément?');">
+            <input type="hidden" name="_method" value="DELETE">
+            <input type="hidden" name="_token" value="{{ csrf_token('delete' ~ actuality.id) }}">
+            <div class="ui large buttons">
+                <button class="ui red button" style="font-size: initial">Supprimer</button>
+                <div class="or" data-text="ou" style="font-size: initial"></div>
+                <a class="ui button" href="{{ path('actuality_index') }}" style="font-size: initial">Retour</a>
+            </div>
+        </form>
+
+    </div>
+{% endblock %}

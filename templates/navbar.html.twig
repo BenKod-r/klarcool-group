@@ -1,0 +1,67 @@
+<!-- ? Preloader Start -->
+<div id="preloader-active">
+    <div class="preloader d-flex align-items-center justify-content-center">
+        <div class="preloader-inner position-relative">
+            <div class="preloader-circle"></div>
+            <div class="preloader-img pere-text">
+                <img src="{{ asset('assets/img/logo/loder.png') }}" alt="klarcool">
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Preloader Start -->
+<header>
+    <!-- Header Start -->
+    <div class="header-area">
+        <div class="main-header ">
+            <div class="header-bottom  header-sticky">
+                <div class="container-fluid">
+                    <div class="row align-items-center">
+                        <!-- Logo -->
+                        <div class="col-xl-2 col-lg-2">
+                            <div class="logo">
+                                <a href="{{ path('home_index') }}"><img style="width: 120px;" src="{{ asset('assets/img/logo/logo-klarcool.png') }}" alt="klarcool"></a>
+                            </div>
+                        </div>
+                        <div class="col-xl-10 col-lg-10">
+                            <div class="menu-wrapper d-flex align-items-center justify-content-end">
+                                <!-- Main-menu -->
+                                <div class="main-menu d-none d-lg-block">
+                                    <nav>
+                                        <ul id="navigation">
+                                            <li><a href="{{ path('home_index') }}">Accueil</a></li>
+                                            <li><a href="{{ path('eco-activites') }}">L'éco-activité</a></li>
+                                            <li><a href="{{ path('product') }}">Nos Produits</a>
+                                                <ul class="submenu">
+                                                    <li><a href="{{ path('product_duraclim') }}">Duraclim</a></li>
+                                                    <li><a href="{{ path('product_motorklar') }}">Motorklar</a></li>
+                                                    <li><a href="{{ path('product_durapac') }}">Durapac</a></li>
+                                                </ul>
+                                            </li>
+                                            <li><a href="{{ path('actuality_index') }}">Actualités</a>
+                                            <li><a href="{{ path('contact') }}">Contact</a></li>
+                                        </ul>
+                                    </nav>
+                                </div>
+                                <!-- Header-btn -->
+                                <div class="header-right-btn d-none d-lg-block ml-20">
+                                    {% if app.user %}
+                                        <a href="{{ path('app_logout') }}" class="genric-btn danger circle arrow">Se déconnecter</a>
+                                    {%  else %}
+                                        <a href="{{ path('contact') }}" class="btn header-btn">Espace Pro</a>
+                                    {% endif %}
+
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Mobile Menu -->
+                        <div class="col-12">
+                            <div class="mobile_menu d-block d-lg-none"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Header End -->
+</header>

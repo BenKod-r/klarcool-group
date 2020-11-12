@@ -1,0 +1,77 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Klarcool Actus{% endblock %}
+
+{% block body %}
+    <main>
+        <!--? Hero Start -->
+        <div class="slider-area2">
+            <div class="slider-height2 d-flex align-items-center">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xl-12">
+                            <div class="hero-cap hero-cap2 pt-70">
+                                <h2>Actualités</h2>
+                                <nav aria-label="breadcrumb">
+                                    <ol class="breadcrumb">
+                                        <li class="breadcrumb-item"><a href="{{ path('home_index') }}">Accueil</a></li>
+                                        <li class="breadcrumb-item"><a href="{{ path('actuality_index') }}">Actualités</a></li>
+                                    </ol>
+                                </nav>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Hero End -->
+        <!--? Blog Area Start -->
+        <section class="container blog_area single-post-area section-padding">
+            {% if app.user %}
+            <div class="d-flex justify-content-end mb-5">
+                <a class="btn genric-btn" href="{{ path('actuality_new') }}">Créer un article</a>
+            </div>
+            {% endif %}
+            {% for actuality in actualities %}
+            <div class="navigation-top">
+                <div class="posts-list">
+                    <div class="single-post">
+                        <div class="blog_details">
+                            <h2 style="color: #2d2d2d;">{{ actuality.title }}</h2>
+                            <ul class="blog-info-link mt-3 mb-4">
+                                <li><i class="fa fa-calendar-alt"></i>{{ actuality.date ? actuality.date|date('d-m-Y') : '' }}</li>
+                                <li><i class=" fa fa-pencil-alt"></i>{{ actuality.author }}</li>
+                            </ul>
+                            <div>
+                                <div  class="quote-wrapper">
+                                    <div class="quotes">{{ actuality.content|nl2br }}</div>
+                                </div>
+                            </div>
+                            {% if actuality.contact == true %}
+                            <div class="d-flex justify-content-between">
+                                <ul class="mt-3 mb-4">
+                                    <li><a href="{{ path('contact') }}"><i class="far fa-envelope-open "></i> Contactez-nous</a></li>
+                                </ul>
+                                {% if app.user %}
+                                    <a class="btn genric-btn mb-5" href="{{ path('actuality_edit', {'id':  actuality.id }) }}">Modifier</a>
+                                {% endif %}
+                            </div>
+                            {% else %}
+                            {% if app.user %}
+                                <div class="d-flex justify-content-end">
+                                    <a class="btn genric-btn mb-5" href="{{ path('actuality_edit', {'id':  actuality.id }) }}">Modifier</a>
+                                </div>
+                            {% endif %}
+                        </div>
+                        {% endif %}
+                        </div>
+                    </div>
+                </div>
+            </div>
+            {% else %}
+                <h1 class="text-center">Aucun article trouvée</h1>
+            {% endfor %}
+        </section>
+        <!-- Blog Area End -->
+    </main>
+{% endblock %}

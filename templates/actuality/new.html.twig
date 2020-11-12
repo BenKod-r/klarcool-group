@@ -1,0 +1,37 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Klarcool Création d'Actus{% endblock %}
+
+{% block body %}
+    <div class="container mb-100 mt-75" style="font-size: initial">
+        <h1 class="mb-50"><strong>Créer un nouvel article</strong></h1>
+
+        {{ form_start(form) }}
+        <div class="ui form" style="font-size: initial">
+            <div class="field">
+                <strong>{{ form_row(form.author) }}</strong>
+            </div>
+            <div class="field">
+                <strong>{{ form_row(form.title) }}</strong>
+            </div>
+            <div class="field">
+                <strong>{{ form_row(form.content) }}</strong>
+            </div>
+            <div class="inline field">
+                <div class="ui slider checkbox" style="font-size: initial; margin-top: 20px">
+                    {{ form_widget(form.contact, {
+                        'attr': {'tabindex': '0'}
+                    }) }}
+                    <label><strong> Icone contact</strong></label>
+                </div>
+            </div>
+            <div class="ui large buttons" style="font-size: initial; margin-top: 50px">
+                <button class="ui green button" style="font-size: initial">{{ button_label|default('Valider') }}</button>
+                <div class="or" data-text="ou" style="font-size: initial"></div>
+                <a class="ui button" href="{{ path('actuality_index') }}" style="font-size: initial">Retour</a>
+            </div>
+        </div>
+        {{ form_end(form) }}
+
+    </div>
+{% endblock %}

@@ -1,0 +1,109 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Klarcool Contact{% endblock %}
+
+{% block body %}
+    <main>
+        <!--? Hero Start -->
+        <div class="slider-area2">
+            <div class="slider-height2 d-flex align-items-center">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xl-12">
+                            <div class="hero-cap hero-cap2 pt-70">
+                                <h2>Contact</h2>
+                                <nav aria-label="breadcrumb">
+                                    <ol class="breadcrumb">
+                                        <li class="breadcrumb-item"><a href="{{ path('home_index') }}">Accueil</a></li>
+                                        <li class="breadcrumb-item"><a href="#">Contact</a></li>
+                                    </ol>
+                                </nav>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Hero End -->
+        <!--?  Contact Area start  -->
+        <section class="contact-section">
+            <div class="container">
+                <div class="d-flex justify-content-center">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2704.7117450470687!2d1.009104516025812!3d47.31996957916675!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47fcb7b1addbad7d%3A0xea2b10f72d99e185!2s68%20Rue%20de%20la%20Varenne%2C%2037150%20Bl%C3%A9r%C3%A9!5e0!3m2!1sfr!2sfr!4v1604932413515!5m2!1sfr!2sfr" width="1500" height="600" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                </div>
+                <div class="row mt-80">
+                    <div class="col-12">
+                        <h2 class="contact-title mb-5">Contact</h2>
+                    </div>
+                    <div class="col-lg-8">
+
+                        {{ form_start(form) }}
+
+                            <div class="form-contact row">
+
+                                <div class="col-sm-6">
+                                    <div class="form-group">
+                                        {{ form_widget(form.name, {
+                                            'attr': {'class': 'form-control valid', 'placeholder': 'Entrez votre nom'}
+                                        }) }}
+                                    </div>
+                                </div>
+                                <div class="col-sm-6">
+                                    <div class="form-group">
+                                        {{ form_widget(form.email, {
+                                            'attr': {'class': 'form-control valid', 'placeholder': 'Entrez votre mail'}
+                                        }) }}
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="form-group">
+                                        {{ form_widget(form.subject, {
+                                            'attr': {'class': 'form-control', 'placeholder': 'Entrez votre sujet'}
+                                        }) }}
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="form-group">
+                                        {{ form_widget(form.message, {
+                                            'attr': {'class': 'form-control w-100', 'cols': '30', 'rows': '9', 'placeholder': 'Entrez votre message'}
+                                        }) }}
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="form-group mt-3 mb-50">
+                                <button class="button button-contactForm boxed-btn">{{ button_label|default('Envoyer') }}</button>
+                            </div>
+
+                        {{ form_end(form) }}
+                    </div>
+                    <div class="col-lg-3 offset-lg-1">
+                        <div class="media contact-info">
+                            <span class="contact-info__icon"><i class="ti-home"></i></span>
+                            <div class="media-body">
+                                <a href="https://goo.gl/maps/o4AUk4yFXfLLJGKu7" target="_blank"><h3>68, rue de la Varenne</h3></a>
+                                <p>37150 Bléré</p>
+                            </div>
+                        </div>
+                        <div class="media contact-info">
+                            <span class="contact-info__icon"><i class="ti-tablet"></i></span>
+                            <div class="media-body">
+                                <a href="tel:+33983370894"><h3>Service administratif et commercial:<br>+33(0) 983 370 894</h3></a><br>
+                                <a href="tel:+33982585812"><h3>Service technique:<br>+33(0) 982 585 812</h3></a><br>
+                                <p>Du lundi au vendredi de 9h à 18h</p>
+                            </div>
+                        </div>
+                        <div class="media contact-info">
+                            <span class="contact-info__icon"><i class="ti-email"></i></span>
+                            <div class="media-body">
+                                <a href="mailto:contact@klarcool-groupe.com"><h3>contact@klarcool-groupe.com</h3></a>
+                                <p>Pour toute information n'hésitez pas à nous contacter</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+{% endblock %}
