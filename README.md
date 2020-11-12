@@ -53,7 +53,7 @@ BENHARRAT Khaled ([benkod.fr](https://www.benkod.fr))
 
 MIT License
 
-Copyright (c) 2019 khaleddwm@benkod.fr
+Copyright (c) 2020 khaleddwm@benkod.fr
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

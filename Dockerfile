@@ -5,5 +5,5 @@ RUN docker-php-ext-install pdo pdo_mysql
 # Clear cache
 RUN apt-get clean && rm -rf /var/lib/apt/lists/*
 
-COPY . /var/www/k-group
+COPY . /var/www/html
 ADD ./000-default.conf /etc/apache2/sites-available

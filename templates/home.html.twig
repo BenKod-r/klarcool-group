@@ -1,5 +1,7 @@
 {% extends 'base.html.twig' %}
 
+{% block title %}Klarcool Accueil{% endblock %}
+
 {% block body %}
     <main>
         <!-- slider Area Start-->
@@ -12,8 +14,8 @@
                             <div class="col-xl-12 col-lg-12 col-md-12 col-sm-10">
                                 <div class="hero__caption">
                                     <h1 data-animation="fadeInUp" data-delay=".2s">KLARCOOL GROUPE</h1>
-                                    <p data-animation="fadeInUp" data-delay=".4s">La performance ecolo'</p>
-                                    <p data-animation="fadeInUp" data-delay=".4s">Un fabricant qui s'engage pour vous et avec vous</p>
+                                    <p data-animation="fadeInUp" data-delay=".4s">La performance ecolo'<br><br>
+                                        Un fabricant qui s'engage pour vous et avec vous</p>
                                     <!-- Hero-btn -->
                                     <div class="hero__btn">
                                         <a href="{{ path('about') }}" class="hero-btn mb-10"  data-animation="fadeInUp" data-delay=".8s">Qui sommes nous ?</a>
@@ -187,7 +189,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-6 col-md-6 col-sm-11">
+                    <div class="col-lg-4 col-md-6 col-sm-11">
                         <div class="single-cat text-center mb-30">
                             <div class="cat-icon">
                                 <img src="{{ asset('assets/img/gallery/calcul.jpg') }}" alt="calcul Klarcool">
@@ -197,13 +199,23 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-6 col-md-6 col-sm-11">
+                    <div class="col-lg-4 col-md-6 col-sm-11">
                         <div class="single-cat text-center mb-30">
                             <div class="cat-icon">
                                 <img src="{{ asset('assets/img/gallery/feet.jpg') }}" alt="engagement Klarcool">
                             </div>
                             <div class="cat-cap">
                                 <h5><a class="text-decoration-none" href="">Professionnels et consommateurs ensembles pour une transition écologique réussie.</a></h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-11">
+                        <div class="single-cat text-center mb-30">
+                            <div class="cat-icon">
+                                <img src="{{ asset('assets/img/gallery/stock.jpg') }}" alt="stock Klarcool">
+                            </div>
+                            <div class="cat-cap">
+                                <h5><a class="text-decoration-none" href="">Une gestion adaptée des stocks de pièces détachées.</a></h5>
                             </div>
                         </div>
                     </div>
@@ -228,7 +240,7 @@
                 <div class="row">
                     <div class="col-lg-4 col-md-6 col-sm-6">
                         <div class="single-cases mb-40">
-                            <div class="cases-img d-flex justify-content-center">
+                            <div class="cases-img">
                                 <img class="" src="{{ asset('assets/img/gallery/duraclim.jpg') }}" alt="duraclim" style="width: 197px">
                             </div>
                             <div class="cases-caption">
@@ -256,7 +268,7 @@
                     </div>
                     <div class="col-lg-4 col-md-6 col-sm-6">
                         <div class="single-cases mb-40">
-                            <div class="cases-img  d-flex justify-content-center">
+                            <div class="cases-img">
                                 <img src="{{ asset('assets/img/gallery/machine-hydrogene.jpg') }}" alt="motorklar"  style="width: 205px">
                             </div>
                             <div class="cases-caption">

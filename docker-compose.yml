@@ -11,7 +11,7 @@ services:
       - db_data:/var/lib/mysql
 
   webserver:
-    image: khaleddwm/k-group:v1.11
+    image: khaleddwm/k-group:v1.12
     ports:
       - "80:80"
       - "443:443"
