@@ -12,15 +12,15 @@ use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Routing\Annotation\Route;
 
 /**
- * @Route("/about")
+ * @Route("/eco-activites")
  */
-class AboutController extends AbstractController {
+class ActivityController extends AbstractController {
 
     /**
-     * @Route("", name="about")
+     * @Route("", name="eco-activites")
      */
-    public function about() :Response
+    public function ecoActivity() :Response
     {
-        return $this->render('about/about.html.twig');
+        return $this->render('activity/eco-activity.twig');
     }
 }
