@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file source-language="fr" target-language="en" datatype="plaintext" original="file.ext">
+    <header>
+      <tool tool-id="symfony" tool-name="Symfony"/>
+    </header>
+    <body>
+      <trans-unit id="UzFhc1Y" resname="Accueil">
+        <source>Accueil</source>
+        <target>Home</target>
+      </trans-unit>
+      <trans-unit id=".c_3gO2" resname="L'éco-activité">
+        <source>L'éco-activité</source>
+        <target>Eco-activity</target>
+      </trans-unit>
+      <trans-unit id="IvqidwL" resname="Nos Produits">
+        <source>Nos Produits</source>
+        <target>Products</target>
+      </trans-unit>
+      <trans-unit id="2iiN0qP" resname="Actualités">
+        <source>Actualités</source>
+        <target>News</target>
+      </trans-unit>
+      <trans-unit id="X2uqtNv" resname="Langue">
+        <source>Langue</source>
+        <target>Language</target>
+      </trans-unit>
+      <trans-unit id="3wA9wWw" resname="Espace Pro">
+        <source>Espace Pro</source>
+        <target>Pro Area</target>
+      </trans-unit>
+      <trans-unit id="N.kI_oo" resname="La performance ecolo'">
+        <source>La performance ecolo'</source>
+        <target>The ecological performance</target>
+      </trans-unit>
+      <trans-unit id="xs1Dd4A" resname="Un fabricant qui s'engage pour vous&lt;br&gt; et avec vous">
+        <source>Un fabricant qui s'engage pour vous&lt;br&gt; et avec vous</source>
+        <target><![CDATA[A manufacturer who is committed to you<br> and with you]]></target>
+      </trans-unit>
+      <trans-unit id="96zqCIr" resname="Qui sommes nous ?">
+        <source>Qui sommes nous ?</source>
+        <target>About us</target>
+      </trans-unit>
+      <trans-unit id="jJXJaBX" resname="Environnement">
+        <source>Environnement</source>
+        <target>Environment</target>
+      </trans-unit>
+      <trans-unit id="F2n9xPx" resname="Un engagement responsable et eco-profitable">
+        <source>Un engagement responsable et eco-profitable</source>
+        <target>A responsible and eco-profitable commitment</target>
+      </trans-unit>
+      <trans-unit id="fTWH.ic" resname="Nos objectifs">
+        <source>Nos objectifs</source>
+        <target>About objectives</target>
+      </trans-unit>
+      <trans-unit id="OaMWkjY" resname="Energie">
+        <source>Energie</source>
+        <target>Energy</target>
+      </trans-unit>
+      <trans-unit id="LIAP8BK" resname="Créer une dynamique économique respectueuse de l’environnement">
+        <source>Créer une dynamique économique respectueuse de l’environnement</source>
+        <target>Creating an environmentally friendly economic dynamic</target>
+      </trans-unit>
+      <trans-unit id=".qfYmYo" resname="Nos atouts">
+        <source>Nos atouts</source>
+        <target>About advantages</target>
+      </trans-unit>
+      <trans-unit id="OAWdTNh" resname="NOTRE MISSION">
+        <source>NOTRE MISSION</source>
+        <target>OUR MISSION</target>
+      </trans-unit>
+      <trans-unit id="uqJAn1n" resname="Animé par de VRAIES VALEURS D’ENGAGEMENTS, une équipe de femmes et&#10;                    d’hommes composée d’ingénieurs, de Techniciens, et de Consultants, qui consacrent&#10;                    toutes leurs expériences et leur Savoir-Faire au développement de solutions&#10;                    Technologiques Innovantes, au service de l’environnement et d’une économie&#10;                    Responsable.&#10;                    Créatrice de nouvelles Richesses dans les domaines de Compétences suivant :&lt;br&gt;&#10;                    DE L’AUTOMOBILE, DE L’HABITAT et de L’INDUSTRIE.">
+        <source>Animé par de VRAIES VALEURS D’ENGAGEMENTS, une équipe de femmes et
+                    d’hommes composée d’ingénieurs, de Techniciens, et de Consultants, qui consacrent
+                    toutes leurs expériences et leur Savoir-Faire au développement de solutions
+                    Technologiques Innovantes, au service de l’environnement et d’une économie
+                    Responsable.
+                    Créatrice de nouvelles Richesses dans les domaines de Compétences suivant :&lt;br&gt;
+                    DE L’AUTOMOBILE, DE L’HABITAT et de L’INDUSTRIE.</source>
+        <target><![CDATA[Led by TRUE VALUES OF COMMITMENT, a team of women and men composed of engineers,
+                    technicians, and consultants, who devote all their experience and know-how to the development
+                    of innovative technological solutions, at the service of the environment and a responsible economy.
+                    Creator of new Riches in the following Skills areas :<br>
+                    AUTOMOTIVE, HOUSING AND INDUSTRY.]]></target>
+      </trans-unit>
+      <trans-unit id="pC7c9w6" resname="La parole du président">
+        <source>La parole du président</source>
+        <target>The word of the president</target>
+      </trans-unit>
+      <trans-unit id="HyU.B8." resname="Nous traversons tous une période très difficile, sur le plan Climatique et Economique.&#10;                    Pour y faire face, Klarcool-Groupe vous propose des solutions Simples,&#10;                    Innovantes par la combinaison AUDACIEUSE entre l’Esprit Ecologique et des Activités Rentables&#10;                    afin de favoriser une véritable symbiose entre le professionnel et le Consommateur.&#10;                    Notre culture de l’entreprise nous permet une vision pragmatique de vos besoins.&#10;                    La qualité de nos produits MADE IN FRANCE et notre concept Eco- activités,&#10;                    constitue pour nous et pour vous une valeur sure pour vous accompagner au cœur d’une transition écologique réussie.">
+        <source>Nous traversons tous une période très difficile, sur le plan Climatique et Economique.
+                    Pour y faire face, Klarcool-Groupe vous propose des solutions Simples,
+                    Innovantes par la combinaison AUDACIEUSE entre l’Esprit Ecologique et des Activités Rentables
+                    afin de favoriser une véritable symbiose entre le professionnel et le Consommateur.
+                    Notre culture de l’entreprise nous permet une vision pragmatique de vos besoins.
+                    La qualité de nos produits MADE IN FRANCE et notre concept Eco- activités,
+                    constitue pour nous et pour vous une valeur sure pour vous accompagner au cœur d’une transition écologique réussie.</source>
+        <target>We are all going through a very difficult period, from a climate and economic point of view.
+                    Klarcool Groupe offers simple solutions to deal with this problem,
+                    Innovative through the BOLD combination of Ecological Spirit and Profitable Activities
+                    to foster a true symbiosis between the professional and the consumer.
+                    Our corporate culture gives us a pragmatic view of your needs.
+                    The quality of our MADE IN FRANCE products and our Eco-activities concept,
+                    constitutes for us and for you a sure value to accompany you at the heart of a successful ecological transition.</target>
+      </trans-unit>
+      <trans-unit id="m4TKQqv" resname="Klarcool Groupe, le fabricant qui s’engage pour vous et avec vous.">
+        <source>Klarcool Groupe, le fabricant qui s’engage pour vous et avec vous.</source>
+        <target>Klarcool Groupe, a manufacturer who is committed to you and with you.</target>
+      </trans-unit>
+      <trans-unit id="cqVc6J9" resname="Pourquoi choisir Klarcool">
+        <source>Pourquoi choisir Klarcool</source>
+        <target>Why Choose Klarcool</target>
+      </trans-unit>
+      <trans-unit id="nVfpteL" resname="Votre éco-activité clef en main">
+        <source>Votre éco-activité clef en main</source>
+        <target>Your turnkey eco-activity</target>
+      </trans-unit>
+      <trans-unit id="mUnjGsQ" resname="Un fabricant Français a la volonté de s’engager à vos côtés pour vous accompagner à la transition&#10;                            écologique par la mise en place de solutions et d’outils simples d’utilisation.&#10;                            Nous désirons par ce concept « éco-activité » créer une dynamique rentable et écologique chez vous.&#10;                            C’est l’ouverture vers un avenir plus sûr.">
+        <source>Un fabricant Français a la volonté de s’engager à vos côtés pour vous accompagner à la transition
+                    écologique par la mise en place de solutions et d’outils simples d’utilisation.
+                    Nous désirons par ce concept « éco-activité » créer une dynamique rentable et écologique chez vous.
+                    C’est l’ouverture vers un avenir plus sûr.</source>
+        <target>A French manufacturer is willing to work alongside you to support you in the ecological transition
+                    by setting up solutions and easy-to-use tools.
+                    With this « eco-activity » concept, we want to create a profitable and ecological dynamic in your home.
+                    It is the opening towards a more secure future.</target>
+      </trans-unit>
+      <trans-unit id="SWtMYIv" resname="Contactez-nous">
+        <source>Contactez-nous</source>
+        <target>Contact us</target>
+      </trans-unit>
+      <trans-unit id="TkWtKDO" resname="Energie, Efficacité">
+        <source>Energie, Efficacité</source>
+        <target>Energy, Efficiency</target>
+      </trans-unit>
+      <trans-unit id="_EEfuNG" resname="Une équipe à l'écoute">
+        <source>Une équipe à l'écoute</source>
+        <target>A Listening team</target>
+      </trans-unit>
+      <trans-unit id="zvNJ_y." resname="À votre service">
+        <source>À votre service</source>
+        <target>At your service</target>
+      </trans-unit>
+      <trans-unit id="BV829oI" resname="Une équipe à l'écoute, disponible.&lt;br&gt;&#10;                        Nous vous accompagnons tout au long de notre histoire...">
+        <source>Une équipe à l'écoute, disponible.&lt;br&gt;
+                    Nous vous accompagnons tout au long de notre histoire...</source>
+        <target><![CDATA[A team that listens, is available.<br>
+                    We support you throughout our history...]]></target>
+      </trans-unit>
+      <trans-unit id="pWqa4N8" resname="Service après-vente">
+        <source>Service après-vente</source>
+        <target>After sales service</target>
+      </trans-unit>
+      <trans-unit id="SV9maCG" resname="Formation marketing et commerciale adaptée">
+        <source>Formation marketing et commerciale adaptée</source>
+        <target>Adapted marketing and sales training</target>
+      </trans-unit>
+      <trans-unit id="3BV2EAx" resname="Calcul de financement adapté à vos besoins et vos capacités">
+        <source>Calcul de financement adapté à vos besoins et vos capacités</source>
+        <target>Funding calculation adapted to your needs and capacities</target>
+      </trans-unit>
+      <trans-unit id="NfsQl8s" resname="Professionnels et consommateurs ensembles pour une transition écologique réussie.">
+        <source>Professionnels et consommateurs ensembles pour une transition écologique réussie.</source>
+        <target>Professionals and consumers together for a successful ecological transition</target>
+      </trans-unit>
+      <trans-unit id="mDKcook" resname="Une gestion adaptée des stocks de pièces détachées.">
+        <source>Une gestion adaptée des stocks de pièces détachées.</source>
+        <target>Adapted management of spare parts stocks</target>
+      </trans-unit>
+      <trans-unit id="4f.Vjim" resname="Professionnels et consommateurs ensembles pour une transition écologique réussie">
+        <source>Professionnels et consommateurs ensembles pour une transition écologique réussie</source>
+        <target>Professionals and consumers together for a successful ecological transition</target>
+      </trans-unit>
+      <trans-unit id="qr5LRRP" resname="Une gestion adaptée des stocks de pièces détachées">
+        <source>Une gestion adaptée des stocks de pièces détachées</source>
+        <target>Adapted management of spare parts stocks</target>
+      </trans-unit>
+      <trans-unit id="Tfsd49m" resname="Nos activités">
+        <source>Nos activités</source>
+        <target>Our activities</target>
+      </trans-unit>
+      <trans-unit id="_zGBQox" resname="La richesse naturel et la responsabilté indivudelle aux services de l'énèrgie...">
+        <source>La richesse naturel et la responsabilté indivudelle aux services de l'énèrgie...</source>
+        <target>Natural wealth and individual responsibility in the service of energy...</target>
+      </trans-unit>
+      <trans-unit id="Ezk_mXk" resname="La station DURACLIM® V3 permet de recharger tous les modèles de véhicules sans exception.">
+        <source>La station DURACLIM® V3 permet de recharger tous les modèles de véhicules sans exception.</source>
+        <target>The DURACLIM® V3 station can charge all vehicle models without exception and without constraints.</target>
+      </trans-unit>
+      <trans-unit id="wc5JMri" resname="de pollution en moins">
+        <source>de pollution en moins</source>
+        <target>less pollution</target>
+      </trans-unit>
+      <trans-unit id="nIWjAPB" resname="La station MOTORKLAR® permet de dépolluer tous les modèles de véhicules sans exception.">
+        <source>La station MOTORKLAR® permet de dépolluer tous les modèles de véhicules sans exception.</source>
+        <target>The MOTORKLAR® station makes it possible to clean up all vehicle models without exception.</target>
+      </trans-unit>
+      <trans-unit id="._qBYTf" resname="d'efficacité">
+        <source>d'efficacité</source>
+        <target>efficiency</target>
+      </trans-unit>
+      <trans-unit id="eAAoy9q" resname="NOUVEAU&lt;br&gt;&lt;br&gt;&#10;                                    BIENTOT SUR LE MARCHÉ...">
+        <source>NOUVEAU&lt;br&gt;&lt;br&gt;
+                    BIENTOT SUR LE MARCHÉ...</source>
+        <target><![CDATA[NEW<br><br>
+                    SOON ON THE MARKET...]]></target>
+      </trans-unit>
+      <trans-unit id="abGaVzR" resname="de contrainte">
+        <source>de contrainte</source>
+        <target>stress</target>
+      </trans-unit>
+      <trans-unit id="VMSnycz" resname="Emplois">
+        <source>Emplois</source>
+        <target>Jobs</target>
+      </trans-unit>
+      <trans-unit id="_HO33Mj" resname="Politique de confidentialité">
+        <source>Politique de confidentialité</source>
+        <target>Privacy policy</target>
+      </trans-unit>
+      <trans-unit id="d2iotxb" resname="Application web et web mobile créée par">
+        <source>Application web et web mobile créée par</source>
+        <target>Web and mobile application created by</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

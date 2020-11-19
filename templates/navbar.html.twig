@@ -29,17 +29,23 @@
                                 <div class="main-menu d-none d-lg-block">
                                     <nav>
                                         <ul id="navigation">
-                                            <li><a href="{{ path('home_index') }}">Accueil</a></li>
-                                            <li><a href="{{ path('eco-activites') }}">L'éco-activité</a></li>
-                                            <li><a href="{{ path('product') }}">Nos Produits</a>
+                                            <li><a href="{{ path('home_index') }}">{% trans %}Accueil{% endtrans %}</a></li>
+                                            <li><a href="{{ path('eco-activites') }}">{% trans %}L'éco-activité{% endtrans %}</a></li>
+                                            <li><a href="{{ path('product') }}">{% trans %}Nos Produits{% endtrans %}</a>
                                                 <ul class="submenu">
                                                     <li><a href="{{ path('product_duraclim') }}">Duraclim</a></li>
                                                     <li><a href="{{ path('product_motorklar') }}">Motorklar</a></li>
                                                     <li><a href="{{ path('product_durapac') }}">Durapac</a></li>
                                                 </ul>
                                             </li>
-                                            <li><a href="{{ path('actuality_index') }}">Actualités</a>
+                                            <li><a href="{{ path('actuality_index') }}">{% trans %}Actualités{% endtrans %}</a>
                                             <li><a href="{{ path('contact') }}">Contact</a></li>
+                                            {% for locale in locales %}
+                                                {% if locale != app.request.locale %}
+                                                    <li class="d-none d-lg-inline-block"><a href="{{ path('change-locale', {'locale': locale}) }}"><img src="{{ asset('assets/img/elements/drapeau-'~locale~'.png') }}" alt="{{ locale }}"></a></li>
+                                                    <li class="d-lg-none"><a class="d-flex justify-content-between" href="{{ path('change-locale', {'locale': locale}) }}">{% trans %}Langue{% endtrans %}<img src="{{ asset('assets/img/elements/drapeau-'~locale~'.png') }}" alt="{{ locale }}"></a></li>
+                                                {% endif %}
+                                            {% endfor %}
                                         </ul>
                                     </nav>
                                 </div>
@@ -48,9 +54,8 @@
                                     {% if app.user %}
                                         <a href="{{ path('app_logout') }}" class="genric-btn danger circle arrow">Se déconnecter</a>
                                     {%  else %}
-                                        <a href="{{ path('contact') }}" class="btn header-btn">Espace Pro</a>
+                                        <a href="{{ path('contact') }}" class="btn header-btn">{% trans %}Espace Pro{% endtrans %}</a>
                                     {% endif %}
-
                                 </div>
                             </div>
                         </div>

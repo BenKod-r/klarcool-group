@@ -13,7 +13,7 @@
                                 </div>
                                 <div class="footer-tittle">
                                     <div class="footer-pera">
-                                        <p>Klarcool Groupe, le fabricant qui s’engage pour vous et avec vous.</p>
+                                        <p>{% trans %}Klarcool Groupe, le fabricant qui s’engage pour vous et avec vous.{% endtrans %}</p>
                                     </div>
                                 </div>
                                 <!-- social -->
@@ -29,12 +29,12 @@
                     <div class="col-xl-2 col-lg-3 col-md-4 col-sm-4">
                         <div class="single-footer-caption mb-50">
                             <div class="footer-tittle">
-                                <h4>Nos produits</h4>
+                                <h4>{% trans %}Nos Produits{% endtrans %}</h4>
                                 <ul>
                                     <li><a href="{{ path('product_duraclim') }}">Duraclim</a></li>
                                     <li><a href="{{ path('product_motorklar') }}">Motorklar</a></li>
                                     <li><a href="{{ path('product_durapac') }}">Durapac</a></li>
-                                    <li><a href="{{ path('eco-activites') }}">L'éco-activité</a></li>
+                                    <li><a href="{{ path('eco-activites') }}">{% trans %}L'éco-activité{% endtrans %}</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -44,8 +44,8 @@
                             <div class="footer-tittle">
                                 <h4>Klarcool</h4>
                                 <ul>
-                                    <li><a href="{{ path('actuality_index') }}">Emploi</a></li>
-                                    <li><a href="{{ path('actuality_index') }}">Actualités</a></li>
+                                    <li><a href="{{ path('actuality_index') }}">{% trans %}Emplois{% endtrans %}</a></li>
+                                    <li><a href="{{ path('actuality_index') }}">{% trans %}Actualités{% endtrans %}</a></li>
                                     <li><a href="{{ asset('assets/pdf/201001-book-presentation-v.06 fmi.pdf') }}"><u class="text-white">Docs</u><br>Duraclim/Motorklar</a></li>
                                     <li><a href="{{ asset('assets/pdf/200928_KCG_CATALOGUE_DURAPAC_V.07.pdf') }}"><u class="text-white">Docs</u><br>Durapac</a></li>
 
@@ -61,7 +61,7 @@
                                     <li><a href="mailto:contact@klarcool-groupe.com" target="_blank">contact@klarcool-groupe.com</a></li>
                                     <li><a href="https://goo.gl/maps/o4AUk4yFXfLLJGKu7" target="_blank">68, rue de la Varenne<br>
                                             37150 Bléré</a></li>
-                                    <li><a href="https://www.iubenda.com/privacy-policy/39282990" target="_blank">Politique de confidentialité</a></li>
+                                    <li><a href="https://www.iubenda.com/privacy-policy/39282990" target="_blank">{% trans %}Politique de confidentialité{% endtrans %}</a></li>
                                     <li class="number"><a href="tel:+33983370894">+33(0) 983 370 894</a></li>
                                 </ul>
                             </div>
@@ -77,7 +77,8 @@
                     <div class="row d-flex align-items-center">
                         <div class="col-xl-12 ">
                             <div class="footer-copy-right text-center">
-                                <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                                <p>Klarcool Groupe© - {% trans %}Application web et web mobile créée par{% endtrans %}<a href="https://benkod.fr" target="_blank"> Benkod.fr</a>
+                                    <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
                                     <!-- Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a> -->
                                     <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
                             </div>

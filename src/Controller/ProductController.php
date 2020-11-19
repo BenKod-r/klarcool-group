@@ -17,7 +17,7 @@ use Symfony\Component\Routing\Annotation\Route;
 class ProductController extends AbstractController {
 
     /**
-     * @Route("", name="")
+     * @Route("/", name="")
      */
     public function activities() :Response
     {

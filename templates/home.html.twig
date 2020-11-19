@@ -14,11 +14,11 @@
                             <div class="col-xl-12 col-lg-12 col-md-12 col-sm-10">
                                 <div class="hero__caption">
                                     <h1 data-animation="fadeInUp" data-delay=".2s">KLARCOOL GROUPE</h1>
-                                    <p data-animation="fadeInUp" data-delay=".4s">La performance ecolo'</p>
-                                    <p data-animation="fadeInUp" data-delay=".4s">Un fabricant qui s'engage pour vous<br> et avec vous</p>
+                                    <p data-animation="fadeInUp" data-delay=".4s">{% trans %}La performance ecolo'{% endtrans %}</p>
+                                    <p data-animation="fadeInUp" data-delay=".4s">{% trans %}Un fabricant qui s'engage pour vous<br> et avec vous{% endtrans %}</p>
                                     <!-- Hero-btn -->
                                     <div class="hero__btn">
-                                        <a href="{{ path('eco-activites') }}" class="hero-btn mb-10"  data-animation="fadeInUp" data-delay=".8s">Qui sommes nous ?</a>
+                                        <a href="{{ path('eco-activites') }}" class="hero-btn mb-10"  data-animation="fadeInUp" data-delay=".8s">{% trans %}Qui sommes nous ?{% endtrans %}</a>
                                     </div>
                                 </div>
                             </div>
@@ -31,11 +31,11 @@
                         <div class="row">
                             <div class="col-xl-10 col-lg-10 col-md-10 col-sm-10">
                                 <div class="hero__caption">
-                                    <h1 data-animation="fadeInUp" data-delay=".2s">Environnement</h1>
-                                    <p data-animation="fadeInUp" data-delay=".4s">Un engagement responsable et eco-profitable</p>
+                                    <h1 data-animation="fadeInUp" data-delay=".2s">{% trans %}Environnement{% endtrans %}</h1>
+                                    <p data-animation="fadeInUp" data-delay=".4s">{% trans %}Un engagement responsable et eco-profitable{% endtrans %}</p>
                                     <!-- Hero-btn -->
                                     <div class="hero__btn">
-                                        <a href="{{ path('eco-activites') }}" class="hero-btn mb-10"  data-animation="fadeInUp" data-delay=".8s">Nos objectifs</a>
+                                        <a href="{{ path('eco-activites') }}" class="hero-btn mb-10"  data-animation="fadeInUp" data-delay=".8s">{% trans %}Nos objectifs{% endtrans %}</a>
                                     </div>
                                 </div>
                             </div>
@@ -48,11 +48,11 @@
                         <div class="row">
                             <div class="col-xl-10 col-lg-10 col-md-10 col-sm-10">
                                 <div class="hero__caption">
-                                    <h1 data-animation="fadeInUp" data-delay=".2s">Energie</h1>
-                                    <p data-animation="fadeInUp" data-delay=".4s">Créer une dynamique économique respectueuse de l’environnement</p>
+                                    <h1 data-animation="fadeInUp" data-delay=".2s">{% trans %}Energie{% endtrans %}</h1>
+                                    <p data-animation="fadeInUp" data-delay=".4s">{% trans %}Créer une dynamique économique respectueuse de l’environnement{% endtrans %}</p>
                                     <!-- Hero-btn -->
                                     <div class="hero__btn">
-                                        <a href="{{ path('eco-activites') }}" class="hero-btn mb-10"  data-animation="fadeInUp" data-delay=".8s">Nos atouts</a>
+                                        <a href="{{ path('eco-activites') }}" class="hero-btn mb-10"  data-animation="fadeInUp" data-delay=".8s">{% trans %}Nos atouts{% endtrans %}</a>
                                     </div>
                                 </div>
                             </div>
@@ -78,8 +78,9 @@
             <!-- left Contents -->
             <div class="tailor-details">
                 <span>KLARCOOL GROUPE</span>
-                <h2>NOTRE MISSION</h2>
+                <h2>{% trans %}NOTRE MISSION{% endtrans %}</h2>
                 <p>
+                    {% trans %}
                     Animé par de VRAIES VALEURS D’ENGAGEMENTS, une équipe de femmes et
                     d’hommes composée d’ingénieurs, de Techniciens, et de Consultants, qui consacrent
                     toutes leurs expériences et leur Savoir-Faire au développement de solutions
@@ -87,24 +88,27 @@
                     Responsable.
                     Créatrice de nouvelles Richesses dans les domaines de Compétences suivant :<br>
                     DE L’AUTOMOBILE, DE L’HABITAT et de L’INDUSTRIE.
+                    {% endtrans %}
                 </p>
                 <h3 class="text-success">
-                    <strong>La parole du président:</strong>
+                    <strong>{% trans %}La parole du président{% endtrans %} :</strong>
                 </h3>
                 <p class="pera-bottom">
-                    “Nous traversons tous une période très difficile, sur le plan Climatique et Economique.
-                    Pour y faire face, Klarcool-Group vous propose des solutions Simples,
+                    “{% trans %}
+                    Nous traversons tous une période très difficile, sur le plan Climatique et Economique.
+                    Pour y faire face, Klarcool-Groupe vous propose des solutions Simples,
                     Innovantes par la combinaison AUDACIEUSE entre l’Esprit Ecologique et des Activités Rentables
                     afin de favoriser une véritable symbiose entre le professionnel et le Consommateur.
                     Notre culture de l’entreprise nous permet une vision pragmatique de vos besoins.
                     La qualité de nos produits MADE IN FRANCE et notre concept Eco- activités,
-                    constitue pour nous et pour vous une valeur sure pour vous accompagner au cœur d’une transition écologique réussie.”
+                    constitue pour nous et pour vous une valeur sure pour vous accompagner au cœur d’une transition écologique réussie.
+                    {% endtrans %}”
                 </p>
                 <p class="text-success">
-                    <strong>“Klarcool Groupe, le fabricant qui s’engage pour vous et avec vous.”</strong>
+                    <strong>“{% trans %}Klarcool Groupe, le fabricant qui s’engage pour vous et avec vous.{% endtrans %}”</strong>
                 </p>
                 <div class="footer-tittles">
-                    <p><strong>Hafid Kouachi</strong></p>
+                    <p><strong class="h1">Hafid Kouachi</strong></p>
                 </div>
             </div>
         </div>
@@ -115,17 +119,19 @@
                 <div class="left-content">
                     <!-- section tittle -->
                     <div class="section-tittle section-tittle2 mb-30">
-                        <span>Pourquoi choisir Klarcool ?</span>
-                        <h2>Votre éco-activité clef en main</h2>
+                        <span>{% trans %}Pourquoi choisir Klarcool{% endtrans%} ?</span>
+                        <h2>{% trans %}Votre éco-activité clef en main{% endtrans %}</h2>
                     </div>
                     <div class="support-caption">
                         <p class="pera-top">
+                            {% trans %}
                             Un fabricant Français a la volonté de s’engager à vos côtés pour vous accompagner à la transition
                             écologique par la mise en place de solutions et d’outils simples d’utilisation.
                             Nous désirons par ce concept « éco-activité » créer une dynamique rentable et écologique chez vous.
                             C’est l’ouverture vers un avenir plus sûr.
+                            {% endtrans %}
                         </p>
-                        <a href="{{ path('contact') }}" class="border-btn">Contactez-nous</a>
+                        <a href="{{ path('contact') }}" class="border-btn">{% trans %}Contactez-nous{% endtrans %}</a>
                     </div>
                 </div>
                 <div class="right-content">
@@ -140,7 +146,7 @@
                         </div>
                         <div class="single-two">
                             <span>100%</span>
-                            <p>Energie, Efficacité</p>
+                            <p>{% trans %}Energie, Efficacité{% endtrans %}</p>
                         </div>
                     </div>
                 </div>
@@ -151,11 +157,13 @@
         <div class="service-area section-padding30">
             <div class="container">
                 <div class="section-tittle section-tittle2 mb-30">
-                    <span>Une équipe à l'écoute</span>
-                    <h2>À votre service!</h2>
+                    <span>{% trans %}Une équipe à l'écoute{% endtrans %}</span>
+                    <h2>{% trans %}À votre service{% endtrans%} !</h2>
                     <p>
+                        {% trans %}
                         Une équipe à l'écoute, disponible.<br>
                         Nous vous accompagnons tout au long de notre histoire...
+                        {% endtrans %}
                     </p>
                 </div>
                 <div class="row d-flex justify-content-center">
@@ -165,7 +173,7 @@
                                 <img src="{{ asset('assets/img/gallery/service-ap.jpg') }}" alt="service Klarcool">
                             </div>
                             <div class="cat-cap">
-                                <h5><a class="text-decoration-none" href="">Service après-vente</a></h5>
+                                <h5><a class="text-decoration-none">{% trans %}Service après-vente{% endtrans %}</a></h5>
                             </div>
                         </div>
                     </div>
@@ -175,7 +183,7 @@
                                 <img src="{{ asset('assets/img/gallery/formation.jpg') }}" alt="formation Klarcool">
                             </div>
                             <div class="cat-cap">
-                                <h5><a class="text-decoration-none" href="">Formation marketing et commerciale adaptée</a></h5>
+                                <h5><a class="text-decoration-none">{% trans %}Formation marketing et commerciale adaptée{% endtrans %}</a></h5>
                             </div>
                         </div>
                     </div>
@@ -195,7 +203,7 @@
                                 <img src="{{ asset('assets/img/gallery/calcul.jpg') }}" alt="calcul Klarcool">
                             </div>
                             <div class="cat-cap">
-                                <h5><a class="text-decoration-none" href="">Calcul de financement adapté à vos besoins et vos capacités</a></h5>
+                                <h5><a class="text-decoration-none">{% trans %}Calcul de financement adapté à vos besoins et vos capacités{% endtrans %}</a></h5>
                             </div>
                         </div>
                     </div>
@@ -205,7 +213,7 @@
                                 <img src="{{ asset('assets/img/gallery/feet.jpg') }}" alt="engagement Klarcool">
                             </div>
                             <div class="cat-cap">
-                                <h5><a class="text-decoration-none" href="">Professionnels et consommateurs ensembles pour une transition écologique réussie.</a></h5>
+                                <h5><a class="text-decoration-none">{% trans %}Professionnels et consommateurs ensembles pour une transition écologique réussie{% endtrans %}</a></h5>
                             </div>
                         </div>
                     </div>
@@ -215,7 +223,7 @@
                                 <img src="{{ asset('assets/img/gallery/stock.jpg') }}" alt="stock Klarcool">
                             </div>
                             <div class="cat-cap">
-                                <h5><a class="text-decoration-none" href="">Une gestion adaptée des stocks de pièces détachées.</a></h5>
+                                <h5><a class="text-decoration-none">{% trans %}Une gestion adaptée des stocks de pièces détachées{% endtrans %}</a></h5>
                             </div>
                         </div>
                     </div>
@@ -230,9 +238,11 @@
                     <div class="col-xl-12 col-lg-12">
                         <!-- Section Tittle -->
                         <div class="section-tittle mb-80">
-                            <h2>Nos activités</h2>
+                            <h2>{% trans %}Nos activités{% endtrans %}</h2>
                             <p>
+                                {% trans %}
                                 La richesse naturel et la responsabilté indivudelle aux services de l'énèrgie...
+                                {% endtrans %}
                             </p>
                         </div>
                     </div>
@@ -246,7 +256,7 @@
                             <div class="cases-caption">
                                 <h3><a href="{{ path('product_duraclim') }}">Duraclim</a></h3>
                                 <p>
-                                    La station DURACLIM® V3 permet de recharger tous les modèles de véhicules sans exception.
+                                    {% trans %}La station DURACLIM® V3 permet de recharger tous les modèles de véhicules sans exception.{% endtrans %}
                                 </p>
                                 <!-- Progress Bar -->
                                 <div class="single-skill mb-15">
@@ -261,7 +271,7 @@
                                 </div>
                                 <!-- / progress -->
                                 <div class="prices">
-                                    <p><span>100% de pollution en moins</span></p>
+                                    <p><span>100% {% trans %}de pollution en moins{% endtrans %}</span></p>
                                 </div>
                             </div>
                         </div>
@@ -274,7 +284,7 @@
                             <div class="cases-caption">
                                 <h3><a href="{{ path('product_motorklar') }}">Motorklar</a></h3>
                                 <p>
-                                    La station MOTORKLAR® permet de dépolluer tous les modèles de véhicules sans exception.
+                                    {% trans %}La station MOTORKLAR® permet de dépolluer tous les modèles de véhicules sans exception.{% endtrans %}
                                 </p>
                                 <!-- Progress Bar -->
                                 <div class="single-skill mb-15">
@@ -288,7 +298,7 @@
                                     </div>
                                 </div>
                                 <div class="prices">
-                                    <p><span>100% d'efficacité</span></p>
+                                    <p><span>100% {% trans %}d'efficacité{% endtrans %}</span></p>
                                 </div>
                             </div>
                         </div>
@@ -301,8 +311,10 @@
                             <div class="cases-caption">
                                 <h3><a href="{{ path('product_durapac') }}">Durapac</a></h3>
                                 <p>
-                                    NOUVEAU.<br><br>
-                                    BIENTOT SUR LE MARCHÉ...<br>
+                                    {% trans %}
+                                    NOUVEAU<br><br>
+                                    BIENTOT SUR LE MARCHÉ...
+                                    {% endtrans %}<br>
                                 </p>
                                 <!-- Progress Bar -->
                                 <div class="single-skill mb-15">
@@ -316,7 +328,7 @@
                                     </div>
                                 </div>
                                 <div class="prices">
-                                    <p><span>0% de contrainte</span></p>
+                                    <p><span>0% {% trans %}de contrainte{% endtrans %}</span></p>
                                 </div>
                             </div>
                         </div>
@@ -325,49 +337,5 @@
             </div>
         </div>
         <!-- Our Cases End -->
-        <!--? Blog Area Start --> <!-- Section Tittle --><!---
-        <section class="home-blog-area pb-padding">
-            <div class="container">
-
-                <div class="row justify-content-center">
-                    <div class="col-xl-8 col-lg-9 col-md-11">
-                        <div class="section-tittle text-center mb-90">
-                            <h2>Latest news</h2>
-                            <p>Interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo  cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-xl-6 col-lg-6 col-md-6">
-                        <div class="home-blog-single mb-30">
-                            <div class="blog-img-cap">
-                                <div class="blog-img">
-                                    <img src="{{ asset('assets/img/gallery/home-blog1.png') }}" alt="">
-                                </div>
-                                <div class="blog-cap">
-                                    <h3><a href="{{ path('product') }}">Leverage agile frameworks to provide a robust synopsis</a></h3>
-                                    <p>The automated process starts as soon as  your clothes go into the machine. Duis cursus, mi quis viverra ornare.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-6 col-lg-6 col-md-6">
-                        <div class="home-blog-single mb-30">
-                            <div class="blog-img-cap">
-                                <div class="blog-img">
-                                    <img src="{{ asset('assets/img/gallery/home-blog2.png') }}" alt="">
-                                </div>
-                                <div class="blog-cap">
-                                    <h3><a href="{{ path('product') }}">Leverage agile frameworks to provide a robust synopsis</a></h3>
-                                    <p>The automated process starts as soon as  your clothes go into the machine. Duis cursus, mi quis viverra ornare.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        --->
-        <!-- Blog Area End -->
     </main>
 {% endblock %}

@@ -17,7 +17,7 @@ use Symfony\Component\Routing\Annotation\Route;
 class ActualityController extends AbstractController
 {
     /**
-     * @Route("", name="actuality_index", methods={"GET"})
+     * @Route("/", name="actuality_index", methods={"GET"})
      * @param ActualityRepository $actualityRepository
      * @return Response
      */
