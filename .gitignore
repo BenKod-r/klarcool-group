@@ -31,4 +31,5 @@ yarn-error.log
 /docker-compose.yml
 /000-default.conf
 /Dockerfile
+/public/.htaccess
 ###< symfony/docker ###

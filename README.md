@@ -1,6 +1,6 @@
 # Project Klacool Groupe - Starter Kit - Symfony 4.4.*
 
-![Wild Code School](http://klarcool-groupe.com/assets/img/logo/logo-klarcool.png)
+![Wild Code School](https://klarcool-groupe.com/assets/img/logo/logo-klarcool.png)
 
 ## Getting Started
 
