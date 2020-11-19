@@ -24,7 +24,7 @@ use Symfony\Component\Mailer\MailerInterface;
 class ContactController extends AbstractController {
 
     /**
-     * @Route("", name="contact")
+     * @Route("/", name="contact")
      * @param MailerInterface $mailer
      * @param Request $request
      * @return Response
@@ -58,7 +58,7 @@ class ContactController extends AbstractController {
                 ->text('Klarcool-Groupe, le fabricant qui s’engage pour vous et avec vous.')
                 ->embedFromPath('../public/assets/img/logo/loder.png', 'footer-signature')
                 ->html('<p>Bonjour ' . $contact->getName() . ',<br>Merci d\'avoir contacté Klarcool Groupe, nous vous répondrons dans les meilleurs délais.</p>
-                    <br><div class="d-flex"><img src="cid:footer-signature" style="width: 200px"><p>Klarcool-Groupe, le fabricant qui s’engage pour vous et avec vous.</p></div>
+                    <br><div class="d-flex"><img src="cid:footer-signature" style="width: 200px" alt="Klarcool-logo"><p>Klarcool-Groupe, le fabricant qui s’engage pour vous et avec vous.</p></div>
                     <p>Service administratif/comercial:<br><a href="tel:+33983370894">09 83 37 08 94</a></p><p>Service technique:<br><a  href="tel:+33982585812">09 82 58 58 12</a></p>');
 
             $mailer->send($response);

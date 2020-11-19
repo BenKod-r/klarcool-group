@@ -11,11 +11,11 @@
                     <div class="row">
                         <div class="col-xl-12">
                             <div class="hero-cap hero-cap2 pt-70">
-                                <h2>L'éco-activité</h2>
+                                <h2>{% trans %}L'éco-activité{% endtrans %}</h2>
                                 <nav aria-label="breadcrumb">
                                     <ol class="breadcrumb">
-                                        <li class="breadcrumb-item"><a href="{{ path('home_index') }}">Accueil</a></li>
-                                        <li class="breadcrumb-item"><a href="{{ path('eco-activites') }}">L'éco-activité</a></li>
+                                        <li class="breadcrumb-item"><a href="{{ path('home_index') }}">{% trans %}Accueil{% endtrans %}</a></li>
+                                        <li class="breadcrumb-item"><a href="{{ path('eco-activites') }}">{% trans %}L'éco-activité{% endtrans %}</a></li>
                                     </ol>
                                 </nav>
                             </div>
@@ -29,8 +29,9 @@
         <!--? Start Sample Area -->
         <section class="sample-text-area container">
             <div class="container box_1170">
-                <h3 class="text-heading">L’éco-activité c’est quoi ?</h3>
+                <h3 class="text-heading">{% trans %}L’éco-activité c’est quoi{% endtrans %} ?</h3>
                 <p class="sample-text">
+                    {% trans %}
                     Aujourd’hui, le chiffre d’affaire réalisé par les professionnels de l’automobile garagistes est essentiellement
                     constitué du dépannage et du remplacement de pièces <i>(hors vidange et révision).</i>
                     Le parc automobile est vieillissant et s’il n’est pas entretenu,
@@ -41,9 +42,10 @@
                         régénération moteur...)</i> qui dépolluent les véhicules, les rendent à même de pouvoir continuer à circuler
                     sans que cela impacte pour autant le porte-monnaie de l’utilisateur… c’est une éco-activité équitable.
                     Notre fer de lance est de vous aider à mettre un système rentable et écologique pour assurer votre avenir.
+                    {% endtrans %}
                 </p>
                 <div class="footer-tittles">
-                    <p><strong>Le Concepteur</strong></p>
+                    <p><strong>{% trans %}Le Concepteur{% endtrans %}</strong></p>
                 </div>
             </div>
 
