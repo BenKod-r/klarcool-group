@@ -302,6 +302,30 @@
         <source>Vous reconnaitre grâce à l’engagement Klarcool.</source>
         <target>Recognize you thanks to the Klarcool commitment.</target>
       </trans-unit>
+      <trans-unit id="bAosnyJ" resname="Visitez">
+        <source>Visitez</source>
+        <target>Visit</target>
+      </trans-unit>
+      <trans-unit id="ep46itg" resname="Fabrication de machines automatisées de recharge de climatisation  automobile utilisant le gaz écologique Duracool">
+        <source>Fabrication de machines automatisées de recharge de climatisation  automobile utilisant le gaz écologique Duracool</source>
+        <target>Manufacture of automated automotive air conditioning recharging machines using Duracool ecological gas</target>
+      </trans-unit>
+      <trans-unit id="_wjMf7p" resname="Fabrication de machines de nettoyage des moteurs par hydrogène marque Motorklar sans sous-traitance">
+        <source>Fabrication de machines de nettoyage des moteurs par hydrogène marque Motorklar sans sous-traitance</source>
+        <target>Manufacture of Motorklar brand hydrogen engine cleaning machines without subcontracting</target>
+      </trans-unit>
+      <trans-unit id="t6fqt59" resname="Fabrication de pompes à chaleur 12 à 30 kw 100% écologique utilisant le gaz Duracool">
+        <source>Fabrication de pompes à chaleur 12 à 30 kw 100% écologique utilisant le gaz Duracool</source>
+        <target>Manufacture of heat pumps 12 to 30 kw 100% ecological using Duracool gas</target>
+      </trans-unit>
+      <trans-unit id="ZLJ8UWk" resname="Ingénierie bureau d'étude et développement de nouveaux systèmes écologiques liées à l'automobile et l'habitat">
+        <source>Ingénierie bureau d'étude et développement de nouveaux systèmes écologiques liées à l'automobile et l'habitat</source>
+        <target>Engineering office and development of new ecological systems related to the automobile and housing</target>
+      </trans-unit>
+      <trans-unit id="oPimbu9" resname="Formation sur la technique la gamme machine de la société">
+        <source>Formation sur la technique la gamme machine de la société</source>
+        <target>Training on the technique of the company's machine range</target>
+      </trans-unit>
     </body>
   </file>
 </xliff>
