@@ -117,9 +117,9 @@
       </trans-unit>
       <trans-unit id="mUnjGsQ" resname="Un fabricant Français a la volonté de s’engager à vos côtés pour vous accompagner à la transition&#10;                            écologique par la mise en place de solutions et d’outils simples d’utilisation.&#10;                            Nous désirons par ce concept « éco-activité » créer une dynamique rentable et écologique chez vous.&#10;                            C’est l’ouverture vers un avenir plus sûr.">
         <source>Un fabricant Français a la volonté de s’engager à vos côtés pour vous accompagner à la transition
-                    écologique par la mise en place de solutions et d’outils simples d’utilisation.
-                    Nous désirons par ce concept « éco-activité » créer une dynamique rentable et écologique chez vous.
-                    C’est l’ouverture vers un avenir plus sûr.</source>
+                            écologique par la mise en place de solutions et d’outils simples d’utilisation.
+                            Nous désirons par ce concept « éco-activité » créer une dynamique rentable et écologique chez vous.
+                            C’est l’ouverture vers un avenir plus sûr.</source>
         <target>A French manufacturer is willing to work alongside you to support you in the ecological transition
                     by setting up solutions and easy-to-use tools.
                     With this « eco-activity » concept, we want to create a profitable and ecological dynamic in your home.
@@ -143,7 +143,7 @@
       </trans-unit>
       <trans-unit id="BV829oI" resname="Une équipe à l'écoute, disponible.&lt;br&gt;&#10;                        Nous vous accompagnons tout au long de notre histoire...">
         <source>Une équipe à l'écoute, disponible.&lt;br&gt;
-                    Nous vous accompagnons tout au long de notre histoire...</source>
+                        Nous vous accompagnons tout au long de notre histoire...</source>
         <target><![CDATA[A team that listens, is available.<br>
                     We support you throughout our history...]]></target>
       </trans-unit>
@@ -201,7 +201,7 @@
       </trans-unit>
       <trans-unit id="eAAoy9q" resname="NOUVEAU&lt;br&gt;&lt;br&gt;&#10;                                    BIENTOT SUR LE MARCHÉ...">
         <source>NOUVEAU&lt;br&gt;&lt;br&gt;
-                    BIENTOT SUR LE MARCHÉ...</source>
+                                    BIENTOT SUR LE MARCHÉ...</source>
         <target><![CDATA[NEW<br><br>
                     SOON ON THE MARKET...]]></target>
       </trans-unit>
@@ -220,6 +220,87 @@
       <trans-unit id="d2iotxb" resname="Application web et web mobile créée par">
         <source>Application web et web mobile créée par</source>
         <target>Web and mobile application created by</target>
+      </trans-unit>
+      <trans-unit id="8Hxw6QD" resname="L’éco-activité c’est quoi">
+        <source>L’éco-activité c’est quoi</source>
+        <target>What is the eco-activity</target>
+      </trans-unit>
+      <trans-unit id="z6eUkOz" resname="Aujourd’hui, le chiffre d’affaire réalisé par les professionnels de l’automobile garagistes est essentiellement&#10;                    constitué du dépannage et du remplacement de pièces &lt;i&gt;(hors vidange et révision).&lt;/i&gt;&#10;                    Le parc automobile est vieillissant et s’il n’est pas entretenu,&#10;                    l’obsolescence de ses véhicules se rapproche à grand pas enlevant ainsi la raison même de&#10;                    l’activité actuelle. Il est temps de réagir avec des solutions créatrices de nouvelles activités&#10;                    éco-responsables qui garantira la dépollution du parc actuel.&#10;                    Nous avons créé des outils par le biais de nos produits &lt;i&gt;(climatisation écologique, régénération moteur...)&lt;/i&gt;&#10;                    qui dépolluent les véhicules, les rendent à même de pouvoir continuer à circuler&#10;                    sans que cela impacte pour autant le porte-monnaie de l’utilisateur… c’est une éco-activité équitable.&#10;                    Notre fer de lance est de vous aider à mettre un système rentable et écologique pour assurer votre avenir.">
+        <source>Aujourd’hui, le chiffre d’affaire réalisé par les professionnels de l’automobile garagistes est essentiellement
+                    constitué du dépannage et du remplacement de pièces &lt;i&gt;(hors vidange et révision).&lt;/i&gt;
+                    Le parc automobile est vieillissant et s’il n’est pas entretenu,
+                    l’obsolescence de ses véhicules se rapproche à grand pas enlevant ainsi la raison même de
+                    l’activité actuelle. Il est temps de réagir avec des solutions créatrices de nouvelles activités
+                    éco-responsables qui garantira la dépollution du parc actuel.
+                    Nous avons créé des outils par le biais de nos produits &lt;i&gt;(climatisation écologique, régénération moteur...)&lt;/i&gt;
+                    qui dépolluent les véhicules, les rendent à même de pouvoir continuer à circuler
+                    sans que cela impacte pour autant le porte-monnaie de l’utilisateur… c’est une éco-activité équitable.
+                    Notre fer de lance est de vous aider à mettre un système rentable et écologique pour assurer votre avenir.</source>
+        <target><![CDATA[Today, the turnover achieved by professional auto mechanics mainly consists of repairs and replacement of parts
+                    <i>(except draining and revision).</i>
+                    The fleet is aging and if it is not maintained, the obsolescence of its vehicles is fast approaching,
+                    thus removing the very reason for the current activity. It is time to react with solutions that create new eco-responsible
+                    activities that will guarantee the depollution of the current park. We have created tools through our products
+                    <i>(ecological air conditioning, engine regeneration, etc.)</i>
+                    which clean up the vehicles, making them able to continue to circulate without this impacting the user's wallet...
+                    it is a fair eco-activity. Our spearhead is to help you put a profitable and ecological system to secure your future.]]></target>
+      </trans-unit>
+      <trans-unit id="LFQQmM2" resname="Le Concepteur">
+        <source>Le Concepteur</source>
+        <target>The designer</target>
+      </trans-unit>
+      <trans-unit id="0apYrZU" resname="La communication">
+        <source>La communication</source>
+        <target>Communication</target>
+      </trans-unit>
+      <trans-unit id="aQxXdGO" resname="Créer de toute pièce l'activité d'entretien écologique chez nos partenaires">
+        <source>Créer de toute pièce l'activité d'entretien écologique chez nos partenaires</source>
+        <target>Create from scratch the ecological maintenance activity with our partners</target>
+      </trans-unit>
+      <trans-unit id="DAGSebY" resname="Fabrication 100% Française.&lt;br&gt;&#10;                            Notre bureau d’étude est doté d’une équipe d’ingénieurs déterminés à créer des solutions&#10;                            « éco technologiques » performantes.&#10;                            Nous maîtrisons la conception, le développement, l’industrialisation de tous nos produits.&#10;                            Des techniciens conseils sont à votre écoute.&#10;                            Nos modules de financements sont adaptés à vos besoins et vos capacités&#10;                            (possibilités pour les entreprises de moins d’un an).&lt;br&gt;&#10;                            L’accompagnement de nos partenaires est notre principal engagement pour la réussite de&#10;                            l’éco-activité au sein de votre entreprise par une formation marketing et commerciale adaptée.">
+        <source>Fabrication 100% Française.&lt;br&gt;
+                            Notre bureau d’étude est doté d’une équipe d’ingénieurs déterminés à créer des solutions
+                            « éco technologiques » performantes.
+                            Nous maîtrisons la conception, le développement, l’industrialisation de tous nos produits.
+                            Des techniciens conseils sont à votre écoute.
+                            Nos modules de financements sont adaptés à vos besoins et vos capacités
+                            (possibilités pour les entreprises de moins d’un an).&lt;br&gt;
+                            L’accompagnement de nos partenaires est notre principal engagement pour la réussite de
+                            l’éco-activité au sein de votre entreprise par une formation marketing et commerciale adaptée.</source>
+        <target><![CDATA[100% French manufacturing.<br>
+                       Our design office is staffed with a team of engineers determined to create efficient
+                       « eco-technological » solutions.
+                       We master the design, development and industrialization of all our products.
+                       Consulting technicians are at your disposal. Our financing modules are adapted to your needs and your capacities
+                       <i>(possibilities for companies of less than one year)</i>.<br>
+                       Supporting our partners is our main commitment to the success of eco-activity within
+                       your company through appropriate marketing and sales training.]]></target>
+      </trans-unit>
+      <trans-unit id="y96hyv3" resname="Activités &amp; Métiers de Klarcool">
+        <source>Activités &amp; Métiers de Klarcool</source>
+        <target><![CDATA[Activities & Professions of Klarcool]]></target>
+      </trans-unit>
+      <trans-unit id="e4ygcTi" resname="La richesse naturel et la responsabilté indivudelle aux services de l'énèrgie...&lt;br&gt;&#10;                            Fabrication de machines automatisées de recharge de climatisation automobile utilisant le gaz écologique Duracool.&lt;br&gt;&#10;                            Fabrication de machines de nettoyage de moteurs par hydrogène marque Motorklar sans sous-traitance.&lt;br&gt;&#10;                            Fabrication de pompes à chaleur 12 à 3à kw 100% écologique utilisant le gaz Duracool.&lt;br&gt;&#10;                            Ingénerie bureau d'étude et développement de nouveaux systèmes écologiques liées à l'automobile et l'habitat.&lt;br&gt;&#10;                            Formation sur la technique la gamme machine de la société.">
+        <source>La richesse naturel et la responsabilté indivudelle aux services de l'énèrgie...&lt;br&gt;
+                            Fabrication de machines automatisées de recharge de climatisation automobile utilisant le gaz écologique Duracool.&lt;br&gt;
+                            Fabrication de machines de nettoyage de moteurs par hydrogène marque Motorklar sans sous-traitance.&lt;br&gt;
+                            Fabrication de pompes à chaleur 12 à 3à kw 100% écologique utilisant le gaz Duracool.&lt;br&gt;
+                            Ingénerie bureau d'étude et développement de nouveaux systèmes écologiques liées à l'automobile et l'habitat.&lt;br&gt;
+                            Formation sur la technique la gamme machine de la société.</source>
+        <target><![CDATA[Natural wealth and individual responsibility in the service of energy...<br>
+                            Manufacture of automated automobile air conditioning recharging machines using Duracool ecological gas.<br>
+                            Manufacture of Motorklar brand hydrogen engine cleaning machines without subcontracting.<br>
+                            Manufacture of 100% ecological 12 to 3 kw heat pumps using Duracool gas.<br>
+                            Engineering study office and development of new ecological systems related to the automobile and housing.<br>
+                            Technical training on the company's machine range.]]></target>
+      </trans-unit>
+      <trans-unit id="YMeEPwa" resname="Les enjeux">
+        <source>Les enjeux</source>
+        <target>Challenges</target>
+      </trans-unit>
+      <trans-unit id="7yzhidd" resname="Vous reconnaitre grâce à l’engagement Klarcool.">
+        <source>Vous reconnaitre grâce à l’engagement Klarcool.</source>
+        <target>Recognize you thanks to the Klarcool commitment.</target>
       </trans-unit>
     </body>
   </file>
