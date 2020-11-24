@@ -598,13 +598,49 @@
       </trans-unit>
       <trans-unit id="OoZ4AkJ" resname="La pompe à chaleur qui utilise un gaz 100% écologique sera bientôt sur le marché,&#10;                            pour plus de renseignements n'hésitez pas à nous contacter">
         <source>La pompe à chaleur qui utilise un gaz 100% écologique sera bientôt sur le marché,
-                    pour plus de renseignements n'hésitez pas à nous contacter</source>
+                            pour plus de renseignements n'hésitez pas à nous contacter</source>
         <target>The heat pump which uses 100% ecological gas will soon be on the market,
                     for more information do not hesitate to contact us</target>
       </trans-unit>
       <trans-unit id="6gyymEr" resname="DURAPAC ARRIVE BIENTÔT SUR LE MARCHÉ">
         <source>DURAPAC ARRIVE BIENTÔT SUR LE MARCHÉ</source>
         <target>DURAPAC IS COMING SOON ON THE MARKET</target>
+      </trans-unit>
+      <trans-unit id="HZ_ypwp" resname="Entrez votre nom">
+        <source>Entrez votre nom</source>
+        <target>Enter your name</target>
+      </trans-unit>
+      <trans-unit id="sJsRAcm" resname="Entrez votre mail">
+        <source>Entrez votre mail</source>
+        <target>Enter your email</target>
+      </trans-unit>
+      <trans-unit id="0FXKR.b" resname="Entrez votre sujet">
+        <source>Entrez votre sujet</source>
+        <target>Enter your subject</target>
+      </trans-unit>
+      <trans-unit id="a89BKL0" resname="Entrez votre message">
+        <source>Entrez votre message</source>
+        <target>Enter your message</target>
+      </trans-unit>
+      <trans-unit id="eQdSCfK" resname="Envoyer">
+        <source>Envoyer</source>
+        <target>To send</target>
+      </trans-unit>
+      <trans-unit id="JRgI2VY" resname="Service administratif et commercial">
+        <source>Service administratif et commercial</source>
+        <target>Administrative and commercial support</target>
+      </trans-unit>
+      <trans-unit id="mpwKPQn" resname="Service technique">
+        <source>Service technique</source>
+        <target>Technical support</target>
+      </trans-unit>
+      <trans-unit id="_.GW_n6" resname="Du lundi au vendredi de 9h à 18h">
+        <source>Du lundi au vendredi de 9h à 18h</source>
+        <target>Monday to Friday 9 a.m. to 6 p.m.</target>
+      </trans-unit>
+      <trans-unit id="IwqljBm" resname="Pour toute information n'hésitez pas à nous contacter">
+        <source>Pour toute information n'hésitez pas à nous contacter</source>
+        <target>for more information do not hesitate to contact us</target>
       </trans-unit>
     </body>
   </file>
