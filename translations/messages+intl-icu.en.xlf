@@ -596,6 +596,16 @@
         <source>60 minutes en préventif - 90 minutes en curatif</source>
         <target>60 minutes preventive - 90 minutes curative</target>
       </trans-unit>
+      <trans-unit id="OoZ4AkJ" resname="La pompe à chaleur qui utilise un gaz 100% écologique sera bientôt sur le marché,&#10;                            pour plus de renseignements n'hésitez pas à nous contacter">
+        <source>La pompe à chaleur qui utilise un gaz 100% écologique sera bientôt sur le marché,
+                    pour plus de renseignements n'hésitez pas à nous contacter</source>
+        <target>The heat pump which uses 100% ecological gas will soon be on the market,
+                    for more information do not hesitate to contact us</target>
+      </trans-unit>
+      <trans-unit id="6gyymEr" resname="DURAPAC ARRIVE BIENTÔT SUR LE MARCHÉ">
+        <source>DURAPAC ARRIVE BIENTÔT SUR LE MARCHÉ</source>
+        <target>DURAPAC IS COMING SOON ON THE MARKET</target>
+      </trans-unit>
     </body>
   </file>
 </xliff>

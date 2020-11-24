@@ -14,11 +14,11 @@
                                 <h2>Durapac</h2>
                                 <nav aria-label="breadcrumb">
                                     <ol class="breadcrumb">
-                                        <li class="breadcrumb-item"><a href="{{ path('home_index') }}">Accueil</a></li>
-                                        <li class="breadcrumb-item"><a href="">Durapac</a></li>
+                                        <li class="breadcrumb-item"><a href="{{ path('home_index') }}">{% trans %}Accueil{% endtrans %}</a></li>
+                                        <li class="breadcrumb-item"><a href="{{ path('product_durapac') }}">Durapac</a></li>
                                     </ol>
                                 </nav>
-                                <a href="{{ path('contact') }}" class="btn btn-success circle mt-40">Contactez-nous</a>
+                                <a href="{{ path('contact') }}" class="btn btn-success circle mt-40">{% trans %}Contactez-nous{% endtrans %}</a>
                             </div>
                         </div>
                     </div>
@@ -31,9 +31,12 @@
             <div class="container">
                 <div class="container sample-text-area">
                     <div class="box_1170">
-                        <h3 class="text-heading">DURAPAC c'est quoi ?</h3>
+                        <h3 class="text-heading">{% trans with {'%device%': 'DURAPAC'} from 'messages+intl-icu' %}%device%, c'est quoi{% endtrans %} ?</h3>
                         <p class="sample-text">
-                            La pompe à chaleur qui utilise un gaz 100% écologique sera bientôt sur le marché, pour plus de renseignements n'hésitez pas à nous contacter...
+                            {% trans %}
+                            La pompe à chaleur qui utilise un gaz 100% écologique sera bientôt sur le marché,
+                            pour plus de renseignements n'hésitez pas à nous contacter
+                            {% endtrans %}...
                         </p>
                     </div>
                 </div>
@@ -53,7 +56,7 @@
                         </div>
                     </div>
                 </div>
-                <h3 class="text-heading text-white text-center bg-danger mt-5 p-5" style="border-radius: 25px">DURAPAC ARRIVE BIENTÔT SUR LE MARCHÉ...</h3>
+                <h3 class="text-heading text-white text-center bg-danger mt-5 p-5" style="border-radius: 25px">{% trans %}DURAPAC ARRIVE BIENTÔT SUR LE MARCHÉ{% endtrans %}...</h3>
             </div>
         </div>
         <!-- End Sample Area -->
