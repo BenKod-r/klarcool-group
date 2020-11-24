@@ -199,11 +199,13 @@
         <source>d'efficacité</source>
         <target>efficiency</target>
       </trans-unit>
-      <trans-unit id="eAAoy9q" resname="NOUVEAU&lt;br&gt;&lt;br&gt;&#10;                                    BIENTOT SUR LE MARCHÉ...">
-        <source>NOUVEAU&lt;br&gt;&lt;br&gt;
-                                    BIENTOT SUR LE MARCHÉ...</source>
-        <target><![CDATA[NEW<br><br>
-                    SOON ON THE MARKET...]]></target>
+      <trans-unit id="Q2xmsW_" resname="NOUVEAU">
+        <source>NOUVEAU</source>
+        <target>NEW</target>
+      </trans-unit>
+      <trans-unit id="gqpGmtv" resname="BIENTOT SUR LE MARCHÉ">
+        <source>BIENTOT SUR LE MARCHÉ</source>
+        <target>SOON ON THE MARKET</target>
       </trans-unit>
       <trans-unit id="abGaVzR" resname="de contrainte">
         <source>de contrainte</source>
@@ -326,17 +328,21 @@
         <source>Formation sur la technique la gamme machine de la société</source>
         <target>Training on the technique of the company's machine range</target>
       </trans-unit>
+      <trans-unit id="C_JRCTW" resname="%device%, c'est quoi">
+        <source>%device%, c'est quoi</source>
+        <target>%device%, what is it</target>
+      </trans-unit>
       <trans-unit id="sa4iSrn" resname="&lt;b&gt;La station DURACLIM  V3 permet de recharger tous les modèles de véhicules sans exception.&lt;/b&gt;&lt;br&gt;&#10;                        Elle est équipée de sa propre pompe à vide, de ses indicateurs de pression, de températures, et de toutes les vannes de charge nécessaires.&lt;br&gt;&#10;                        &lt;b&gt;Système de récupération du gaz pour permettre les interventions sur le circuit climatisation (modèle V3R).&lt;/b&gt;&#10;                        Permet de récupérer le Duracool® 12, R1234yf, et R134a**.&lt;br&gt;&#10;                        &lt;u&gt;INNOVATION:&lt;/u&gt;&lt;br&gt;&#10;                        Complément de charge sur tout fluide.&lt;br&gt;&#10;                        Utilise le fluide DURACOOL® 12A.&lt;br&gt;&#10;                        &lt;u&gt;NOMBRE DE RECHARGES OPTIMISÉES :&lt;/u&gt;&lt;br&gt;&#10;                        2,7 fois moins de gaz DURACOOL®12A que de R134a pour le même véhicule.&lt;br&gt;&#10;                        5.44 kg de Duracool 12a = 14.9 kg R134a.&lt;br&gt;">
         <source>&lt;b&gt;La station DURACLIM  V3 permet de recharger tous les modèles de véhicules sans exception.&lt;/b&gt;&lt;br&gt;
-                      Elle est équipée de sa propre pompe à vide, de ses indicateurs de pression, de températures, et de toutes les vannes de charge nécessaires.&lt;br&gt;
-                      &lt;b&gt;Système de récupération du gaz pour permettre les interventions sur le circuit climatisation (modèle V3R).&lt;/b&gt;
-                      Permet de récupérer le Duracool® 12, R1234yf, et R134a**.&lt;br&gt;
-                      &lt;u&gt;INNOVATION:&lt;/u&gt;&lt;br&gt;
-                      Complément de charge sur tout fluide.&lt;br&gt;
-                      Utilise le fluide DURACOOL® 12A.&lt;br&gt;
-                      &lt;u&gt;NOMBRE DE RECHARGES OPTIMISÉES :&lt;/u&gt;&lt;br&gt;
-                      2,7 fois moins de gaz DURACOOL®12A que de R134a pour le même véhicule.&lt;br&gt;
-                      5.44 kg de Duracool 12a = 14.9 kg R134a.&lt;br&gt;</source>
+                        Elle est équipée de sa propre pompe à vide, de ses indicateurs de pression, de températures, et de toutes les vannes de charge nécessaires.&lt;br&gt;
+                        &lt;b&gt;Système de récupération du gaz pour permettre les interventions sur le circuit climatisation (modèle V3R).&lt;/b&gt;
+                        Permet de récupérer le Duracool® 12, R1234yf, et R134a**.&lt;br&gt;
+                        &lt;u&gt;INNOVATION:&lt;/u&gt;&lt;br&gt;
+                        Complément de charge sur tout fluide.&lt;br&gt;
+                        Utilise le fluide DURACOOL® 12A.&lt;br&gt;
+                        &lt;u&gt;NOMBRE DE RECHARGES OPTIMISÉES :&lt;/u&gt;&lt;br&gt;
+                        2,7 fois moins de gaz DURACOOL®12A que de R134a pour le même véhicule.&lt;br&gt;
+                        5.44 kg de Duracool 12a = 14.9 kg R134a.&lt;br&gt;</source>
         <target><![CDATA[<b>The DURACLIM V3 station allows all vehicle models to be recharged without exception.</b><br>
                       It is equipped with its own vacuum pump, its pressure and temperature indicators, and all the necessary charge valves.<br>
                       <b>Gas recovery system to allow interventions on the air conditioning circuit (V3R model).</b>
@@ -352,9 +358,9 @@
         <source>Fabrication 100% française</source>
         <target>100% French manufacturing</target>
       </trans-unit>
-      <trans-unit id="59Ux4tR" resname="La station DURACLIM">
-        <source>La station DURACLIM</source>
-        <target>The DURACLIM station</target>
+      <trans-unit id="N2hbzJG" resname="La station %device%">
+        <source>La station %device%</source>
+        <target>The %device% station</target>
       </trans-unit>
       <trans-unit id="4ppIYsi" resname="Gain de temps  - Simplicité - Sécurité et Résultat assurés.">
         <source>Gain de temps  - Simplicité - Sécurité et Résultat assurés.</source>
@@ -362,11 +368,11 @@
       </trans-unit>
       <trans-unit id="MIUBaXo" resname="Appareil  utilisant un fluide 100% écologique sans fluor et sans chlore&#10;                                    La station DURACLIM®   est unique : elle est équipée d’un système permettant&#10;                                    de faire en toute sécurité un complément de charge dans des circuits de véhicules manquant de gaz réfrigérant.&#10;                                    La pompe a vide assure la qualité de la prestation en cas d’absence de gaz dans le circuit,&#10;                                    et sa technologie permet la mise sous pression du circuit de climatisation du véhicule grâce&#10;                                    au gaz DURACOOL® 12A ainsi que la recherche de fuite au moyen du traceur contenu dans le gaz.">
         <source>Appareil  utilisant un fluide 100% écologique sans fluor et sans chlore
-                  La station DURACLIM®   est unique : elle est équipée d’un système permettant
-                  de faire en toute sécurité un complément de charge dans des circuits de véhicules manquant de gaz réfrigérant.
-                  La pompe a vide assure la qualité de la prestation en cas d’absence de gaz dans le circuit,
-                  et sa technologie permet la mise sous pression du circuit de climatisation du véhicule grâce
-                  au gaz DURACOOL® 12A ainsi que la recherche de fuite au moyen du traceur contenu dans le gaz.</source>
+                                    La station DURACLIM®   est unique : elle est équipée d’un système permettant
+                                    de faire en toute sécurité un complément de charge dans des circuits de véhicules manquant de gaz réfrigérant.
+                                    La pompe a vide assure la qualité de la prestation en cas d’absence de gaz dans le circuit,
+                                    et sa technologie permet la mise sous pression du circuit de climatisation du véhicule grâce
+                                    au gaz DURACOOL® 12A ainsi que la recherche de fuite au moyen du traceur contenu dans le gaz.</source>
         <target>Device using a 100% ecological fluid without fluorine and chlorine The DURACLIM® station is unique: it is equipped with a
                   system allowing to safely supplement charging in vehicle circuits lacking refrigerant gas.
                   The vacuum pump ensures the quality of the service in the event that there is no gas in the circuit,
@@ -496,6 +502,99 @@
                                 Our corporate culture gives us a pragmatic view of your needs.
                                 The quality of our MADE IN FRANCE products and our Eco-activities concept,
                                 constitutes for us and for you a sure value to accompany you at the heart of a successful ecological transition.</target>
+      </trans-unit>
+      <trans-unit id="HCZEazs" resname="&lt;b&gt;LA STATION MOTORKLAR EST 100% NATUREL.&lt;/b&gt;&lt;br&gt;&#10;                    La station MOTORKLAR® permet de dépolluer tous les modèles de véhicules légers à combustion , sans exception.&#10;                    Elle est équipée de sa propre production de HHO, de ses indicateurs de niveau, de tension, et de tous les accessoires nécessaires au bon fonctionnement.&lt;br&gt;&#10;                    &lt;u&gt;INNOVATION :&lt;/u&gt;&lt;br&gt;&#10;                    &lt;u&gt;Double alimentation :&lt;/u&gt;&lt;br&gt;&#10;                    230v secteur&lt;br&gt;&#10;                    Utilise le fluide Motorklar®.&lt;br&gt;&#10;                    &lt;u&gt;Nombre de dépollutions optimisées :&lt;/u&gt;&lt;br&gt;&#10;                    5 litres de produit équivalent à 100 prestations.&lt;br&gt;">
+        <source>&lt;b&gt;LA STATION MOTORKLAR EST 100% NATUREL.&lt;/b&gt;&lt;br&gt;
+                    La station MOTORKLAR® permet de dépolluer tous les modèles de véhicules légers à combustion , sans exception.
+                    Elle est équipée de sa propre production de HHO, de ses indicateurs de niveau, de tension, et de tous les accessoires nécessaires au bon fonctionnement.&lt;br&gt;
+                    &lt;u&gt;INNOVATION :&lt;/u&gt;&lt;br&gt;
+                    &lt;u&gt;Double alimentation :&lt;/u&gt;&lt;br&gt;
+                    230v secteur&lt;br&gt;
+                    Utilise le fluide Motorklar®.&lt;br&gt;
+                    &lt;u&gt;Nombre de dépollutions optimisées :&lt;/u&gt;&lt;br&gt;
+                    5 litres de produit équivalent à 100 prestations.&lt;br&gt;</source>
+        <target><![CDATA[<b>THE MOTORKLAR STATION IS 100% NATURAL.</b><br>
+                    The MOTORKLAR® station can be used to clean up all models of light combustion vehicles, without exception.
+                    It is equipped with its own production of HHO, its level and voltage indicators,
+                    and all the accessories necessary for proper operation.<br>
+                    <u>INNOVATION :</u><br>
+                    <u>Double power supply :</u><br>
+                    230v power supply<br>
+                    Uses Motorklar® fluid.<br>
+                    <u>Number of optimized depollutions :</u><br>
+                    5 liters of product equivalent to 100 services.<br>]]></target>
+      </trans-unit>
+      <trans-unit id="Gj0dsKI" resname="Appareil  utilisant un fluide 100% écologique.&lt;br&gt;&#10;                                La station Motorklar® est unique, elle est équipée d’un système permettant de faire en toute sécurité une dépollution&#10;                                moteur ainsi qu’une régénération, permettant de retrouver les performances d’origine du moteur &lt;i&gt;(couple).&lt;/i&gt;&#10;                                Son débit d’hydrogène permet également un traitement curatif &lt;i&gt;(Diffuseurs injecteurs, chambre de combustion, têtes de soupapes, vanne EGR, géométrie variable du turbo, FAP)&lt;/i&gt; sous réserve d’un encrassement trop avancé.&#10;                                Son système de déshumidification du gaz produit élimine la vapeur d’eau non recommandée lors de la prestation.">
+        <source>Appareil  utilisant un fluide 100% écologique.&lt;br&gt;
+                                La station Motorklar® est unique, elle est équipée d’un système permettant de faire en toute sécurité une dépollution
+                                moteur ainsi qu’une régénération, permettant de retrouver les performances d’origine du moteur &lt;i&gt;(couple).&lt;/i&gt;
+                                Son débit d’hydrogène permet également un traitement curatif &lt;i&gt;(Diffuseurs injecteurs, chambre de combustion, têtes de soupapes, vanne EGR, géométrie variable du turbo, FAP)&lt;/i&gt; sous réserve d’un encrassement trop avancé.
+                                Son système de déshumidification du gaz produit élimine la vapeur d’eau non recommandée lors de la prestation.</source>
+        <target><![CDATA[Device using a 100% ecological fluid.<br>
+                    The Motorklar® station is unique, it is equipped with a system that allows engine pollution control and regeneration to be carried out in complete safety,
+                    allowing the engine to return to its original performance <i>(torque).</i>
+                    Its hydrogen flow also allows curative treatment <i>(injector diffusers, combustion chamber, valve heads, EGR valve, variable turbo geometry, DPF)
+                    </i> subject to excessive fouling. Its product gas dehumidification system eliminates water vapor that is not recommended during the service.]]></target>
+      </trans-unit>
+      <trans-unit id="lE29OtK" resname="Alimentation 230V + T + N">
+        <source>Alimentation 230V + T + N</source>
+        <target>Power supply 230V + T + N</target>
+      </trans-unit>
+      <trans-unit id="t6_S2Ri" resname="Alimentation 12 Volt">
+        <source>Alimentation 12 Volt</source>
+        <target>Power supply 12 Volt</target>
+      </trans-unit>
+      <trans-unit id="fli3JwI" resname="Nettoyage manuel">
+        <source>Nettoyage manuel</source>
+        <target>Manual cleaning</target>
+      </trans-unit>
+      <trans-unit id="iNywrQw" resname="Produits de traitement">
+        <source>Produits de traitement</source>
+        <target>Treatment products</target>
+      </trans-unit>
+      <trans-unit id="pxw7ZkY" resname="Notions de mécanique nécessaires">
+        <source>Notions de mécanique nécessaires</source>
+        <target>The mechanics required</target>
+      </trans-unit>
+      <trans-unit id="o_KJmP2" resname="Coût d'exploitation">
+        <source>Coût d'exploitation</source>
+        <target>Cost of operating</target>
+      </trans-unit>
+      <trans-unit id="GEdyWc2" resname="Négligeable">
+        <source>Négligeable</source>
+        <target>Insignificant</target>
+      </trans-unit>
+      <trans-unit id="qXaRogr" resname="Coût variable">
+        <source>Coût variable</source>
+        <target>Variable cost</target>
+      </trans-unit>
+      <trans-unit id="uS2ZcPh" resname="Traitement global antipollution">
+        <source>Traitement global antipollution</source>
+        <target>Global Pollution Control Treatment</target>
+      </trans-unit>
+      <trans-unit id="WQJmOGR" resname="Démontage des pièces à traiter">
+        <source>Démontage des pièces à traiter</source>
+        <target>Disassembly of parts to be treated</target>
+      </trans-unit>
+      <trans-unit id="MRpy81B" resname="Longue à très longue">
+        <source>Longue à très longue</source>
+        <target>Long to very long</target>
+      </trans-unit>
+      <trans-unit id="C_xnG4k" resname="Courte">
+        <source>Courte</source>
+        <target>Short</target>
+      </trans-unit>
+      <trans-unit id="Zah0Sg8" resname="Intervention autonome">
+        <source>Intervention autonome</source>
+        <target>Stand-alone intervention</target>
+      </trans-unit>
+      <trans-unit id="_gzB13Z" resname="Dédiée">
+        <source>Dédiée</source>
+        <target>Dedicated</target>
+      </trans-unit>
+      <trans-unit id="wFoKCso" resname="60 minutes en préventif - 90 minutes en curatif">
+        <source>60 minutes en préventif - 90 minutes en curatif</source>
+        <target>60 minutes preventive - 90 minutes curative</target>
       </trans-unit>
     </body>
   </file>
