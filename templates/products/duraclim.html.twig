@@ -29,7 +29,7 @@
         <!--? Start Sample Area -->
         <section class="sample-text-area">
             <div class="container box_1170">
-                <h3 class="text-heading">DURACLIM, {% trans %}c'est quoi{% endtrans%} ?</h3>
+                <h3 class="text-heading">{% trans with {'%device%': 'DURACLIM'} from 'messages+intl-icu' %}%device%, c'est quoi{% endtrans %} ?</h3>
                 <p class="sample-text">
                     {% trans %}
                         <b>La station DURACLIM  V3 permet de recharger tous les modèles de véhicules sans exception.</b><br>
@@ -59,7 +59,7 @@
         <div class="whole-wrap">
             <div class="container box_1170">
                 <div class="section-top-border">
-                    <h3 class="text-heading mb-30">{% trans %}La station DURACLIM{% endtrans %}</h3>
+                    <h3 class="text-heading mb-30">{% trans with {'%device%': 'DURACLUIM'} from 'messages+intl-icu' %}La station %device%{% endtrans %}</h3>
                     <div class="row">
                         <div class="col-md-3">
                             <img src="{{ asset('assets/img/gallery/duraclim.jpg') }}" alt="duracool" class="img-fluid">
