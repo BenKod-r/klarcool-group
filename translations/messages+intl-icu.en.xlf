@@ -87,21 +87,21 @@
         <source>La parole du président</source>
         <target>The word of the president</target>
       </trans-unit>
-      <trans-unit id="HyU.B8." resname="Nous traversons tous une période très difficile, sur le plan Climatique et Economique.&#10;                    Pour y faire face, Klarcool-Groupe vous propose des solutions Simples,&#10;                    Innovantes par la combinaison AUDACIEUSE entre l’Esprit Ecologique et des Activités Rentables&#10;                    afin de favoriser une véritable symbiose entre le professionnel et le Consommateur.&#10;                    Notre culture de l’entreprise nous permet une vision pragmatique de vos besoins.&#10;                    La qualité de nos produits MADE IN FRANCE et notre concept Eco- activités,&#10;                    constitue pour nous et pour vous une valeur sure pour vous accompagner au cœur d’une transition écologique réussie.">
+      <trans-unit id="MZAr8Rd" resname="Nous traversons tous une période très difficile, sur le plan Climatique et Economique.&#10;                    Pour y faire face, Klarcool-Groupe vous propose des solutions Simples,&#10;                    Innovantes par la combinaison AUDACIEUSE entre l’Esprit Ecologique et des Activités Rentables&#10;                    afin de favoriser une véritable symbiose entre le professionnel et le Consommateur.&#10;                    Notre culture de l’entreprise nous permet une vision pragmatique de vos besoins.&#10;                    La qualité de nos produits MADE IN FRANCE et notre concept Eco-activités,&#10;                    constitue pour nous et pour vous une valeur sure pour vous accompagner au cœur d’une transition écologique réussie.">
         <source>Nous traversons tous une période très difficile, sur le plan Climatique et Economique.
                     Pour y faire face, Klarcool-Groupe vous propose des solutions Simples,
                     Innovantes par la combinaison AUDACIEUSE entre l’Esprit Ecologique et des Activités Rentables
                     afin de favoriser une véritable symbiose entre le professionnel et le Consommateur.
                     Notre culture de l’entreprise nous permet une vision pragmatique de vos besoins.
-                    La qualité de nos produits MADE IN FRANCE et notre concept Eco- activités,
+                    La qualité de nos produits MADE IN FRANCE et notre concept Eco-activités,
                     constitue pour nous et pour vous une valeur sure pour vous accompagner au cœur d’une transition écologique réussie.</source>
         <target>We are all going through a very difficult period, from a climate and economic point of view.
-                    Klarcool Groupe offers simple solutions to deal with this problem,
-                    Innovative through the BOLD combination of Ecological Spirit and Profitable Activities
-                    to foster a true symbiosis between the professional and the consumer.
-                    Our corporate culture gives us a pragmatic view of your needs.
-                    The quality of our MADE IN FRANCE products and our Eco-activities concept,
-                    constitutes for us and for you a sure value to accompany you at the heart of a successful ecological transition.</target>
+                          Klarcool Groupe offers simple solutions to deal with this problem,
+                          Innovative through the BOLD combination of Ecological Spirit and Profitable Activities
+                          to foster a true symbiosis between the professional and the consumer.
+                          Our corporate culture gives us a pragmatic view of your needs.
+                          The quality of our MADE IN FRANCE products and our Eco-activities concept,
+                          constitutes for us and for you a sure value to accompany you at the heart of a successful ecological transition.</target>
       </trans-unit>
       <trans-unit id="m4TKQqv" resname="Klarcool Groupe, le fabricant qui s’engage pour vous et avec vous.">
         <source>Klarcool Groupe, le fabricant qui s’engage pour vous et avec vous.</source>
@@ -221,9 +221,9 @@
         <source>Application web et web mobile créée par</source>
         <target>Web and mobile application created by</target>
       </trans-unit>
-      <trans-unit id="8Hxw6QD" resname="L’éco-activité c’est quoi">
-        <source>L’éco-activité c’est quoi</source>
-        <target>What is the eco-activity</target>
+      <trans-unit id="hZpP7p." resname="c'est quoi">
+        <source>c'est quoi</source>
+        <target>what is it</target>
       </trans-unit>
       <trans-unit id="z6eUkOz" resname="Aujourd’hui, le chiffre d’affaire réalisé par les professionnels de l’automobile garagistes est essentiellement&#10;                    constitué du dépannage et du remplacement de pièces &lt;i&gt;(hors vidange et révision).&lt;/i&gt;&#10;                    Le parc automobile est vieillissant et s’il n’est pas entretenu,&#10;                    l’obsolescence de ses véhicules se rapproche à grand pas enlevant ainsi la raison même de&#10;                    l’activité actuelle. Il est temps de réagir avec des solutions créatrices de nouvelles activités&#10;                    éco-responsables qui garantira la dépollution du parc actuel.&#10;                    Nous avons créé des outils par le biais de nos produits &lt;i&gt;(climatisation écologique, régénération moteur...)&lt;/i&gt;&#10;                    qui dépolluent les véhicules, les rendent à même de pouvoir continuer à circuler&#10;                    sans que cela impacte pour autant le porte-monnaie de l’utilisateur… c’est une éco-activité équitable.&#10;                    Notre fer de lance est de vous aider à mettre un système rentable et écologique pour assurer votre avenir.">
         <source>Aujourd’hui, le chiffre d’affaire réalisé par les professionnels de l’automobile garagistes est essentiellement
@@ -325,6 +325,177 @@
       <trans-unit id="oPimbu9" resname="Formation sur la technique la gamme machine de la société">
         <source>Formation sur la technique la gamme machine de la société</source>
         <target>Training on the technique of the company's machine range</target>
+      </trans-unit>
+      <trans-unit id="sa4iSrn" resname="&lt;b&gt;La station DURACLIM  V3 permet de recharger tous les modèles de véhicules sans exception.&lt;/b&gt;&lt;br&gt;&#10;                        Elle est équipée de sa propre pompe à vide, de ses indicateurs de pression, de températures, et de toutes les vannes de charge nécessaires.&lt;br&gt;&#10;                        &lt;b&gt;Système de récupération du gaz pour permettre les interventions sur le circuit climatisation (modèle V3R).&lt;/b&gt;&#10;                        Permet de récupérer le Duracool® 12, R1234yf, et R134a**.&lt;br&gt;&#10;                        &lt;u&gt;INNOVATION:&lt;/u&gt;&lt;br&gt;&#10;                        Complément de charge sur tout fluide.&lt;br&gt;&#10;                        Utilise le fluide DURACOOL® 12A.&lt;br&gt;&#10;                        &lt;u&gt;NOMBRE DE RECHARGES OPTIMISÉES :&lt;/u&gt;&lt;br&gt;&#10;                        2,7 fois moins de gaz DURACOOL®12A que de R134a pour le même véhicule.&lt;br&gt;&#10;                        5.44 kg de Duracool 12a = 14.9 kg R134a.&lt;br&gt;">
+        <source>&lt;b&gt;La station DURACLIM  V3 permet de recharger tous les modèles de véhicules sans exception.&lt;/b&gt;&lt;br&gt;
+                      Elle est équipée de sa propre pompe à vide, de ses indicateurs de pression, de températures, et de toutes les vannes de charge nécessaires.&lt;br&gt;
+                      &lt;b&gt;Système de récupération du gaz pour permettre les interventions sur le circuit climatisation (modèle V3R).&lt;/b&gt;
+                      Permet de récupérer le Duracool® 12, R1234yf, et R134a**.&lt;br&gt;
+                      &lt;u&gt;INNOVATION:&lt;/u&gt;&lt;br&gt;
+                      Complément de charge sur tout fluide.&lt;br&gt;
+                      Utilise le fluide DURACOOL® 12A.&lt;br&gt;
+                      &lt;u&gt;NOMBRE DE RECHARGES OPTIMISÉES :&lt;/u&gt;&lt;br&gt;
+                      2,7 fois moins de gaz DURACOOL®12A que de R134a pour le même véhicule.&lt;br&gt;
+                      5.44 kg de Duracool 12a = 14.9 kg R134a.&lt;br&gt;</source>
+        <target><![CDATA[<b>The DURACLIM V3 station allows all vehicle models to be recharged without exception.</b><br>
+                      It is equipped with its own vacuum pump, its pressure and temperature indicators, and all the necessary charge valves.<br>
+                      <b>Gas recovery system to allow interventions on the air conditioning circuit (V3R model).</b>
+                      Recover Duracool® 12, R1234yf, and R134a **.<br>
+                      <u>INNOVATION:</u><br>
+                      Additional charge on any fluid.<br>
+                      Uses DURACOOL® 12A fluid.<br>
+                      <u>NUMBER OF OPTIMIZED :</u><br>
+                      2.7 times less DURACOOL®12A gas than R134a for the same vehicle.<br>
+                      11.99 lbs of Duracool 12a = 32.84 lbs R134a.<br>]]></target>
+      </trans-unit>
+      <trans-unit id="ksNPG0G" resname="Fabrication 100% française">
+        <source>Fabrication 100% française</source>
+        <target>100% French manufacturing</target>
+      </trans-unit>
+      <trans-unit id="59Ux4tR" resname="La station DURACLIM">
+        <source>La station DURACLIM</source>
+        <target>The DURACLIM station</target>
+      </trans-unit>
+      <trans-unit id="4ppIYsi" resname="Gain de temps  - Simplicité - Sécurité et Résultat assurés.">
+        <source>Gain de temps  - Simplicité - Sécurité et Résultat assurés.</source>
+        <target>Time saving - Simplicity - Safety and guaranteed results.</target>
+      </trans-unit>
+      <trans-unit id="MIUBaXo" resname="Appareil  utilisant un fluide 100% écologique sans fluor et sans chlore&#10;                                    La station DURACLIM®   est unique : elle est équipée d’un système permettant&#10;                                    de faire en toute sécurité un complément de charge dans des circuits de véhicules manquant de gaz réfrigérant.&#10;                                    La pompe a vide assure la qualité de la prestation en cas d’absence de gaz dans le circuit,&#10;                                    et sa technologie permet la mise sous pression du circuit de climatisation du véhicule grâce&#10;                                    au gaz DURACOOL® 12A ainsi que la recherche de fuite au moyen du traceur contenu dans le gaz.">
+        <source>Appareil  utilisant un fluide 100% écologique sans fluor et sans chlore
+                  La station DURACLIM®   est unique : elle est équipée d’un système permettant
+                  de faire en toute sécurité un complément de charge dans des circuits de véhicules manquant de gaz réfrigérant.
+                  La pompe a vide assure la qualité de la prestation en cas d’absence de gaz dans le circuit,
+                  et sa technologie permet la mise sous pression du circuit de climatisation du véhicule grâce
+                  au gaz DURACOOL® 12A ainsi que la recherche de fuite au moyen du traceur contenu dans le gaz.</source>
+        <target>Device using a 100% ecological fluid without fluorine and chlorine The DURACLIM® station is unique: it is equipped with a
+                  system allowing to safely supplement charging in vehicle circuits lacking refrigerant gas.
+                  The vacuum pump ensures the quality of the service in the event that there is no gas in the circuit,
+                  and its technology allows the vehicle's air conditioning circuit to be pressurized using
+                  DURACOOL® 12A gas as well as the search for leaks using the tracer contained in the gas.</target>
+      </trans-unit>
+      <trans-unit id="6IPGbvN" resname="100% automatisée">
+        <source>100% automatisée</source>
+        <target>100% automated</target>
+      </trans-unit>
+      <trans-unit id="rd7pNIh" resname="Avec points de contôle">
+        <source>Avec points de contôle</source>
+        <target>With control points</target>
+      </trans-unit>
+      <trans-unit id="B5OKwkr" resname="Détection compresseur HS">
+        <source>Détection compresseur HS</source>
+        <target>Out-of-use compressor detection</target>
+      </trans-unit>
+      <trans-unit id="n_.xzAE" resname="DOCUMENTATION À TELECHARGER">
+        <source>DOCUMENTATION À TELECHARGER</source>
+        <target>DOCUMENTATION TO DOWNLOAD</target>
+      </trans-unit>
+      <trans-unit id="JWLhR63" resname="Tableau de comparaison">
+        <source>Tableau de comparaison</source>
+        <target>Comparison chart</target>
+      </trans-unit>
+      <trans-unit id="mveZ2LN" resname="Utilisation">
+        <source>Utilisation</source>
+        <target>Usage</target>
+      </trans-unit>
+      <trans-unit id="dacoJl0" resname="Notions de climatisation nécessaires">
+        <source>Notions de climatisation nécessaires</source>
+        <target>Air-conditioning concepts needed</target>
+      </trans-unit>
+      <trans-unit id="FGw4lD6" resname="Prix des réfrigérants">
+        <source>Prix des réfrigérants</source>
+        <target>Prices of refrigerants</target>
+      </trans-unit>
+      <trans-unit id="FOpcNJf" resname="Pas de forte hausse">
+        <source>Pas de forte hausse</source>
+        <target>No significant increase</target>
+      </trans-unit>
+      <trans-unit id="HoKmwqd" resname="Cher à très cher">
+        <source>Cher à très cher</source>
+        <target>Expensive to very expensive</target>
+      </trans-unit>
+      <trans-unit id="i8ermna" resname="Complément de charge">
+        <source>Complément de charge</source>
+        <target>Additional load</target>
+      </trans-unit>
+      <trans-unit id="_JQSTom" resname="Assuré">
+        <source>Assuré</source>
+        <target>Assured</target>
+      </trans-unit>
+      <trans-unit id="zkQQfzN" resname="Certificat de capacité">
+        <source>Certificat de capacité</source>
+        <target>Certificate of competence</target>
+      </trans-unit>
+      <trans-unit id="36Y_yfX" resname="Pas nécessaire">
+        <source>Pas nécessaire</source>
+        <target>Not Required</target>
+      </trans-unit>
+      <trans-unit id="tGuvbF4" resname="Recommandé">
+        <source>Recommandé</source>
+        <target>Recommended</target>
+      </trans-unit>
+      <trans-unit id="yIg9Jb1" resname="Obligatoire">
+        <source>Obligatoire</source>
+        <target>Required</target>
+      </trans-unit>
+      <trans-unit id="Cef9TTp" resname="Durée de la prestation">
+        <source>Durée de la prestation</source>
+        <target>Duration of the service</target>
+      </trans-unit>
+      <trans-unit id="s.yd5Sb" resname="à">
+        <source>à</source>
+        <target>to</target>
+      </trans-unit>
+      <trans-unit id="OF2hJqj" resname="Coût">
+        <source>Coût</source>
+        <target>Cost</target>
+      </trans-unit>
+      <trans-unit id="lpGk_a0" resname="Bon marché">
+        <source>Bon marché</source>
+        <target>Cheap</target>
+      </trans-unit>
+      <trans-unit id="2LyPH9K" resname="Onéreux">
+        <source>Onéreux</source>
+        <target>Expensive</target>
+      </trans-unit>
+      <trans-unit id="2h5KXJM" resname="Type de véhicule rechargeable">
+        <source>Type de véhicule rechargeable</source>
+        <target>Type of rechargeable vehicle</target>
+      </trans-unit>
+      <trans-unit id="vzor.eq" resname="Tout type">
+        <source>Tout type</source>
+        <target>All types</target>
+      </trans-unit>
+      <trans-unit id="wHw7qDI" resname="Monofluide">
+        <source>Monofluide</source>
+        <target>Single fluid circuit</target>
+      </trans-unit>
+      <trans-unit id="4toZrR0" resname="en complément de charge - 40 minutes maximum en recharge complète">
+        <source>en complément de charge - 40 minutes maximum en recharge complète</source>
+        <target>load complement - 40 minutes maximum full charge</target>
+      </trans-unit>
+      <trans-unit id="6_LKCmA" resname="Galerie d'images">
+        <source>Galerie d'images</source>
+        <target>Picture gallery</target>
+      </trans-unit>
+      <trans-unit id="KuDrfRr" resname="Conseils et objectifs">
+        <source>Conseils et objectifs</source>
+        <target>Advice and objectives</target>
+      </trans-unit>
+      <trans-unit id="JsQVP4X" resname="Nous traversons tous une période très difficile, sur le plan Climatique et Economique.&#10;                                Pour y faire face, Klarcool-Groupe vous propose des solutions Simples,&#10;                                Innovantes par la combinaison AUDACIEUSE entre l’Esprit Ecologique et des Activités Rentables&#10;                                afin de favoriser une véritable symbiose entre le professionnel et le Consommateur.&#10;                                Notre culture de l’entreprise nous permet une vision pragmatique de vos besoins.&#10;                                La qualité de nos produits MADE IN FRANCE et notre concept Eco-activités,&#10;                                constitue pour nous et pour vous une valeur sure pour vous accompagner au cœur d’une transition écologique réussie.">
+        <source>Nous traversons tous une période très difficile, sur le plan Climatique et Economique.
+                                Pour y faire face, Klarcool-Groupe vous propose des solutions Simples,
+                                Innovantes par la combinaison AUDACIEUSE entre l’Esprit Ecologique et des Activités Rentables
+                                afin de favoriser une véritable symbiose entre le professionnel et le Consommateur.
+                                Notre culture de l’entreprise nous permet une vision pragmatique de vos besoins.
+                                La qualité de nos produits MADE IN FRANCE et notre concept Eco-activités,
+                                constitue pour nous et pour vous une valeur sure pour vous accompagner au cœur d’une transition écologique réussie.</source>
+        <target>We are all going through a very difficult period, from a climate and economic point of view.
+                                Klarcool Groupe offers simple solutions to deal with this problem,
+                                Innovative through the BOLD combination of Ecological Spirit and Profitable Activities
+                                to foster a true symbiosis between the professional and the consumer.
+                                Our corporate culture gives us a pragmatic view of your needs.
+                                The quality of our MADE IN FRANCE products and our Eco-activities concept,
+                                constitutes for us and for you a sure value to accompany you at the heart of a successful ecological transition.</target>
       </trans-unit>
     </body>
   </file>
