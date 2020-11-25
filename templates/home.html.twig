@@ -61,6 +61,7 @@
                 </div>
             </div>
             <!--? video_start -->
+            {% if app.request.locale == 'fr' %}
             <div class="video-area d-flex align-items-center justify-content-center">
                 <div class="video-wrap position-relative">
                     <div class="video-icon" >
@@ -68,6 +69,15 @@
                     </div>
                 </div>
             </div>
+            {% else %}
+            <div class="video-area-en d-flex align-items-center justify-content-center">
+                <div class="video-wrap position-relative">
+                    <div class="video-icon" >
+                        <a class="popup-video btn-icon" href="{{ asset('assets/video/presentation-V3.mp4') }}"><i class="fas fa-play"></i></a>
+                    </div>
+                </div>
+            </div>
+            {% endif %}
             <!-- video_end -->
         </div>
         <!-- slider Area End-->
