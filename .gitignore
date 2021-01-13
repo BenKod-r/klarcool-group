@@ -10,6 +10,7 @@
 /tests/test.php
 /tests/test.http
 /tests/
+/templates/tests/
 ###< symfony/framework-bundle ###
 
 ###> symfony/phpunit-bridge ###
