@@ -9,6 +9,7 @@
 /vendor/
 /tests/test.php
 /tests/test.http
+/tests/
 ###< symfony/framework-bundle ###
 
 ###> symfony/phpunit-bridge ###

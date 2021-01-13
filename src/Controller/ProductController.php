@@ -41,6 +41,14 @@ class ProductController extends AbstractController {
     }
 
     /**
+     * @Route("/minikool", name="_minikool")
+     */
+    public function moinikool() :Response
+    {
+        return $this->render('products/minikool.html.twig');
+    }
+
+    /**
      * @Route("/durapac", name="_durapac")
      */
     public function durapac() :Response
