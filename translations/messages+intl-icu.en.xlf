@@ -69,19 +69,19 @@
         <source>NOTRE MISSION</source>
         <target>OUR MISSION</target>
       </trans-unit>
-      <trans-unit id="uqJAn1n" resname="Animé par de VRAIES VALEURS D’ENGAGEMENTS, une équipe de femmes et&#10;                    d’hommes composée d’ingénieurs, de Techniciens, et de Consultants, qui consacrent&#10;                    toutes leurs expériences et leur Savoir-Faire au développement de solutions&#10;                    Technologiques Innovantes, au service de l’environnement et d’une économie&#10;                    Responsable.&#10;                    Créatrice de nouvelles Richesses dans les domaines de Compétences suivant :&lt;br&gt;&#10;                    DE L’AUTOMOBILE, DE L’HABITAT et de L’INDUSTRIE.">
+      <trans-unit id="oyZNjtT" resname="Animé par de VRAIES VALEURS D’ENGAGEMENTS, une équipe de femmes et&#10;                    d’hommes composée d’ingénieurs, de Techniciens, et de Consultants, consacrent&#10;                    toutes leurs expériences et leur Savoir-Faire au développement de solutions&#10;                    Technologiques Innovantes, au service de l’environnement et d’une économie&#10;                    Responsable.&#10;                    Créatrice de nouvelles Richesses dans les domaines de Compétences suivant :&lt;br&gt;&#10;                    DE L’AUTOMOBILE, DE L’HABITAT et de L’INDUSTRIE.">
         <source>Animé par de VRAIES VALEURS D’ENGAGEMENTS, une équipe de femmes et
-                    d’hommes composée d’ingénieurs, de Techniciens, et de Consultants, qui consacrent
+                    d’hommes composée d’ingénieurs, de Techniciens, et de Consultants, consacrent
                     toutes leurs expériences et leur Savoir-Faire au développement de solutions
                     Technologiques Innovantes, au service de l’environnement et d’une économie
                     Responsable.
                     Créatrice de nouvelles Richesses dans les domaines de Compétences suivant :&lt;br&gt;
                     DE L’AUTOMOBILE, DE L’HABITAT et de L’INDUSTRIE.</source>
         <target><![CDATA[Led by TRUE VALUES OF COMMITMENT, a team of women and men composed of engineers,
-                    technicians, and consultants, who devote all their experience and know-how to the development
-                    of innovative technological solutions, at the service of the environment and a responsible economy.
-                    Creator of new wealth in the following Skills areas :<br>
-                    AUTOMOTIVE, HOUSING AND INDUSTRY.]]></target>
+                      technicians, and consultants, who devote all their experience and know-how to the development
+                      of innovative technological solutions, at the service of the environment and a responsible economy.
+                      Creator of new wealth in the following Skills areas :<br>
+                      AUTOMOTIVE, HOUSING AND INDUSTRY.]]></target>
       </trans-unit>
       <trans-unit id="pC7c9w6" resname="La parole du président">
         <source>La parole du président</source>
@@ -641,6 +641,46 @@
       <trans-unit id="IwqljBm" resname="Pour toute information n'hésitez pas à nous contacter">
         <source>Pour toute information n'hésitez pas à nous contacter</source>
         <target>for more information do not hesitate to contact us</target>
+      </trans-unit>
+      <trans-unit id="BFbMbBC" resname="La station MINIKOOL® mobile permet de charger tous les systèmes frigorifiques sans exception.">
+        <source>La station MINIKOOL® mobile permet de charger tous les systèmes frigorifiques sans exception.</source>
+        <target>The MINIKOOL® mobile station can charge all refrigeration systems without exception and effortlessly.</target>
+      </trans-unit>
+      <trans-unit id="ut7LH.1" resname="de mobilité">
+        <source>de mobilité</source>
+        <target>mobility</target>
+      </trans-unit>
+      <trans-unit id="XUGlAHy" resname="&lt;b&gt;La station MINICOOL® permet de recharger tous les systèmes frigorifiques et climatiques sans exception.&lt;/b&gt;&lt;br&gt;&#10;                        Elle est équipée de sa propre pompe à vide, de ses indicateurs de pression, et de toutes les vannes de charge nécessaires.&lt;br&gt;&#10;                        &lt;b&gt;Système de charge du gaz pour permettre les interventions sur tout système thermodynamique tout gaz.&lt;/b&gt;&lt;br&gt;&#10;                        &lt;u&gt;INNOVATION:&lt;/u&gt;&lt;br&gt;&#10;                        Complément de charge sur tout fluide.&lt;br&gt;&#10;                        Utilise le fluide DURACOOL® 12A.&lt;br&gt;&#10;                        &lt;u&gt;CHARGE AUTOMATISEE PAR IMPULSION.&lt;/u&gt;&lt;br&gt;">
+        <source>&lt;b&gt;La station MINICOOL® permet de recharger tous les systèmes frigorifiques et climatiques sans exception.&lt;/b&gt;&lt;br&gt;
+                        Elle est équipée de sa propre pompe à vide, de ses indicateurs de pression, et de toutes les vannes de charge nécessaires.&lt;br&gt;
+                        &lt;b&gt;Système de charge du gaz pour permettre les interventions sur tout système thermodynamique tout gaz.&lt;/b&gt;&lt;br&gt;
+                        &lt;u&gt;INNOVATION:&lt;/u&gt;&lt;br&gt;
+                        Complément de charge sur tout fluide.&lt;br&gt;
+                        Utilise le fluide DURACOOL® 12A.&lt;br&gt;
+                        &lt;u&gt;CHARGE AUTOMATISEE PAR IMPULSION.&lt;/u&gt;&lt;br&gt;</source>
+        <target><![CDATA[<b>The MINICOOL® station can recharge all refrigeration and air conditioning systems without exception.</b><br>
+                        It is equipped with its own vacuum pump, pressure indicators, and all the necessary charge valves.<br>
+                        <b>Gas charging system to allow interventions on any all gas thermodynamic system.</b><br>
+                        <u>INNOVATION:</u><br>
+                        Additional charge on any fluid.<br>
+                        Uses DURACOOL® 12A fluid.<br>
+                        <u>AUTOMATED PULSE CHARGING.</u><br>]]></target>
+      </trans-unit>
+      <trans-unit id="BkEHXJ0" resname="La station MINIKOOL® est unique, elle est équipée d'un système permettant de faire en toute sécurité&#10;                                    un complément de charge de fluide ou une recharge complète.&#10;                                    Sa pompe à vide permet également de retirer toute trace d'humidité du circuit frigorifique avant charge&#10;                                    pour sécuriser et optimiser le fonctionnement du système thermodynamique.&#10;                                    Son système d'injection de gaz par impulsion permet d'affiner la charge de façon précise.">
+        <source>La station MINIKOOL® est unique, elle est équipée d'un système permettant de faire en toute sécurité
+                    un complément de charge de fluide ou une recharge complète.
+                    Sa pompe à vide permet également de retirer toute trace d'humidité du circuit frigorifique avant charge
+                    pour sécuriser et optimiser le fonctionnement du système thermodynamique.
+                    Son système d'injection de gaz par impulsion permet d'affiner la charge de façon précise.</source>
+        <target>The MINIKOOL® station is unique, it is equipped with a system allowing to do in complete safety
+                    an additional charge of fluid or a complete recharge.
+                    Its vacuum pump also removes all traces of moisture from the refrigeration circuit before charging
+                    to secure and optimize the operation of the thermodynamic system.
+                    Its pulse gas injection system allows precise fine-tuning of the charge.</target>
+      </trans-unit>
+      <trans-unit id="f_NTw5A" resname="Êtes-vous sûr de bien vouloir télécharger cet élément?">
+        <source>Êtes-vous sûr de bien vouloir télécharger cet élément?</source>
+        <target>Are you sure you want to download this item?</target>
       </trans-unit>
     </body>
   </file>

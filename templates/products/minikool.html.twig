@@ -11,11 +11,11 @@
                     <div class="row">
                         <div class="col-xl-12">
                             <div class="hero-cap hero-cap2 pt-70">
-                                <h2>Duraclim</h2>
+                                <h2>Minikool®</h2>
                                 <nav aria-label="breadcrumb">
                                     <ol class="breadcrumb">
                                         <li class="breadcrumb-item"><a href="{{ path('home_index') }}">{% trans %}Accueil{% endtrans %}</a></li>
-                                        <li class="breadcrumb-item"><a href="{{ path('product_duraclim') }}">Duraclim</a></li>
+                                        <li class="breadcrumb-item"><a href="{{ path('product_minikool') }}">Minikool</a></li>
                                     </ol>
                                 </nav>
                                 <a href="{{ path('contact') }}" class="btn btn-success circle mt-40">{% trans %}Contactez-nous{% endtrans %}</a>
@@ -29,19 +29,16 @@
         <!--? Start Sample Area -->
         <section class="sample-text-area">
             <div class="container box_1170">
-                <h3 class="text-heading">{% trans with {'%device%': 'DURACLIM'} from 'messages+intl-icu' %}%device%, c'est quoi{% endtrans %} ?</h3>
+                <h3 class="text-heading">{% trans with {'%device%': 'MINIKOOL'} from 'messages+intl-icu' %}%device%, c'est quoi{% endtrans %} ?</h3>
                 <p class="sample-text">
                     {% trans %}
-                        <b>La station DURACLIM  V3 permet de recharger tous les modèles de véhicules sans exception.</b><br>
-                        Elle est équipée de sa propre pompe à vide, de ses indicateurs de pression, de températures, et de toutes les vannes de charge nécessaires.<br>
-                        <b>Système de récupération du gaz pour permettre les interventions sur le circuit climatisation (modèle V3R).</b>
-                        Permet de récupérer le Duracool® 12, R1234yf, et R134a**.<br>
+                        <b>La station MINICOOL® permet de recharger tous les systèmes frigorifiques et climatiques sans exception.</b><br>
+                        Elle est équipée de sa propre pompe à vide, de ses indicateurs de pression, et de toutes les vannes de charge nécessaires.<br>
+                        <b>Système de charge du gaz pour permettre les interventions sur tout système thermodynamique tout gaz.</b><br>
                         <u>INNOVATION:</u><br>
                         Complément de charge sur tout fluide.<br>
                         Utilise le fluide DURACOOL® 12A.<br>
-                        <u>NOMBRE DE RECHARGES OPTIMISÉES :</u><br>
-                        2,7 fois moins de gaz DURACOOL®12A que de R134a pour le même véhicule.<br>
-                        5.44 kg de Duracool 12a = 14.9 kg R134a.<br>
+                        <u>CHARGE AUTOMATISEE PAR IMPULSION.</u><br>
                     {% endtrans %}
                     <strong><img src="{{ asset('assets/img/gallery/france.png') }}" alt="france" style="width: 50px"> {% trans %}Fabrication 100% française{% endtrans %}</strong><br>
 
@@ -59,226 +56,59 @@
         <div class="whole-wrap">
             <div class="container box_1170">
                 <div class="section-top-border">
-                    <h3 class="text-heading mb-30">{% trans with {'%device%': 'DURACLUIM'} from 'messages+intl-icu' %}La station %device%{% endtrans %}</h3>
+                    <h3 class="text-heading mb-30">{% trans with {'%device%': 'MINIKOOL'} from 'messages+intl-icu' %}La station %device%{% endtrans %}</h3>
                     <div class="row">
                         <div class="col-md-3">
-                            <img src="{{ asset('assets/img/gallery/duraclim.jpg') }}" alt="duracool" class="img-fluid">
+                            <img src="{{ asset('assets/img/gallery/minikool.png') }}" alt="minikool" class="img-fluid">
                         </div>
                         <div class="col-md-9 mt-sm-20">
                             <p><strong>
                                     {% trans %}Gain de temps  - Simplicité - Sécurité et Résultat assurés.{% endtrans %}
                                 </strong><br>
                                 {% trans %}
-                                    Appareil  utilisant un fluide 100% écologique sans fluor et sans chlore
-                                    La station DURACLIM®   est unique : elle est équipée d’un système permettant
-                                    de faire en toute sécurité un complément de charge dans des circuits de véhicules manquant de gaz réfrigérant.
-                                    La pompe a vide assure la qualité de la prestation en cas d’absence de gaz dans le circuit,
-                                    et sa technologie permet la mise sous pression du circuit de climatisation du véhicule grâce
-                                    au gaz DURACOOL® 12A ainsi que la recherche de fuite au moyen du traceur contenu dans le gaz.
+                                    La station MINIKOOL® est unique, elle est équipée d'un système permettant de faire en toute sécurité
+                                    un complément de charge de fluide ou une recharge complète.
+                                    Sa pompe à vide permet également de retirer toute trace d'humidité du circuit frigorifique avant charge
+                                    pour sécuriser et optimiser le fonctionnement du système thermodynamique.
+                                    Son système d'injection de gaz par impulsion permet d'affiner la charge de façon précise.
                                 {% endtrans %}
                                 <br>
                             </p>
                             <ul class="text-danger ml-4">
                                 <li style="list-style-type: circle;"><strong>{% trans %}100% automatisée{% endtrans %}</strong></li>
-                                <li style="list-style-type: circle;"><strong>{% trans %}Avec points de contôle{% endtrans %}</strong></li>
-                                <li style="list-style-type: circle;"><strong>{% trans %}Détection compresseur HS{% endtrans %}</strong></li>
                             </ul>
                             <br>
 
-                            <a class="text-success fa-2x" href="{{ asset('assets/pdf/201001-book-presentation-v.06 fmi.pdf') }}" download>
-                                <i class="far fa-arrow-alt-circle-right"></i>{% trans %}DOCUMENTATION À TELECHARGER{% endtrans %}</a><br><br>
-                            <a class="popup-video btn-icon text-primary fa-2x" href="{{ asset('assets/video/presentation-V3.mp4') }}">
-                                <i class="far fa-arrow-alt-circle-right"></i>VIDEO V3</a>
+                            <a class="text-success fa-2x"
+                               href="{{ asset('assets/pdf/doc-minikool.pdf') }}"
+                               onclick="return confirm('{% trans %}Êtes-vous sûr de bien vouloir télécharger cet élément?{% endtrans %}');"
+                               download>
+                                <i class="far fa-arrow-alt-circle-right"></i>{% trans %}DOCUMENTATION À TELECHARGER{% endtrans %}
+                            </a><br><br>
                         </div>
                     </div>
                 </div>
 
-                <div class="section-top-border">
-                    <h3 class="mb-30">{% trans %}Tableau de comparaison{% endtrans %}</h3>
-                    <div class="progress-table-wrap">
-                        <div class="progress-table">
-                            <div class="table-head">
-                                <div class="serial"></div>
-                                <div class="country text-success">DURACLIM</div>
-                                <div class="country">MANIFOLD</div>
-                                <div class="country">STATION Std</div>
-                            </div>
-                            <div class="table-row">
-                                <div class="serial">{% trans %}Utilisation{% endtrans %}</div>
-                                <div class="country text-success">
-                                    <i class="far fa-smile fa-2x pr-3"></i>
-                                    Simple
-                                </div>
-                                <div class="country text-danger">
-                                    <i class="far fa-frown fa-2x pr-3"></i>
-                                    {% trans %}Notions de climatisation nécessaires{% endtrans %}
-                                </div>
-                                <div class="country text-success">
-                                    <i class="far fa-smile fa-2x pr-3"></i>
-                                    Simple
-                                </div>
-                            </div>
-                            <div class="table-row">
-                                <div class="serial">{% trans %}Prix des réfrigérants{% endtrans %}</div>
-                                <div class="country text-success">
-                                    <i class="far fa-smile fa-2x pr-3"></i>
-                                    {% trans %}Pas de forte hausse{% endtrans %}
-                                </div>
-                                <div class="country text-success">
-                                    <i class="far fa-smile fa-2x pr-3"></i>
-                                    {% trans %}Pas de forte hausse{% endtrans %}
-                                </div>
-                                <div class="country text-danger">
-                                    <i class="far fa-frown fa-2x pr-3"></i>
-                                    {% trans %}Cher à très cher{% endtrans %}
-                                </div>
-                            </div>
-                            <div class="table-row">
-                                <div class="serial">{% trans %}Complément de charge{% endtrans %}</div>
-                                <div class="country text-success">
-                                    <i class="far fa-smile fa-2x pr-3"></i>
-                                    {% trans %}Assuré{% endtrans %}
-                                </div>
-                                <div class="country" style="color: darkorange">
-                                    <i class="far fa-meh fa-2x pr-3"></i>
-                                    Possible
-                                </div>
-                                <div class="country text-danger">
-                                    <i class="far fa-frown fa-2x pr-3"></i>
-                                    Impossible
-                                </div>
-                            </div>
-                            <div class="table-row">
-                                <div class="serial">{% trans %}Certificat de capacité{% endtrans %}</div>
-                                <div class="country text-success">
-                                    <i class="far fa-smile fa-2x pr-3"></i>
-                                    {% trans %}Pas nécessaire{% endtrans %}
-                                </div>
-                                <div class="country" style="color: darkorange">
-                                    <i class="far fa-meh fa-2x pr-3"></i>
-                                    {% trans %}Recommandé{% endtrans %}
-                                </div>
-                                <div class="country text-danger">
-                                    <i class="far fa-frown fa-2x pr-3"></i>
-                                    {% trans %}Obligatoire{% endtrans %}
-                                </div>
-                            </div>
-                            <div class="table-row">
-                                <div class="serial">{% trans %}Durée de la prestation{% endtrans %}</div>
-                                <div class="country text-success">
-                                    <i class="far fa-smile fa-2x pr-3"></i>
-                                    5 {% trans %}à{% endtrans %} 10 minutes*
-                                </div>
-                                <div class="country text-success">
-                                    <i class="far fa-smile fa-2x pr-3"></i>
-                                    5 {% trans %}à{% endtrans%} 10 minutes*
-                                </div>
-                                <div class="country" style="color: darkorange">
-                                    <i class="far fa-meh fa-2x pr-3"></i>
-                                    50 minutes
-                                </div>
-                            </div>
-                            <div class="table-row">
-                                <div class="serial">{% trans %}Coût{% endtrans %}</div>
-                                <div class="country text-success">
-                                    <i class="far fa-smile fa-2x pr-3"></i>
-                                    {% trans %}Bon marché{% endtrans %}
-                                </div>
-                                <div class="country text-success">
-                                    <i class="far fa-smile fa-2x pr-3"></i>
-                                    {% trans %}Bon marché{% endtrans %}
-                                </div>
-                                <div class="country text-danger">
-                                    <i class="far fa-frown fa-2x pr-3"></i>
-                                    {% trans %}Onéreux{% endtrans %}
-                                </div>
-                            </div>
-                            <div class="table-row">
-                                <div class="serial">{% trans %}Type de véhicule rechargeable{% endtrans %}</div>
-                                <div class="country text-success">
-                                    <i class="far fa-smile fa-2x pr-3"></i>
-                                    {% trans %}Tout type{% endtrans %}
-                                </div>
-                                <div class="country text-success">
-                                    <i class="far fa-smile fa-2x pr-3"></i>
-                                    {% trans %}Tout type{% endtrans %}
-                                </div>
-                                <div class="country text-danger">
-                                    <i class="far fa-frown fa-2x pr-3"></i>
-                                    {% trans %}Monofluide{% endtrans %}
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <p>* {% trans %}en complément de charge - 40 minutes maximum en recharge complète{% endtrans %}.</p>
-                </div>
                 <div class="section-top-border">
                     <h3>{% trans %}Galerie d'images{% endtrans %}</h3>
                     <div class="row gallery-item">
                         <div class="col-md-4">
-                            <a href="{{ asset('assets/img/gallery/duraclim.jpg') }}" class="img-pop-up">
-                                <div class="single-gallery-image" style="background: url({{ asset('assets/img/gallery/duraclim.jpg') }});"></div>
+                            <a href="{{ asset('assets/img/gallery/minikool.png') }}" class="img-pop-up">
+                                <div class="single-gallery-image" style="background: url({{ asset('assets/img/gallery/minikool.png') }});"></div>
                             </a>
                         </div>
                         <div class="col-md-4">
-                            <a href="{{ asset('assets/img/gallery/img3.jpg') }}" class="img-pop-up">
-                                <div class="single-gallery-image" style="background: url({{ asset('assets/img/gallery/img3.jpg') }});"></div>
+                            <a href="{{ asset('assets/img/gallery/minikool-full.jpg') }}" class="img-pop-up">
+                                <div class="single-gallery-image" style="background: url({{ asset('assets/img/gallery/minikool-full.jpg') }});"></div>
                             </a>
                         </div>
                         <div class="col-md-4">
-                            <a href="{{ asset('assets/img/gallery/duraclim1.jpg') }}" class="img-pop-up">
-                                <div class="single-gallery-image" style="background: url({{ asset('assets/img/gallery/duraclim1.jpg') }});"></div>
-                            </a>
-                        </div>
-                        <div class="col-md-6">
-                            <a href="{{ asset('assets/img/blog/klarcool.jpg') }}" class="img-pop-up">
-                                <div class="single-gallery-image" style="background: url({{ asset('assets/img/blog/klarcool.jpg') }});"></div>
-                            </a>
-                        </div>
-                        <div class="col-md-6">
                             <a href="{{ asset('assets/img/gallery/img4.jpg') }}" class="img-pop-up">
                                 <div class="single-gallery-image" style="background: url({{ asset('assets/img/gallery/img4.jpg') }});"></div>
                             </a>
                         </div>
                     </div>
                 </div>
-                <!--
-                <div class="section-top-border">
-                    <h3 class="mb-30">Avantages</h3>
-                    <div class="row">
-                        <div class="col-md-4">
-                            <div class="single-definition">
-                                <h4 class="mb-20">Avantage 01</h4>
-                                <p>Recently, the US Federal government banned online casinos from operating in America by
-                                    making it illegal to
-                                    transfer money to them through any US bank or payment system. As a result of this law,
-                                    most of the popular
-                                    online casino networks</p>
-                            </div>
-                        </div>
-                        <div class="col-md-4">
-                            <div class="single-definition">
-                                <h4 class="mb-20">Avantage 02</h4>
-                                <p>Recently, the US Federal government banned online casinos from operating in America by
-                                    making it illegal to
-                                    transfer money to them through any US bank or payment system. As a result of this law,
-                                    most of the popular
-                                    online casino networks</p>
-                            </div>
-                        </div>
-                        <div class="col-md-4">
-                            <div class="single-definition">
-                                <h4 class="mb-20">Avantage 03</h4>
-                                <p>Recently, the US Federal government banned online casinos from operating in America by
-                                    making it illegal to
-                                    transfer money to them through any US bank or payment system. As a result of this law,
-                                    most of the popular
-                                    online casino networks</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                -->
                 <div class="section-top-border">
                     <h3 class="mb-30">{% trans %}Conseils et objectifs{% endtrans %}</h3>
                     <div class="row">
