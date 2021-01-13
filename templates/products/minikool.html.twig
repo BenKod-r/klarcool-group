@@ -1,0 +1,136 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Klarcool Duraclim{% endblock %}
+
+{% block body %}
+    <main>
+        <!--? Hero Start -->
+        <div class="slider-area2">
+            <div class="slider-height2 d-flex align-items-center">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xl-12">
+                            <div class="hero-cap hero-cap2 pt-70">
+                                <h2>Minikool®</h2>
+                                <nav aria-label="breadcrumb">
+                                    <ol class="breadcrumb">
+                                        <li class="breadcrumb-item"><a href="{{ path('home_index') }}">{% trans %}Accueil{% endtrans %}</a></li>
+                                        <li class="breadcrumb-item"><a href="{{ path('product_minikool') }}">Minikool</a></li>
+                                    </ol>
+                                </nav>
+                                <a href="{{ path('contact') }}" class="btn btn-success circle mt-40">{% trans %}Contactez-nous{% endtrans %}</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Hero End -->
+        <!--? Start Sample Area -->
+        <section class="sample-text-area">
+            <div class="container box_1170">
+                <h3 class="text-heading">{% trans with {'%device%': 'MINIKOOL'} from 'messages+intl-icu' %}%device%, c'est quoi{% endtrans %} ?</h3>
+                <p class="sample-text">
+                    {% trans %}
+                        <b>La station MINICOOL® permet de recharger tous les systèmes frigorifiques et climatiques sans exception.</b><br>
+                        Elle est équipée de sa propre pompe à vide, de ses indicateurs de pression, et de toutes les vannes de charge nécessaires.<br>
+                        <b>Système de charge du gaz pour permettre les interventions sur tout système thermodynamique tout gaz.</b><br>
+                        <u>INNOVATION:</u><br>
+                        Complément de charge sur tout fluide.<br>
+                        Utilise le fluide DURACOOL® 12A.<br>
+                        <u>CHARGE AUTOMATISEE PAR IMPULSION.</u><br>
+                    {% endtrans %}
+                    <strong><img src="{{ asset('assets/img/gallery/france.png') }}" alt="france" style="width: 50px"> {% trans %}Fabrication 100% française{% endtrans %}</strong><br>
+
+                    <!--<sup>Superscript</sup><i> Italic</i><b> Bold</b><sub> Subscript</sub><del> Strike</del><u> “Underline”</u>-->
+                </p>
+                <ul>
+                    <li><a class="text-success fa-2x" href="{{ asset('assets/pdf/201001-book-presentation-v.06 fmi.pdf') }}" download><i class="far fa-arrow-alt-circle-right"></i><i class="far fa-file-pdf"></i> Documentation</a></li>
+                </ul>
+            </div>
+
+        </section>
+        <!-- End Sample Area -->
+
+        <!--? Start Align Area -->
+        <div class="whole-wrap">
+            <div class="container box_1170">
+                <div class="section-top-border">
+                    <h3 class="text-heading mb-30">{% trans with {'%device%': 'MINIKOOL'} from 'messages+intl-icu' %}La station %device%{% endtrans %}</h3>
+                    <div class="row">
+                        <div class="col-md-3">
+                            <img src="{{ asset('assets/img/gallery/minikool.png') }}" alt="minikool" class="img-fluid">
+                        </div>
+                        <div class="col-md-9 mt-sm-20">
+                            <p><strong>
+                                    {% trans %}Gain de temps  - Simplicité - Sécurité et Résultat assurés.{% endtrans %}
+                                </strong><br>
+                                {% trans %}
+                                    La station MINIKOOL® est unique, elle est équipée d'un système permettant de faire en toute sécurité
+                                    un complément de charge de fluide ou une recharge complète.
+                                    Sa pompe à vide permet également de retirer toute trace d'humidité du circuit frigorifique avant charge
+                                    pour sécuriser et optimiser le fonctionnement du système thermodynamique.
+                                    Son système d'injection de gaz par impulsion permet d'affiner la charge de façon précise.
+                                {% endtrans %}
+                                <br>
+                            </p>
+                            <ul class="text-danger ml-4">
+                                <li style="list-style-type: circle;"><strong>{% trans %}100% automatisée{% endtrans %}</strong></li>
+                            </ul>
+                            <br>
+
+                            <a class="text-success fa-2x"
+                               href="{{ asset('assets/pdf/doc-minikool.pdf') }}"
+                               onclick="return confirm('{% trans %}Êtes-vous sûr de bien vouloir télécharger cet élément?{% endtrans %}');"
+                               download>
+                                <i class="far fa-arrow-alt-circle-right"></i>{% trans %}DOCUMENTATION À TELECHARGER{% endtrans %}
+                            </a><br><br>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="section-top-border">
+                    <h3>{% trans %}Galerie d'images{% endtrans %}</h3>
+                    <div class="row gallery-item">
+                        <div class="col-md-4">
+                            <a href="{{ asset('assets/img/gallery/minikool.png') }}" class="img-pop-up">
+                                <div class="single-gallery-image" style="background: url({{ asset('assets/img/gallery/minikool.png') }});"></div>
+                            </a>
+                        </div>
+                        <div class="col-md-4">
+                            <a href="{{ asset('assets/img/gallery/minikool-full.jpg') }}" class="img-pop-up">
+                                <div class="single-gallery-image" style="background: url({{ asset('assets/img/gallery/minikool-full.jpg') }});"></div>
+                            </a>
+                        </div>
+                        <div class="col-md-4">
+                            <a href="{{ asset('assets/img/gallery/img4.jpg') }}" class="img-pop-up">
+                                <div class="single-gallery-image" style="background: url({{ asset('assets/img/gallery/img4.jpg') }});"></div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="section-top-border">
+                    <h3 class="mb-30">{% trans %}Conseils et objectifs{% endtrans %}</h3>
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <blockquote class="generic-blockquote">
+                                “{% trans %}
+                                Nous traversons tous une période très difficile, sur le plan Climatique et Economique.
+                                Pour y faire face, Klarcool-Groupe vous propose des solutions Simples,
+                                Innovantes par la combinaison AUDACIEUSE entre l’Esprit Ecologique et des Activités Rentables
+                                afin de favoriser une véritable symbiose entre le professionnel et le Consommateur.
+                                Notre culture de l’entreprise nous permet une vision pragmatique de vos besoins.
+                                La qualité de nos produits MADE IN FRANCE et notre concept Eco-activités,
+                                constitue pour nous et pour vous une valeur sure pour vous accompagner au cœur d’une transition écologique réussie.
+                                {% endtrans %}”
+                            </blockquote>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+{% endblock %}
+
+
+

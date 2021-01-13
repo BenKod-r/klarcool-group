@@ -11,7 +11,7 @@
                     <div class="row">
                         <div class="col-xl-12">
                             <div class="hero-cap hero-cap2 pt-70">
-                                <h2>Duraclim</h2>
+                                <h2>Duraclim®</h2>
                                 <nav aria-label="breadcrumb">
                                     <ol class="breadcrumb">
                                         <li class="breadcrumb-item"><a href="{{ path('home_index') }}">{% trans %}Accueil{% endtrans %}</a></li>
@@ -85,7 +85,10 @@
                             </ul>
                             <br>
 
-                            <a class="text-success fa-2x" href="{{ asset('assets/pdf/201001-book-presentation-v.06 fmi.pdf') }}" download>
+                            <a class="text-success fa-2x"
+                               href="{{ asset('assets/pdf/201001-book-presentation-v.06 fmi.pdf') }}"
+                               onclick="return confirm('Êtes-vous sûr de bien vouloir télécharger cet élément?');"
+                               download>
                                 <i class="far fa-arrow-alt-circle-right"></i>{% trans %}DOCUMENTATION À TELECHARGER{% endtrans %}</a><br><br>
                             <a class="popup-video btn-icon text-primary fa-2x" href="{{ asset('assets/video/presentation-V3.mp4') }}">
                                 <i class="far fa-arrow-alt-circle-right"></i>VIDEO V3</a>
