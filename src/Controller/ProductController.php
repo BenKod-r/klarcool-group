@@ -14,16 +14,8 @@ use Symfony\Component\Routing\Annotation\Route;
 /**
  * @Route("/produits", name="product")
  */
-class ProductController extends AbstractController {
-
-    /**
-     * @Route("/", name="")
-     */
-    public function activities() :Response
-    {
-        return $this->render('products/index.html.twig');
-    }
-
+class ProductController extends AbstractController
+{
     /**
      * @Route("/duraclim", name="_duraclim")
      */

@@ -199,14 +199,6 @@
         <source>d'efficacité</source>
         <target>efficiency</target>
       </trans-unit>
-      <trans-unit id="Q2xmsW_" resname="NOUVEAU">
-        <source>NOUVEAU</source>
-        <target>NEW</target>
-      </trans-unit>
-      <trans-unit id="gqpGmtv" resname="BIENTOT SUR LE MARCHÉ">
-        <source>BIENTOT SUR LE MARCHÉ</source>
-        <target>SOON ON THE MARKET</target>
-      </trans-unit>
       <trans-unit id="abGaVzR" resname="de contrainte">
         <source>de contrainte</source>
         <target>stress</target>
@@ -693,6 +685,18 @@
       <trans-unit id="pIRF.kG" resname="Service commercial">
         <source>Service commercial</source>
         <target>Commercial support</target>
+      </trans-unit>
+      <trans-unit id="DDRHmkx" resname="La pompe à chaleur Durapac® permet de remplacer les chaudières quelque soit le type de chauffage.">
+        <source>La pompe à chaleur Durapac® permet de remplacer les chaudières quelque soit le type de chauffage.</source>
+        <target>The Durapac® heat pump can be used to replace boilers regardless of the type of heating.</target>
+      </trans-unit>
+      <trans-unit id="fmb54ks" resname="Produits Automobiles">
+        <source>Produits Automobiles</source>
+        <target>Automotive products</target>
+      </trans-unit>
+      <trans-unit id="4cJEI5Q" resname="Produits Habitats">
+        <source>Produits Habitats</source>
+        <target>Home products</target>
       </trans-unit>
     </body>
   </file>

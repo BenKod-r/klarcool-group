@@ -31,11 +31,15 @@
                                         <ul id="navigation">
                                             <li><a href="{{ path('home_index') }}">{% trans %}Accueil{% endtrans %}</a></li>
                                             <li><a href="{{ path('eco-activites') }}">{% trans %}L'éco-activité{% endtrans %}</a></li>
-                                            <li><a href="{{ path('product') }}">{% trans %}Nos Produits{% endtrans %}</a>
+                                            <li><a>{% trans %}Produits Automobiles{% endtrans %}</a>
                                                 <ul class="submenu">
                                                     <li><a href="{{ path('product_duraclim') }}">Duraclim</a></li>
                                                     <li><a href="{{ path('product_motorklar') }}">Motorklar</a></li>
                                                     <li><a href="{{ path('product_minikool') }}">Minikool</a></li>
+                                                </ul>
+                                            </li>
+                                            <li><a>{% trans %}Produits Habitats{% endtrans %}</a>
+                                                <ul class="submenu">
                                                     <li><a href="{{ path('product_durapac') }}">Durapac</a></li>
                                                 </ul>
                                             </li>

@@ -14,7 +14,8 @@ use Symfony\Component\Routing\Annotation\Route;
 /**
  * @Route("/eco-activites")
  */
-class ActivityController extends AbstractController {
+class ActivityController extends AbstractController
+{
 
     /**
      * @Route("", name="eco-activites")

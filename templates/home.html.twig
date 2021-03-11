@@ -60,7 +60,7 @@
                     </div>
                 </div>
             </div>
-            <!--? video_start -->
+            {#<!--? video_start -->
             {% if app.request.locale == 'fr' %}
             <div class="video-area d-flex align-items-center justify-content-center">
                 <div class="video-wrap position-relative">
@@ -78,7 +78,7 @@
                 </div>
             </div>
             {% endif %}
-            <!-- video_end -->
+            <!-- video_end -->  #}
         </div>
         <!-- slider Area End-->
         <!--? Visit Our Tailor Start -->
@@ -349,13 +349,45 @@
                     <div class="col-lg-4 col-md-6 col-sm-6">
                         <div class="single-cases">
                             <div class="cases-img">
-                                <img src="{{ asset('assets/img/gallery/durapac-2.jpg') }}" alt="durapac" style="height: 360px">
+                                <img src="{{ asset('assets/img/gallery/durapac-home.png') }}" alt="durapac" style="height: 360px">
                             </div>
                             <div class="cases-caption">
                                 <h3><a href="{{ path('product_durapac') }}">Durapac</a></h3>
                                 <p>
-                                    {% trans %}NOUVEAU{% endtrans %}<br><br>
-                                    {% trans %}BIENTOT SUR LE MARCHÉ{% endtrans %}...<br>
+                                    {% trans %}
+                                        La pompe à chaleur Durapac® permet de remplacer les chaudières quelque soit le type de chauffage.
+                                    {% endtrans %}
+                                    <br>
+                                </p>
+                                <!-- Progress Bar -->
+                                <div class="single-skill mb-15">
+                                    <div class="bar-progress">
+                                        <div id="bar4" class="barfiller">
+                                            <div class="tipWrap">
+                                                <span class="tip"></span>
+                                            </div>
+                                            <span class="fill" data-percentage="0"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="prices">
+                                    <p><span>0% {% trans %}de contrainte{% endtrans %}</span></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-6">
+                        <div class="single-cases">
+                            <div class="cases-img">
+                                <img src="{{ asset('assets/img/gallery/durapac-home-white.png') }}" alt="durapac" style="height: 360px">
+                            </div>
+                            <div class="cases-caption">
+                                <h3><a href="{{ path('product_durapac') }}">Durapac</a></h3>
+                                <p>
+                                    {% trans %}
+                                        La pompe à chaleur Durapac® permet de remplacer les chaudières quelque soit le type de chauffage.
+                                    {% endtrans %}
+                                    <br>
                                 </p>
                                 <!-- Progress Bar -->
                                 <div class="single-skill mb-15">

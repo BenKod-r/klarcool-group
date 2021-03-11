@@ -21,7 +21,8 @@ use Symfony\Component\Mailer\MailerInterface;
 /**
  * @Route("/contact")
  */
-class ContactController extends AbstractController {
+class ContactController extends AbstractController
+{
 
     /**
      * @Route("/", name="contact")
