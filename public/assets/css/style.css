@@ -4676,8 +4676,12 @@ hr {
     -o-transition: all 0.3s;
     transition: all 0.3s;
 }
-.contact-info {
-    margin-bottom: 25px;
+.divider {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 3px solid rgba(0, 0, 0, 0.1);
+
 }
 .contact-info__icon {
     margin-right: 20px;

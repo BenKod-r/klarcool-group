@@ -668,10 +668,10 @@
       </trans-unit>
       <trans-unit id="BkEHXJ0" resname="La station MINIKOOL® est unique, elle est équipée d'un système permettant de faire en toute sécurité&#10;                                    un complément de charge de fluide ou une recharge complète.&#10;                                    Sa pompe à vide permet également de retirer toute trace d'humidité du circuit frigorifique avant charge&#10;                                    pour sécuriser et optimiser le fonctionnement du système thermodynamique.&#10;                                    Son système d'injection de gaz par impulsion permet d'affiner la charge de façon précise.">
         <source>La station MINIKOOL® est unique, elle est équipée d'un système permettant de faire en toute sécurité
-                    un complément de charge de fluide ou une recharge complète.
-                    Sa pompe à vide permet également de retirer toute trace d'humidité du circuit frigorifique avant charge
-                    pour sécuriser et optimiser le fonctionnement du système thermodynamique.
-                    Son système d'injection de gaz par impulsion permet d'affiner la charge de façon précise.</source>
+                                    un complément de charge de fluide ou une recharge complète.
+                                    Sa pompe à vide permet également de retirer toute trace d'humidité du circuit frigorifique avant charge
+                                    pour sécuriser et optimiser le fonctionnement du système thermodynamique.
+                                    Son système d'injection de gaz par impulsion permet d'affiner la charge de façon précise.</source>
         <target>The MINIKOOL® station is unique, it is equipped with a system allowing to do in complete safety
                     an additional charge of fluid or a complete recharge.
                     Its vacuum pump also removes all traces of moisture from the refrigeration circuit before charging
@@ -681,6 +681,18 @@
       <trans-unit id="f_NTw5A" resname="Êtes-vous sûr de bien vouloir télécharger cet élément?">
         <source>Êtes-vous sûr de bien vouloir télécharger cet élément?</source>
         <target>Are you sure you want to download this item?</target>
+      </trans-unit>
+      <trans-unit id="nzJhfIj" resname="Siège social">
+        <source>Siège social</source>
+        <target>Office</target>
+      </trans-unit>
+      <trans-unit id="EbJGgLE" resname="Agence">
+        <source>Agence</source>
+        <target>Agency</target>
+      </trans-unit>
+      <trans-unit id="pIRF.kG" resname="Service commercial">
+        <source>Service commercial</source>
+        <target>Commercial support</target>
       </trans-unit>
     </body>
   </file>
